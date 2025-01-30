@@ -4,8 +4,11 @@
   * Print them out in a single sentence.
 */
 
+string name = "Iman";
+int age = 29;
+float height = 1.93f;
 
-
+Console.WriteLine($"My name is {name}, and I'm {age} years old and {height} meters tall.");
 
 
 // 2. Display Variables and Declare Multiple Variables

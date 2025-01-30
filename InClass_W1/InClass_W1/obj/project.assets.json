@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Course\\Week1\\InClass_W1\\InClass_W1\\InClass_W1.csproj",
+      "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\InClass_W1\\InClass_W1\\InClass_W1.csproj",
       "projectName": "InClass_W1",
-      "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Course\\Week1\\InClass_W1\\InClass_W1\\InClass_W1.csproj",
+      "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\InClass_W1\\InClass_W1\\InClass_W1.csproj",
       "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Course\\Week1\\InClass_W1\\InClass_W1\\obj\\",
+      "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\InClass_W1\\InClass_W1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
