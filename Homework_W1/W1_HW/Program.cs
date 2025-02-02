@@ -24,26 +24,40 @@ Input 3: ^
 Output: Invalid Operation!
 
  */
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+float output;
+Console.WriteLine("Please enter a number:");
+float inOne = float.Parse(Console.ReadLine());
+Console.WriteLine("Please enter a second number:");
+float inTwo = float.Parse(Console.ReadLine());
+Console.WriteLine("Please enter an operation (+, -, *, /, %):");
+string operation = Console.ReadLine();
+if (operation == "+")
+{
+ output = inOne + inTwo;
+ Console.WriteLine(inOne + " " + operation + " " + inTwo + " " + "=" + " " + output);
+}
+else if (operation == "-")
+{
+ output = inOne - inTwo;
+ Console.WriteLine(inOne + " " + operation + " " + inTwo + " " + "=" + " " + output);
+}
+else if (operation == "*")
+{
+ output = inOne * inTwo;
+ Console.WriteLine(inOne + " " + operation + " " + inTwo + " " + "=" + " " + output);
+}
+else if (operation == "/")
+{
+ output = inOne / inTwo;
+ Console.WriteLine(inOne + " " + operation + " " + inTwo + " " + "=" + " " + output);
+}
+else if (operation == "%")
+{
+ output = inOne % inTwo;
+ Console.WriteLine(inOne + " " + operation + " " + inTwo + " " + "=" + " " + output);
+}
+else Console.WriteLine("Operation not recognized");
+
  /*
 Problem #2:
 
@@ -77,28 +91,23 @@ Input: Enter a year: 2021
 Output: 2021 is not a leap year.
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+Console.WriteLine("Enter a year to see if it is a leap year:");
+int year = int.Parse(Console.ReadLine());
+bool four = false;
+bool hund = false;
+bool fourHund = false;
+if (year % 100 == 0)
+ hund = true;
+if (year % 4 == 0)
+ four = true;
+if (year % 400 == 0)
+ fourHund = true;
+if (hund == true & fourHund == false)
+ Console.WriteLine("Year is not a leap year");
+else if (four == true && hund == false)
+ Console.WriteLine("Year is a leap year");
+else Console.WriteLine("Year is not a leap year");
 
 
 /*
@@ -132,22 +141,29 @@ Output: BMI: 31.19 (Obesity)
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("Enter your weight (in lbs):");
+float weight = float.Parse(Console.ReadLine());
+Console.WriteLine("Enter your height (in inches):");
+float height = float.Parse(Console.ReadLine());
+float bmi = weight / (height*height)*703;
+switch (bmi)
+{
+ case float n when (n < 18.5):
+  Console.WriteLine("BMI: " + bmi + " (Underweight)");
+  break;
+ case float n when (18.5 <= n && n < 24.9):
+  Console.WriteLine("BMI: " + bmi + " (Normal Weight)");
+  break;
+ case float n when (25 <= n && n < 29.9):
+  Console.WriteLine("BMI: " + bmi + " (Overweight)");
+  break;
+ case float n when 30 <= n:
+  Console.WriteLine("BMI: " + bmi + " (Obese)");
+  break;
+ default:
+  Console.WriteLine("You did something wrong");
+  break;
+}
 
 
 
@@ -225,7 +241,25 @@ Eligible for loan: No
 
  */
 
-
+Console.WriteLine("Enter your age (in years):");
+int age = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter your annual income:");
+int income = int.Parse(Console.ReadLine());
+Console.WriteLine("Do you have a cosigner (true/false):");
+bool cosigner = bool.Parse(Console.ReadLine());
+Console.WriteLine("Enter your credit score:");
+int credit = int.Parse(Console.ReadLine());
+if (credit >= 700)
+ Console.WriteLine("You are eligible for a loan");
+else if (credit < 600)
+ Console.WriteLine("Your are not eligible for a loan");
+else if (age < 18)
+ Console.WriteLine("You are not eligible for a loan");
+else if (18 <= age && age < 25 && cosigner == true && income >= 25000)
+ Console.WriteLine("You are eligible for a loan");
+else if (age > 25 && income >= 25000)
+ Console.WriteLine("You are eligible for a loan");
+else Console.WriteLine("You are not eligible for a loan");
 
 
 
@@ -249,3 +283,10 @@ Output: 2 hour(s), 2 minute(s), 2 second(s)
  
  */
 
+Console.WriteLine("Enter number of seconds:");
+int secondsIn = int.Parse(Console.ReadLine());
+int mins = secondsIn / 60;
+int secondsRem = secondsIn % 60;
+int hours = mins / 60;
+int minsRem = mins % 60;
+Console.WriteLine(hours + " hour(s) " + minsRem + " minute(s) " + secondsRem + " second(s) ");
