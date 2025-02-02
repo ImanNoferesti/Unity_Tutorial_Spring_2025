@@ -93,21 +93,25 @@ Console.WriteLine("The division of the numbers is " + divideNumber);
 */
 Console.WriteLine("Enter your age:");
 string age = Console.ReadLine();
-int ageInt = System.Convert.ToInt(age);
-Console.WriteLine("Do you have a driver's license? True or False:");
+int ageInt = Int32.Parse(age);
+Console.WriteLine("Do you have a driver's license? Enter true or false:");
 string driversLicense = Console.ReadLine();
-bool licenseBool = System.Convert.ToBool(driversLicense);
-if ageInt >= 18 and driversLicense == true
-    Console.WriteLine("You are able to drive")
+bool ageBool = false;
+bool licenseBool = false;
+if (ageInt >= 18)
+{
+    ageBool = true;
+}
+if (driversLicense == "true")
+{
+    licenseBool = true; 
+}    
+if (licenseBool == true)
+    if (ageBool = true)
+        Console.WriteLine("You are able to drive");
     else Console.WriteLine("You are not able to drive");
-    
+else Console.WriteLine("You are not able to drive");
 
-
- 
- 
- 
- 
- 
  
 // 7. Switch Statement
 /*
@@ -116,7 +120,19 @@ if ageInt >= 18 and driversLicense == true
 * Print a message if the input number is divisible.
 * If the input is invalid, display " Invalid number."
 */
-
+Console.WriteLine("Enter a number 1-10:");
+int number = Convert.ToInt32(Console.ReadLine());
+string numm = number.ToString();
+switch (number)
+{
+    case 5:
+    case 10:
+        Console.WriteLine( $"{numm} is divisible by 5");
+        break;
+    default:
+        Console.WriteLine($"{numm} is not divisible by 5");
+        break;
+}
   
   
   
@@ -125,10 +141,12 @@ if ageInt >= 18 and driversLicense == true
   
 // 8. While loop
 // Write a program to print all even numbers between 1 and 20 using a while loop.
-
-  
-  
-  
+int count = 0;
+while (count < 20)
+{
+    count++;
+    Console.WriteLine(count);
+}
 
   
 // 9. Do-While loop
@@ -141,7 +159,16 @@ if ageInt >= 18 and driversLicense == true
 *    Enter the password: 1234
 *    Access granted!
 */
-
+int correctPass = 1234;
+int password;
+do
+{
+    Console.WriteLine("Enter the password (4 digits):");
+    password = Convert.ToInt32(Console.ReadLine());
+    if (password != correctPass)
+        Console.WriteLine("Incorrect password. Try again.");
+}   while (password != correctPass);
+Console.WriteLine("Access Granted.");
 
 
 
@@ -157,3 +184,12 @@ if ageInt >= 18 and driversLicense == true
  *  Enter a number: 5
  *  Factorial of 5 is 120.
  */
+Console.WriteLine("enter an integer number:");
+int i = Convert.ToInt32(Console.ReadLine());
+int factorial = 1;
+for (int j = i; j > 0; j--)
+{
+    factorial *= j;
+}
+Console.WriteLine(factorial);
+ 
