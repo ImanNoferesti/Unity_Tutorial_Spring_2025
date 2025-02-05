@@ -91,12 +91,21 @@ Output: 2021 is not a leap year.
 
 */
 
-Console.WriteLine("Enter a year")
- 
+ Console.WriteLine("Enter a year");
+ int year = Convert.ToInt32(Console.ReadLine());
+
+ if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+ {
+  Console.WriteLine($"{year} is a leap year.");
+ }
+ else
+ {
+  Console.WriteLine($"{year} is not a leap year.");
+ }
 
 /*
  Problem #3:
- 
+
 Write a program that calculates the Body Mass Index (BMI) based on the user's weight (in pounds) and height (in inches) using this formula: weight / (height ^2) x 703. The program should then categorize the BMI as follows:
 
 BMI < 18.5: Underweight
@@ -108,7 +117,7 @@ BMI >= 30: Obesity
 
 Example 1:
 
-Input: 
+Input:
 Enter your weight in pounds: 160
 Enter your height in inches: 70
 
@@ -117,7 +126,7 @@ Output: BMI: 22.95 (Normal weight)
 
 Example 2:
 
-Input: 
+Input:
 Enter your weight in pounds: 230
 Enter your height in inches: 72
 
