@@ -226,3 +226,12 @@ Output: 2 hour(s), 2 minute(s), 2 second(s)
  
  */
 
+ Console.WriteLine("Enter the total number of seconds");
+ int TotalSeconds = Convert.ToInt32(Console.ReadLine());
+
+ int hours = TotalSeconds / 3600;
+ int Seconds = TotalSeconds % 3600;
+ int minutes = Seconds / 60;
+ int seconds = Seconds_ % 60;
+
+ Console.WriteLine ($"{hours} hour(s),{minutes} minute(s), {seconds} second(s)");
