@@ -25,25 +25,38 @@ Output: Invalid Operation!
 
  */
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+Console.WriteLine("Enter first number");
+double FirstNumber = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Enter second number");
+double SecondNumber = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Choose an operation from the following: +, -, , /, %");
+string Operator = Console.ReadLine();
+
+switch (Operator)
+{
+ case "+":
+  Console.WriteLine(FirstNumber + SecondNumber);
+  break;
+ case "-" :
+  Console.WriteLine(FirstNumber-SecondNumber);
+  break;
+ case "":
+  Console.WriteLine(FirstNumber*SecondNumber);
+  break;
+ case "/":
+  Console.WriteLine(FirstNumber/SecondNumber);
+  break;
+ case "%":
+  Console.WriteLine(FirstNumber%SecondNumber); 
+  break;
+ default :
+  Console.WriteLine("Invalid Operation!");
+  break;
+}
+
+
  /*
 Problem #2:
 
@@ -78,28 +91,8 @@ Output: 2021 is not a leap year.
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("Enter a year")
+ 
 
 /*
  Problem #3:
@@ -131,24 +124,6 @@ Enter your height in inches: 72
 Output: BMI: 31.19 (Obesity)
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -224,13 +199,6 @@ Output:
 Eligible for loan: No
 
  */
-
-
-
-
-
-
-
 
 
 /*
