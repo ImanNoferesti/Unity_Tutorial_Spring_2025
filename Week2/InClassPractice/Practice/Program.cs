@@ -39,7 +39,6 @@
 /* Problem #4
  * Write a function that takes an integer value and an array of integers, then returns how many times the given value appears in the array.
  */
- 
- 
- 
- 
+
+
+
