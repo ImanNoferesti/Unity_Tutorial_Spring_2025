@@ -2,36 +2,45 @@
 //////////////////// Arrays /////////////////////////
 
 // Declaration
-
+int[] numbers;
 // Initialization
-
+numbers = new int [5]
 // Declaration and Initialization Together
-
+numbers = new int[] { 1, 2, 3, 4, 5 };
+int [] value = new int[] {1 ,2 ,3 ,4 ,5 };
 // Alternative Short Syntax
-
+int[] score = {5, 20, 2 };
 // Accessing and Modifying Elements
-
+value[1] = 10; // value array is now [1, 10, 3, 4, 5]
 // Get the size of an array
-
+Console.WriteLine(value.Length);
 // Sort scores
-
+Array.Sort(value);
+foreach (int val in value)
+{
+    Console.WriteLine(val);
+}
 // Copy the first 2 elements of scores to a new array
-
+int[] sco = new int[2];
+Array.Copy(score, sco, 2);
+Console.WriteLine(sco[0]);
 // Copy scores starting at index 1 in destinationArray
-
+int[] copyArray = new int[10];
+score.CopyTo(copyArray, 0);
 // Find the first even score 
-
+int firstEven = Array.Find(score, x => x % 2 == 0);
 // Find all scores greater than 10
-
+int[] allEven = Array.FindAll(score, x => x > 10);
 // Find the index of the first occurrence of the score 15.
-
+int first15 = Array.IndexOf(score, 15);
+Console.WriteLine(first15);
 // Find the index of the first occurrence of the score greater than 5
-
+int over5 = Array.FindIndex(score, x => x > 5);
+Console.WriteLine(over5);
 // Check whether score of 20 exists
-
+bool exists = Array.Exists(score, x => x == 20); // returns true
 // Clear the last two scores
-
-
+Array.Clear(score, 2, 2);
 
 //////////////////// Lists /////////////////////////
 
