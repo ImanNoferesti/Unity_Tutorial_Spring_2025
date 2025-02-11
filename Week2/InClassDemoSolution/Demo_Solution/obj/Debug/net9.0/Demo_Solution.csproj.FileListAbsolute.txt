@@ -1,0 +1,30 @@
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\bin\Debug\net9.0\Demo_Solution.exe
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\bin\Debug\net9.0\Demo_Solution.deps.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\bin\Debug\net9.0\Demo_Solution.runtimeconfig.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\bin\Debug\net9.0\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\bin\Debug\net9.0\Demo_Solution.pdb
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.AssemblyInfoInputs.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.AssemblyInfo.cs
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.csproj.CoreCompileInputs.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.sourcelink.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\refint\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.pdb
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\Demo_Solution.genruntimeconfig.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Demo_Solution\obj\Debug\net9.0\ref\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\bin\Debug\net9.0\Demo_Solution.exe
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\bin\Debug\net9.0\Demo_Solution.deps.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\bin\Debug\net9.0\Demo_Solution.runtimeconfig.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\bin\Debug\net9.0\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\bin\Debug\net9.0\Demo_Solution.pdb
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.AssemblyInfoInputs.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.AssemblyInfo.cs
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.csproj.CoreCompileInputs.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.sourcelink.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\refint\Demo_Solution.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.pdb
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\Demo_Solution.genruntimeconfig.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemoSolution\Demo_Solution\obj\Debug\net9.0\ref\Demo_Solution.dll
