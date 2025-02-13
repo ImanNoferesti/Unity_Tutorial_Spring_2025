@@ -139,6 +139,78 @@ numList.Clear();
 // Symmetric Difference between two sets (elements that are only in one)
 
 
+//////////////////// LinkedList /////////////////////////
+
+// Declare and Initialize a LinkedList
+
+// Count the number of items in the list
+
+// Add 0 at the beginning of the list
+
+// Add 8 and 10 at the end of the list
+
+// Find the first node equal to 3
+
+// Put a 2 in the list right before the 3
+
+// Add another 2 to the list right after the 1
+
+// Check whether 5 is in the list
+
+// Remove the first and last values in the list
+
+// Return the first(Head) and last(Tail) node of the list
+
+// Return the value of the node right after the head node
+
+// Remove the first occurrence of 2
+
+// Copy the entire list to an array
+
+// Remove all values in the list
+
+
+//////////////////// Stack /////////////////////////
+
+// Declare and Initialize a stack
+
+// Get the number of elements in the stack
+
+// check if 5 exists in the stack
+
+// Return the top element in the stack
+
+// Remove and return the top element in the stack
+
+// Add 5 to the stack
+
+// Convert the current stack into an array 
+
+// Copy elements of current stack into a new array
+
+// Remove all elements from the stack
+
+//////////////////// Queue /////////////////////////
+
+// Declare and initialize a queue
+
+// Get the number of elements in the queue
+
+// check if 5 exists in the queue
+
+// Return the element at the front of the queue
+
+// Remove and return the element at the front of the queue
+
+// Add 5 to the queue
+
+// Convert the current queue into an array 
+
+// Copy elements of current queue into a new array
+
+// Remove all elements from the queue
+
+
 //////////////////// Functions /////////////////////////
 
 // Write a function that takes two integers and return their sum.

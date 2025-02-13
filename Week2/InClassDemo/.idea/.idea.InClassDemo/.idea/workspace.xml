@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9438a65-4b2c-4393-ae99-deaa3ac2ae8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
@@ -16,9 +16,18 @@
       <change beforePath="$PROJECT_DIR$/Demo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InClassDemo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/InClassDemo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +37,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2sgOtXtKV74bVkcA4uE4h9TgxVg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Demo" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -75,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738873968485</updated>
       <workItem from="1738873971252" duration="24000" />
+      <workItem from="1739459478550" duration="165000" />
     </task>
     <servers />
   </component>
