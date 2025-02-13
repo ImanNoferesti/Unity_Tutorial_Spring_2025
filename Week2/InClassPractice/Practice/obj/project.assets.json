@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Course\\Week 2\\InClassPractice\\Practice\\Practice.csproj",
+      "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
       "projectName": "Practice",
-      "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Course\\Week 2\\InClassPractice\\Practice\\Practice.csproj",
+      "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
       "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Course\\Week 2\\InClassPractice\\Practice\\obj\\",
+      "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",

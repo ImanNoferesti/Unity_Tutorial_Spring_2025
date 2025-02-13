@@ -1,0 +1,15 @@
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\bin\Debug\net9.0\Executable.exe
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\bin\Debug\net9.0\Executable.deps.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\bin\Debug\net9.0\Executable.runtimeconfig.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\bin\Debug\net9.0\Executable.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\bin\Debug\net9.0\Executable.pdb
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.AssemblyInfoInputs.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.AssemblyInfo.cs
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.csproj.CoreCompileInputs.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.sourcelink.json
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\refint\Executable.dll
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.pdb
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\Executable.genruntimeconfig.cache
+C:\Users\nofer\OneDrive\Documents\GitHub\Unity_Course\Week 2\InClass\Demo\Executable\obj\Debug\net9.0\ref\Executable.dll
