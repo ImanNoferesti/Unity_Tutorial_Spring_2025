@@ -74,6 +74,42 @@
    
  */
 
+// Console.WriteLine(
+//   "Welcome. " +
+//   "ATM Menu: " +
+//   "1. Check Balance" +
+//   "2. Deposit Money" +
+//   "3. Withdraw Money" +
+//   "4. Exit"
+//   );
+// int balance = 0;
+// Console.WriteLine("Enter an option: ");
+// int command = int.Parse(Console.ReadLine());
+// switch (command)
+// {
+//   case 1:
+//     Console.WriteLine("Your balance is " + balance);
+//     break;
+//   case 2:
+//     Console.WriteLine("Enter an amount to deposit: ");
+//     int depAmount = int.Parse(Console.ReadLine());
+//     balance += depAmount;
+//     break;
+//   case 3:
+//     Console.WriteLine("Enter an amount to withdraw: ");
+//     int withAmount = int.Parse(Console.ReadLine());
+//     if (withAmount <= balance)
+//     {
+//       balance -= withAmount;
+//       Console.WriteLine("You have withdrew $" + withAmount + " your new balance is $" + balance);
+//     }
+//     else
+//       Console.WriteLine("Insufficient balance");
+//     break;
+//   case 4:
+//     Console.WriteLine("Exiting...");
+//     break;
+// }
 
 
 
@@ -92,7 +128,23 @@
  *
  * Solve this problem using array methods and also solve it without using array methods.
  */
-
+int [] arrayOne = {1, 3, 5, 7};
+int [] arrayTwo = {2, 4, 6, 8, 0, 0, 0, 0 };
+// arrayOne.CopyTo(arrayTwo, 4);
+// Array.Sort(arrayTwo);
+// Console.WriteLine(string.Join(",", arrayTwo));
+// OR without array methods
+// int[] arrayNew = new int[8];
+// for (int i = 0; i < arrayOne.Length; i++)
+// {
+//   arrayNew[i] = arrayOne[i];
+// }
+// for (int i = 0; i < 4; i++)
+// {
+//   arrayNew[arrayOne.Length + i] = arrayTwo[i];
+// }
+// Array.Sort(arrayNew);
+// Console.WriteLine(string.Join(", ", arrayNew));
 
 
 
@@ -110,13 +162,15 @@
  *
  * Solve this problem using array methods and also solve it without using array methods.
  */
-
-
-
-
-
-
-
+// int[] array2 = { 1, 4, 4, 8, 9, 10, 12 };
+// int target = 4;
+// int firstTarget = Array.FindIndex(array2, x => x == target);
+// int[] allTarget = Array.FindAll(array2, x => x == target);
+// Console.WriteLine("Index of first target: " + firstTarget);
+// Console.WriteLine(string.Join(", ", allTarget));
+// Array.Clear(array2, 0, firstTarget+1);
+// int target2 = Array.FindIndex(array2, x => x == target);
+// Console.WriteLine("Index of second target: " + target2);
 
 
 /* Problem 3
@@ -140,12 +194,12 @@
  * 
  * Hint 2: Try using Joint() method to concatenate the string representation of an array using a specified separator between each element. https://learn.microsoft.com/en-us/dotnet/api/system.string.join?view=net-9.0
  */
- 
-
-
-
-
-
+// Console.WriteLine("Enter integers seperated by commas:");
+// string userInput = Console.ReadLine();
+// int[] inputArray = userInput.Split(',').Select(x => int.Parse(x)).ToArray();
+// int[] allOdd = Array.FindAll(inputArray, x => x%2 != 0);
+// Array.Sort(allOdd);
+// Console.WriteLine(string.Join(", ", allOdd));
 
 
 
@@ -172,13 +226,36 @@
  * Output: Number 1 appears 1 time(s).
  * Explanation: Number 1 is the smallest number among them and it appears once.
  *
- *
+ *{1,3,5,3,1,6,3,2,1}
  */
+Console.WriteLine("Enter integers seperated by commas:");
+string userIn = Console.ReadLine();
+int[] inArray = userIn.Split(',').Select(x => int.Parse(x)).ToArray();
+int arrayMode = 0;
+Array.Sort(inArray);
+int xNum1 = 0;
+int yNum1 = 1;  
+(int, int) tupleOne = (xNum1, yNum1);
+int xNum2 = 0;
+int yNum2 = 0;
+(int, int) tupleTwo = (xNum2, yNum2);
+for (int i = 1; i < inArray.Length; i++)
+{
+  if (inArray[i] == inArray[i - 1])
+  {
+    xNum1 = inArray[i];
+    yNum1++;
+  }
 
-
-
-
-
+  if (yNum1 > yNum2)
+  {
+    xNum2 = xNum1;
+    yNum2 = yNum1;
+    yNum1 = yNum1 - yNum2;
+  }
+  
+}
+Console.WriteLine("The number " + xNum1 + " occured most with " + yNum1 + " occurrences");
 
 
 
