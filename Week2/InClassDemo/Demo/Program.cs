@@ -241,10 +241,15 @@ Console.WriteLine(node.Next.Value); //4
 Console.WriteLine(myLinkedList.Find(4).value); //4
 
 // Put a 2 in the list right before the 3
-LinkedListNode<int> node1 = new LinkedListNode<int>(2);
-myLinkedList.AddBefore(node1, 3); //myLinkedList = [0,1,2,3,4,5,8,10]
+LinkedListNode<int> node1 = myLinkedList.Find(3);
+myLinkedList.AddBefore(node1, 2); //myLinkedList = [0,1,2,3,4,5,8,10]
+Console.WriteLine(string.Join(',', myLinkedList)); //0,1,2,3,4,5,8,10
 
 // Add another 2 to the list right after the 1
+node1 = myLinkedList.Find(1);
+myLinkedList.AddAfter(node1, 2); 
+
+Console.WriteLine(string.Join(',', myLinkedList)); //0,1,2,2,3,4,5,8,10
 
 // Check whether 5 is in the list
 
