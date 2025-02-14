@@ -94,81 +94,141 @@ numList.Clear();
 //////////////////// Dictionaries /////////////////////////
 
 // Declare and Initialize a dictionary
+Dictionary<string, float> myDictionary = new Dictionary<string, float>()
+{
+    { "Alice", 3.5f },
+    { "Bob", 4.0f }
 
+};
 // Add elements
+myDictionary.Add("Jake", 2.65f);
+myDictionary.Add("Taylor", 3.5f);
 
 // Accessing a key and Modifying its value
-
+myDictionary["Bob"] = 3.99f;
 // Show the total number of students
-
+Console.WriteLine(myDictionary.Count); // 4
 // Retrieve all keys
-
+foreach (var key in myDictionary.Keys)
+{
+    Console.WriteLine(key);
+}
 // Retrieve all values
-
+foreach (float values in myDictionary.Values)
+{
+    Console.WriteLine(values);
+}
 // Retrieve all key-value pairs
-
+foreach (KeyValuePair<string, float> kvp in myDictionary)
+{
+    Console.WriteLine($"Key: {kvp.Key} | Value: {kvp.Value}");
+}
 // Check whether a key exists. If so, show its value
-
+if (myDictionary.ContainsKey("Alice"))
+{
+    Console.WriteLine(myDictionary["Alice"]);
+}
 // Remove a key
-
+myDictionary.Remove("Bob");
 // Remove all keys and values
-
+myDictionary.Clear();
 
 //////////////////// HashSets /////////////////////////
 
 // Declare and Initialize a HashSet
-
+HashSet<int> mySet = new HashSet<int>() { 1, 2, 3 };
 // Add elements
-
+mySet.Add(3);
+mySet.Add(4); // [1,2,3,4]
 // Remove an element
-
+mySet.Remove(3);
 // Check if an element exists
-
+mySet.Contains(3); // false
 // Iterate through hashset
-
+foreach (var item in mySet)
+{
+    Console.WriteLine(item);
+}
 // Copy all elements into an array
-
+int[] newArray = new int[mySet.Count];
+mySet.CopyTo(newArray);
 // Remove all elements in the HashSet
+mySet.Clear();
 
 // Combine two sets 
+HashSet<int> setA = new HashSet<int>() { 1, 2, 3 };
+HashSet<int> setB = new HashSet<int>() { 3, 4, 5 };
+
+setA.UnionWith(setB);
+Console.WriteLine(string.Join(',', setA));
 
 // Intersect two sets
+setA = new HashSet<int>() { 1, 2, 3 };
+
+setA.IntersectWith(setB);
+Console.WriteLine(string.Join(',', setA));
 
 // Difference between two sets
+setA = new HashSet<int>() { 1, 2, 3 };
 
+setA.ExceptWith(setB);
+Console.WriteLine(string.Join(',', setA));
 // Symmetric Difference between two sets (elements that are only in one)
+
+setA = new HashSet<int>() { 1, 2, 3 };
+
+setA.SymmetricExceptWith(setB);
+Console.WriteLine(string.Join(',', setA));
 
 
 //////////////////// LinkedList /////////////////////////
 
 // Declare and Initialize a LinkedList
+LinkedList<int> myLinkedList = new LinkedList<int>([1,3,4,5]);
 
 // Count the number of items in the list
-
+Console.WriteLine(myLinkedList.Count); // 4
 // Add 0 at the beginning of the list
-
+myLinkedList.AddFirst(0); // [0,1,3,4,5]
 // Add 8 and 10 at the end of the list
-
+myLinkedList.AddLast(8);
+myLinkedList.AddLast(10); // [0,1,3,4,5,8,10]
 // Find the first node equal to 3
+LinkedListNode<int> node = myLinkedList.Find(3);
+Console.WriteLine(node.Value);
+Console.WriteLine(node.Next.Value);
+Console.WriteLine(myLinkedList.Find(4).Value);
 
 // Put a 2 in the list right before the 3
+LinkedListNode<int> newNode = myLinkedList.Find(3);
+myLinkedList.AddBefore(newNode, 2); 
 
 // Add another 2 to the list right after the 1
+newNode = myLinkedList.Find(1);
+myLinkedList.AddAfter(newNode, 2);
+Console.WriteLine(string.Join(',', myLinkedList));
+
 
 // Check whether 5 is in the list
-
+myLinkedList.Contains(5); //true
 // Remove the first and last values in the list
-
+myLinkedList.RemoveFirst(); // [1,2,2,3,4,5,8,10]
+myLinkedList.RemoveLast(); // [1,2,2,3,4,5,8]
 // Return the first(Head) and last(Tail) node of the list
+LinkedListNode<int> head = myLinkedList.First;
+
+LinkedListNode<int> tail = myLinkedList.Last;
 
 // Return the value of the node right after the head node
-
+int myValue = head.Next.Value;
 // Remove the first occurrence of 2
-
+node = myLinkedList.Find(2);
+myLinkedList.Remove(node);
 // Copy the entire list to an array
-
+int[] newArray2 = new int[myLinkedList.Count];
+myLinkedList.CopyTo(newArray2, 0);
 // Remove all values in the list
-
+myLinkedList.Clear();
 
 //////////////////// Stack /////////////////////////
 
