@@ -1,0 +1,15 @@
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.csproj.CoreCompileInputs.cache
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.sourcelink.json
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/bin/Debug/net9.0/Demo
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/bin/Debug/net9.0/Demo.deps.json
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/bin/Debug/net9.0/Demo.runtimeconfig.json
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/bin/Debug/net9.0/Demo.dll
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/bin/Debug/net9.0/Demo.pdb
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.dll
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/refint/Demo.dll
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.pdb
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/Demo.genruntimeconfig.cache
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/Debug/net9.0/ref/Demo.dll

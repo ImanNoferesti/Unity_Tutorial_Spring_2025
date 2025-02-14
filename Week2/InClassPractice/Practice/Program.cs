@@ -7,7 +7,8 @@
  * Remove the lowest score.
  * Clear all scores.
  */
-
+Dictionary<string, double> gradebook = new Dictionary<string, double>();
+Console.WriteLine("Enter a name and grade");
 
 
 
