@@ -252,39 +252,62 @@ myLinkedList.AddAfter(node1, 2);
 Console.WriteLine(string.Join(',', myLinkedList)); //0,1,2,2,3,4,5,8,10
 
 // Check whether 5 is in the list
+myLinkedList.Contains(5); //true
 
 // Remove the first and last values in the list
+myLickedList.RemoveFirst(); //myLinkedList = [1,2,2,3,4,5,8,10]
+myLickedList.RemoveLast(); //myLinkedList = [1,2,2,3,4,5,8]
 
 // Return the first(Head) and last(Tail) node of the list
+LinkedListNode<int> head = myLinkedList.First;
+LinkedListNode<int> tail = myLinkedList.Last;
+
+Console.WriteLine(myLinkedList.First.Value); //1
+Console.WriteLine(myLinkedList.Last.Value); //8
 
 // Return the value of the node right after the head node
+Console.WriteLine(myLinkedList.head.Next.Value); //2
 
 // Remove the first occurrence of 2
+myLinkedList.Remove(2); //myLinkedList = [1,2,3,4,5,8]
 
 // Copy the entire list to an array
+int[] newArray2 = new int[myLinkedList.Count];
+myLinkedList.CopyTo(newArray2, 0);
 
 // Remove all values in the list
+myLinkedList.Clear();
 
 
 //////////////////// Stack /////////////////////////
 
 // Declare and Initialize a stack
+stackalloc<int> myStack = new Stack<int>([1,2,3]);
 
 // Get the number of elements in the stack
+Console.WriteLine(myStack.Count); //3
 
 // check if 5 exists in the stack
+Console.WriteLine(myStack.Contains(5)); //false
 
 // Return the top element in the stack
+myValue = myStack.Peek(); // [1,2,3]
 
 // Remove and return the top element in the stack
+myValue = myStack.Pop(); // [1,2]
 
 // Add 5 to the stack
+myStack.Push(5); // [1,2,5]
 
 // Convert the current stack into an array 
+int[] stackArray = myStack.ToArray(); // [5,2,1]
+Console.WriteLine(string.Join(',', stackArray));
 
 // Copy elements of current stack into a new array
+myStack.CopyTo(stackArray, 0); //copyStack = [5,2,1]
 
 // Remove all elements from the stack
+myStack.Clear(); //[]
 
 //////////////////// Queue /////////////////////////
 
