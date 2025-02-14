@@ -8,26 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nofer\\.nuget\\packages\\": {}
+    "C:\\Users\\local_admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj",
+      "projectUniqueName": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj",
       "projectName": "Demo",
-      "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj",
-      "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\obj\\",
+      "projectPath": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj",
+      "packagesPath": "C:\\Users\\local_admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\local_admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\nofer\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\local_admin\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9438a65-4b2c-4393-ae99-deaa3ac2ae8a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
@@ -16,18 +15,8 @@
       <change beforePath="$PROJECT_DIR$/Demo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +74,7 @@
       <updated>1738873968485</updated>
       <workItem from="1738873971252" duration="24000" />
       <workItem from="1739459478550" duration="165000" />
+      <workItem from="1739483193350" duration="20000" />
     </task>
     <servers />
   </component>

@@ -8,10 +8,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7621fe57-2e6b-47a6-bc16-89a4e685be8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Practice/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Demo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Demo.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Demo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Demo.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/bin/Debug/net9.0/Demo_Solution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/bin/Debug/net9.0/Demo_Solution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/bin/Debug/net9.0/Demo_Solution.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/bin/Debug/net9.0/Demo_Solution.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/bin/Debug/net9.0/Demo_Solution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/bin/Debug/net9.0/Demo_Solution.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/Demo_Solution.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/ref/Demo_Solution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/ref/Demo_Solution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/refint/Demo_Solution.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Debug/net9.0/refint/Demo_Solution.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/Demo_Solution.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemoSolution/Demo_Solution/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Practice.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Practice.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Practice.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Practice.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +64,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Practice/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -74,6 +121,7 @@
       <workItem from="1738874144332" duration="22000" />
       <workItem from="1739460096214" duration="1909000" />
       <workItem from="1739470191672" duration="207000" />
+      <workItem from="1739490000185" duration="147000" />
     </task>
     <servers />
   </component>

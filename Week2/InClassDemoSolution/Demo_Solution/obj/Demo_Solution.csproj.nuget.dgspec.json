@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj": {}
+    "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj": {
+    "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
+        "projectUniqueName": "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
         "projectName": "Demo_Solution",
-        "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
-        "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
+        "projectPath": "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
+        "packagesPath": "C:\\Users\\LGPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LGPC\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\LGPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\nofer\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\LGPC\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
