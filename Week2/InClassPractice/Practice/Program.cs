@@ -8,8 +8,15 @@
  * Clear all scores.
  */
 
-
-
+list<int> scores = new list<int>() {5, 10, 15, 20};
+scores.Add(20);
+scores.AddRange(new list<int>() {10, 20, 20});
+Console.WriteLine(scores.Count); //9
+Console.WriteLine(scores.Contains(20)); //true
+Console.WriteLine(scores.Find(x => x > 10)); //15
+Console.WriteLine(scores.FindAll(x => x < 10)); //5, 10, 10, 10
+Console.WriteLine(scores.Remove(scores.Min())); //5
+Console.WriteLine(scores.Clear()); //0
 
 
 
