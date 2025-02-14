@@ -8,10 +8,26 @@
  * Clear all scores.
  */
 
+List<int> studentScores = new List<int> { 85 };
+studentScores.AddRange(new List<int>(){85, 49, 90});
+studentScores.AddRange([53, 100, 87]);
 
+Console.WriteLine($"Total # of scores: {studentScores.Count}");
 
+Console.WriteLine($"100? {studentScores.Contains(100)}");
 
+int threshold = 50;
+int firstScoreAbove = studentScores.Find(x => x > 50);
+Console.WriteLine($"Score above 50: {firstScoreAbove}");
 
+List<int> scoresBelow = studentScores.FindAll(x => x < 50);
+Console.WriteLine(string.Join(',' scoresBelow));
+
+studentScores.Sort();
+studentScores.RemoveAt(0);
+Console.WriteLine(string.Join(',', studentScores));
+
+studentScores.Clear();
 
 /* Problem #2
  * Create a program that manages a student gradebook, where each student's name is associated with their GPA.
