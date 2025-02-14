@@ -82,7 +82,11 @@ Console.WriteLine(scores.Clear()); //0
  * Test your function
  */
 
-
+void RemoveSmallValue(List<int> numbers){
+    if (numbers.Count == 0) return; 
+    int minValue = numbers.Min();
+    numbers.Remove(minValue);
+}
 
 
 
