@@ -233,51 +233,103 @@ myLinkedList.Clear();
 //////////////////// Stack /////////////////////////
 
 // Declare and Initialize a stack
+Stack<int> myStack = new Stack<int>([1, 2, 3]);
 
 // Get the number of elements in the stack
+Console.WriteLine(myStack.Count); // 3
 
 // check if 5 exists in the stack
+myStack.Contains(5); // false
 
 // Return the top element in the stack
+myValue = myStack.Peek(); // [1,2,3]
 
 // Remove and return the top element in the stack
+myValue = myStack.Pop(); // [1,2]
 
 // Add 5 to the stack
+myStack.Push(5); // [1,2,5]
 
 // Convert the current stack into an array 
+int[] stackArray = myStack.ToArray(); // [5,2,1]
+Console.WriteLine(string.Join(',', stackArray));
 
 // Copy elements of current stack into a new array
+myStack.CopyTo(stackArray, 0); // [5,2,1]
 
 // Remove all elements from the stack
+myStack.Clear();
 
 //////////////////// Queue /////////////////////////
 
 // Declare and initialize a queue
+Queue<int> myQueue = new Queue<int>([1, 2, 3]);
 
 // Get the number of elements in the queue
+Console.WriteLine(myQueue.Count); // 3
 
 // check if 5 exists in the queue
+myQueue.Contains(5); // false
 
 // Return the element at the front of the queue
+int front = myQueue.Peek(); // 1
 
 // Remove and return the element at the front of the queue
+front = myQueue.Dequeue(); // [2,3]
 
 // Add 5 to the queue
+myQueue.Enqueue(5); // [2,3,5]
 
 // Convert the current queue into an array 
+int[] queueArray = myQueue.ToArray(); // [2,3,5]
 
 // Copy elements of current queue into a new array
+myQueue.CopyTo(queueArray, 0); // [2,3,5]
 
 // Remove all elements from the queue
-
+myQueue.Clear();
 
 //////////////////// Functions /////////////////////////
 
 // Write a function that takes two integers and return their sum.
-// Then, call the function
+
+// Definition:
+int Sum(int num1, int num2)
+{
+    // int sum = num1 + num2;
+    // return sum;
+
+    return num1 + num2;
+    Console.WriteLine(num1 + num2); // Unreachable
+}
+
+// Call the function
+int sumNums = Sum(4, 5);
+Console.WriteLine(sumNums);
 
 
 // Write a void function that prints messages on console
 
+// Define
+void Print(string input)
+{
+    Console.WriteLine(input);
+}
+
+// Call
+
+Print("Hello");
+Print("How are you?");
 
 // Write a function that greet users with an optional parameter
+
+// Definition
+void Greet(string name = "User")
+{
+    Console.WriteLine($"Hello {name}");
+}
+
+// Call
+
+Greet();
+Greet("Iman");
