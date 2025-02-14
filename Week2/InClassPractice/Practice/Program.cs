@@ -88,6 +88,9 @@ void RemoveSmallValue(List<int> numbers){
     numbers.Remove(minValue);
 }
 
+RemoveSmallValue(new List<int>() {5, 10, 15, 20}); //5
+Console.WriteLine(numbers); //10, 15, 20
+
 
 
 /* Problem #6
