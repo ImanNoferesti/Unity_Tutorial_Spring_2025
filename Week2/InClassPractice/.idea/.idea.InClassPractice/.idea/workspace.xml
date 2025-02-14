@@ -8,23 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7621fe57-2e6b-47a6-bc16-89a4e685be8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/bin/Debug/net9.0/Demo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/bin/Debug/net9.0/Demo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/Demo.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/ref/Demo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/ref/Demo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/refint/Demo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/Debug/net9.0/refint/Demo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassDemo/Demo/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/bin/Debug/net9.0/Practice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/bin/Debug/net9.0/Practice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/Practice.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/ref/Practice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/ref/Practice.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/refint/Practice.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/Debug/net9.0/refint/Practice.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Practice/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week3-4/~$Week3-4_Slides.pptx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Practice.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "kadetanke",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;kadetanke&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Practice" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -90,6 +84,7 @@
       <workItem from="1739470191672" duration="207000" />
       <workItem from="1739493540213" duration="1220000" />
       <workItem from="1739552692306" duration="2757000" />
+      <workItem from="1739556987918" duration="1759000" />
     </task>
     <servers />
   </component>

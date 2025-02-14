@@ -39,8 +39,11 @@ Dictionary<string, float> gradebook = new Dictionary<string, float>()
     {"Alice", 3.75f},
     {"John", 2.2f}
 };
-gradebook.Add("Jason", 3.4f);
-gradebook.Remove("Brock");
+gradebook.Add("Jason", 3.4f); //AddStudent
+gradebook.Remove("Brock"); //RemoveStudent
+Console.WriteLine(String.Join(",", gradebook)); //PrintGradebook
+Console.WriteLine(gradebook.Count); //ShowStatistics
+gradebook.Clear(); //ClearGradebook
 
 
 
@@ -62,10 +65,39 @@ gradebook.Remove("Brock");
          "Take care!" (This should remove "How are you?")
  * 3. Print all stored messages after each addition.
  */
+Queue<string> messages = new Queue<string>();
+messages.Enqueue("Hello");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
+messages.Enqueue("How are you?");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
+messages.Enqueue("What's up?");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
+messages.Enqueue("Good Morning");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
+messages.Enqueue("Have a great day!");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
+messages.Enqueue("See you later!");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
+messages.Enqueue("Take care!");
+messages = LengthCheck(messages);
+Console.WriteLine(String.Join(",", messages));
 
+Queue<string> LengthCheck(Queue<string> checkQueue)
+{
+    if (checkQueue.Count > 5)
+    {
+        checkQueue.Dequeue();
+        return checkQueue;
 
-
-
+    }
+    else return checkQueue;
+}
 
 
 /* Problem #4
@@ -81,12 +113,17 @@ gradebook.Remove("Brock");
  * 3. Perform three undo actions, each removing the most recently added word.
  * 4. Print the stored words after each undo.
  */
-
-
-
-
-
-
+Stack<string> textStack = new Stack<string>();
+textStack.Push("Apple");
+textStack.Push("Banana");
+textStack.Push("Cherry");
+textStack.Push("Date");
+textStack.Pop();
+Console.WriteLine(String.Join(",",textStack));
+textStack.Pop();
+Console.WriteLine(String.Join(",",textStack));
+textStack.Pop();
+Console.WriteLine(String.Join(",",textStack));
 
 /* Problem #5
  * Write a function that removes the smallest value from a given list of integers in place (modifying the original list).
