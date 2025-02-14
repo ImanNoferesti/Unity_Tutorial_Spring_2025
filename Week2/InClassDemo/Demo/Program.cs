@@ -335,9 +335,25 @@ myStack.Clear(); //[]
 
 // Write a function that takes two integers and return their sum.
 // Then, call the function
+int SumFunction(int num1, int num2){
+    return num1 + num2;
+}
+    
+int sumNums = SumFunction(4, 5); //9
+Console.WriteLine(sumNums);
 
 
 // Write a void function that prints messages on console
+void PrintMessage(string message){
+    Console.WriteLine(message);
+}
 
+PrintMessage("Hello");
+PrintMessage("How are you?"); //Hello, How are you?
 
 // Write a function that greet users with an optional parameter
+void GreetUser(string name, string greeting = "Hello"){
+    Console.WriteLine($"{greeting} {name}");
+}
+
+GreetUser("Alice"); //Hello Alice
