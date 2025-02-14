@@ -1,13 +1,13 @@
-﻿//
-// //////////////////// Arrays /////////////////////////
-//
-// // Declaration
-//
-// using System.Security.Cryptography;
+﻿// //
+// // //////////////////// Arrays /////////////////////////
+// //
+// // // Declaration
+// //
+// // using System.Security.Cryptography;
 //
 // int[] numbers;
 // // Initialization
-// numbers = new int [5]
+// numbers = new int [5];
 // // Declaration and Initialization Together
 // numbers = new int[] { 1, 2, 3, 4, 5 };
 // int [] value = new int[] {1 ,2 ,3 ,4 ,5 };
@@ -85,55 +85,55 @@
 // firstEven = numList.Find(x => x % 2 == 0); // 0
 // // Find all values greater than 10
 // List<int> findAll = numList.FindAll(x => x > 10);
-// // Find the index of the first occurrence of the value 10.
-// index = numList.IndexOf(10); // 1
-// // Find the index of the first occurrence of the value greater than 5
-// index2 = numList.FindIndex(x => x > 5); // 1
-// // Remove all elements from the list, making it empty
-// numList.Clear();
-
-// ////////////////// Dictionaries /////////////////////////
+// // // Find the index of the first occurrence of the value 10.
+// // index = numList.IndexOf(10); // 1
+// // // Find the index of the first occurrence of the value greater than 5
+// // index2 = numList.FindIndex(x => x > 5); // 1
+// // // Remove all elements from the list, making it empty
+// // numList.Clear();
 //
-//  Declare and Initialize a dictionary
-Dictionary<string, float> myDictionary = new Dictionary<string, float>()
-{
-    { "Alice", 3.5f },
-    { "Bob", 4.0f }
-};
-// Add elements
-myDictionary.Add("Jake", 2.65f);
-myDictionary.Add("Taylor", 3.5f);
-// Accessing a key and Modifying its value
-myDictionary["Bob"] = 3.99f;
-// Show the total number of students
-Console.WriteLine(myDictionary.Count);
-// Retrieve all keys
-foreach (var key in myDictionary.Keys)
-{
-    Console.WriteLine(key);
-}
-// Retrieve all values
-foreach (var value in myDictionary.Values)
-{
-    Console.WriteLine(value);
-}
-// Retrieve all key-value pairs
-foreach (KeyValuePair<string, float> kvp in myDictionary)
-{
-    Console.WriteLine($"Key: {kvp.Key} | Value: {kvp.Value}");
-}
-// Check whether a key exists. If so, show its value
-if (myDictionary.ContainsKey("Alice"))
-{
-    Console.WriteLine(myDictionary["Alice"]);
-}
-// Remove a key
-myDictionary.Remove("Bob")
-// Remove all keys and values
-myDictionary.Clear();
-
-// //////////////////// HashSets /////////////////////////
+// // ////////////////// Dictionaries /////////////////////////
+// //
+// //  Declare and Initialize a dictionary
+// Dictionary<string, float> myDictionary = new Dictionary<string, float>()
+// {
+//     { "Alice", 3.5f },
+//     { "Bob", 4.0f }
+// };
+// // Add elements
+// myDictionary.Add("Jake", 2.65f);
+// myDictionary.Add("Taylor", 3.5f);
+// // Accessing a key and Modifying its value
+// myDictionary["Bob"] = 3.99f;
+// // Show the total number of students
+// Console.WriteLine(myDictionary.Count);
+// // Retrieve all keys
+// foreach (var key in myDictionary.Keys)
+// {
+//     Console.WriteLine(key);
+// }
+// // // Retrieve all values
+// // foreach (var value in myDictionary.Values)
+// // {
+// //     Console.WriteLine(value);
+// // }
+// // Retrieve all key-value pairs
+// foreach (KeyValuePair<string, float> kvp in myDictionary)
+// {
+//     Console.WriteLine($"Key: {kvp.Key} | Value: {kvp.Value}");
+// }
+// // Check whether a key exists. If so, show its value
+// if (myDictionary.ContainsKey("Alice"))
+// {
+//     Console.WriteLine(myDictionary["Alice"]);
+// }
+// // Remove a key
+// myDictionary.Remove("Bob");
+// // Remove all keys and values
+// myDictionary.Clear();
 //
+// // //////////////////// HashSets /////////////////////////
+// //
 // // Declare and Initialize a HashSet
 // HashSet<int> mySet = new HashSet<int>(){1, 2, 3};
 // // Add elements
@@ -169,98 +169,122 @@ myDictionary.Clear();
 // setA = new HashSet<int>() { 1, 2, 3 };
 // setA.SymmetricExceptWith(setB); 
 // Console.WriteLine(String.Join(",",setA));// {1, 2, 4, 5}
-
-//////////////////// LinkedList /////////////////////////
-
-// Declare and Initialize a LinkedList
-LinkedList<int> myLinkedList = new LinkedList<int>([1, 3, 4, 5]);
-// Count the number of items in the list
-Console.WriteLine(myLinkedList.Count);
-// Add 0 at the beginning of the list
-myLinkedList.AddFirst(0); // {0,1,3,4,5}
-// Add 8 and 10 at the end of the list
-myLinkedList.AddLast(8); // {0,1,3,4,5,8}
-myLinkedList.AddLast(10); // {0,1,3,4,5,8,10}
-// Find the first node equal to 3
-LinkedListNode<int> node = myLinkedList.Find(3);
-Console.WriteLine(node.Value);
-// Put a 2 in the list right before the 3
-myLinkedList.AddBefore(node, new LinkedListNode<int>(2)); // {0,1,2,3,4,5,8,10}
-Console.WriteLine(string.Join(",", myLinkedList));
-
-// Add another 2 to the list right after the 1
-LinkedListNode<int> newNode = new LinkedListNode<int>(2);
-LinkedListNode<int> nodeOne = myLinkedList.Find(1);
-myLinkedList.AddAfter(nodeOne, 2); //or replace 2 with newNode
-Console.WriteLine(string.Join(",", myLinkedList)); // {0,1,2,2,3,4,5,8,10}
-// Check whether 5 is in the list
-Console.WriteLine(myLinkedList.Contains(5)); // True
-// Remove the first and last values in the list
-myLinkedList.RemoveFirst();
-myLinkedList.RemoveLast(); // {1,2,2,3,4,5,8}
-// Return the first(Head) and last(Tail) node of the list
-LinkedListNode<int> head = myLinkedList.First; // 1
-LinkedListNode<int> tail = myLinkedList.Last;  // 8
-// Return the value of the node right after the head node
-int headVal = head.Next.Value; //2
-// Remove the first occurrence of 2
-myLinkedList.Remove(myLinkedList.Find(2)); // {1,2,3,4,5,8}
-// Copy the entire list to an array
-int[] newArray2 = new int[myLinkedList.Count];
-myLinkedList.CopyTo(newArray2, 0);
-// Remove all values in the list
-myLinkedList.Clear();
-
-
-//////////////////// Stack /////////////////////////
-
-// Declare and Initialize a stack
-
-// Get the number of elements in the stack
-
-// check if 5 exists in the stack
-
-// Return the top element in the stack
-
-// Remove and return the top element in the stack
-
-// Add 5 to the stack
-
-// Convert the current stack into an array 
-
-// Copy elements of current stack into a new array
-
-// Remove all elements from the stack
-
-//////////////////// Queue /////////////////////////
-
-// Declare and initialize a queue
-
-// Get the number of elements in the queue
-
-// check if 5 exists in the queue
-
-// Return the element at the front of the queue
-
-// Remove and return the element at the front of the queue
-
-// Add 5 to the queue
-
-// Convert the current queue into an array 
-
-// Copy elements of current queue into a new array
-
-// Remove all elements from the queue
-
+//
+// //////////////////// LinkedList /////////////////////////
+//
+// // Declare and Initialize a LinkedList
+// LinkedList<int> myLinkedList = new LinkedList<int>([1, 3, 4, 5]);
+// // Count the number of items in the list
+// Console.WriteLine(myLinkedList.Count);
+// // Add 0 at the beginning of the list
+// myLinkedList.AddFirst(0); // {0,1,3,4,5}
+// // Add 8 and 10 at the end of the list
+// myLinkedList.AddLast(8); // {0,1,3,4,5,8}
+// myLinkedList.AddLast(10); // {0,1,3,4,5,8,10}
+// // Find the first node equal to 3
+// LinkedListNode<int> node = myLinkedList.Find(3);
+// Console.WriteLine(node.Value);
+// // Put a 2 in the list right before the 3
+// myLinkedList.AddBefore(node, new LinkedListNode<int>(2)); // {0,1,2,3,4,5,8,10}
+// Console.WriteLine(string.Join(",", myLinkedList));
+//
+// // Add another 2 to the list right after the 1
+// LinkedListNode<int> newNode = new LinkedListNode<int>(2);
+// LinkedListNode<int> nodeOne = myLinkedList.Find(1);
+// myLinkedList.AddAfter(nodeOne, 2); //or replace 2 with newNode
+// Console.WriteLine(string.Join(",", myLinkedList)); // {0,1,2,2,3,4,5,8,10}
+// // Check whether 5 is in the list
+// Console.WriteLine(myLinkedList.Contains(5)); // True
+// // Remove the first and last values in the list
+// myLinkedList.RemoveFirst();
+// myLinkedList.RemoveLast(); // {1,2,2,3,4,5,8}
+// // Return the first(Head) and last(Tail) node of the list
+// LinkedListNode<int> head = myLinkedList.First; // 1
+// LinkedListNode<int> tail = myLinkedList.Last;  // 8
+// // Return the value of the node right after the head node
+// int headVal = head.Next.Value; //2
+// // Remove the first occurrence of 2
+// myLinkedList.Remove(myLinkedList.Find(2)); // {1,2,3,4,5,8}
+// // Copy the entire list to an array
+// int[] newArray2 = new int[myLinkedList.Count];
+// myLinkedList.CopyTo(newArray2, 0);
+// // Remove all values in the list
+// myLinkedList.Clear();
+//
+//
+// //////////////////// Stack /////////////////////////
+//
+// // Declare and Initialize a stack
+// Stack<int> myStack = new Stack<int>([1,2,3]);
+// // Get the number of elements in the stack
+// Console.WriteLine(myStack.Count());//3
+// // check if 5 exists in the stack
+// myStack.Contains(5); // false
+// // Return the top element in the stack
+// var stackValue = myStack.Peek();
+// // Remove and return the top element in the stack
+// stackValue = myStack.Pop(); //[1,2]
+// // Add 5 to the stack
+// myStack.Push(5); //[1,2,5]
+// // Convert the current stack into an array 
+// int[] stackArray = myStack.ToArray(); // [5,2,1]
+// Console.WriteLine(String.Join(",", stackArray));
+// // Copy elements of current stack into a new array
+// myStack.CopyTo(stackArray, 0);
+// Console.WriteLine(String.Join(",", stackArray));
+// // Remove all elements from the stack
+// myStack.Clear();
+// //////////////////// Queue /////////////////////////
+//
+// // Declare and initialize a queue
+// Queue<int> myQueue = new Queue<int>([1,2,3]);
+// // Get the number of elements in the queue
+// Console.WriteLine(myQueue.Count()); //3
+// // check if 5 exists in the queue
+// myQueue.Contains(3); //true
+// // Return the element at the front of the queue
+// Console.WriteLine(myQueue.Peek()); // [1,2,3]
+// // Remove and return the element at the front of the queue
+// Console.WriteLine(myQueue.Dequeue()); // [2,3]
+// // Add 5 to the queue
+// myQueue.Enqueue(5); // [2,3,5]
+// // Convert the current queue into an array 
+// int[] queueArray = myQueue.ToArray();
+// // Copy elements of current queue into a new array
+// myQueue.CopyTo(queueArray, 0);
+// // Remove all elements from the queue
+// myQueue.Clear();
 
 
 //////////////////// Functions /////////////////////////
 
 // Write a function that takes two integers and return their sum.
+// Console.WriteLine("Enter a number:");
+// int num1 = Int32.Parse(Console.ReadLine());
+// Console.WriteLine("Enter another number:");
+// int num2 = Int32.Parse(Console.ReadLine());
+int Sum(int num1, int num2)
+{
+    int sums = num1 + num2;
+    return sums;
+}
+
+Console.WriteLine(Sum(4,5));
+
 // Then, call the function
 
 
 // Write a void function that prints messages on console
-
+void Hello(string message)
+{
+    Console.WriteLine(message);
+}
+Hello("wasssup");
 
 // Write a function that greet users with an optional parameter
+void Greet(string name = "User")
+{
+    Console.WriteLine($"Hello {name}");
+}
+Greet();
+Greet("James");

@@ -7,12 +7,22 @@
  * Remove the lowest score.
  * Clear all scores.
  */
-Dictionary<string, double> gradebook = new Dictionary<string, double>();
-Console.WriteLine("Enter a name and grade");
+
+using System.Runtime.InteropServices.JavaScript;
+using System.Text.Json.Serialization;
 
 
-
-
+List<float> gradeList = new List<float>() { 1.4f, 2.2f, 3.2f };
+gradeList.Add(1.3f);
+gradeList.AddRange([1.2f, 3.3f]);
+Console.WriteLine(gradeList.Count());
+gradeList.Contains(1.3f); //false
+gradeList.Sort();
+gradeList.FindAll(x => x > 3.0f);
+gradeList.Find(x => x < 3.0f);
+gradeList.RemoveAt(0);
+Console.WriteLine(String.Join(",", gradeList));
+gradeList.Clear();
 
 /* Problem #2
  * Create a program that manages a student gradebook, where each student's name is associated with their GPA.
@@ -23,7 +33,14 @@ Console.WriteLine("Enter a name and grade");
  * ShowStatistics: Displays the total number of students.
  * ClearGradebook: Removes all students from the gradebook.
  */
- 
+Dictionary<string, float> gradebook = new Dictionary<string, float>()
+{
+    { "Brock", 3.2f},
+    {"Alice", 3.75f},
+    {"John", 2.2f}
+};
+gradebook.Add("Jason", 3.4f);
+gradebook.Remove("Brock");
 
 
 
@@ -75,14 +92,27 @@ Console.WriteLine("Enter a name and grade");
  * Write a function that removes the smallest value from a given list of integers in place (modifying the original list).
  * Test your function
  */
-
-
-
+List<int> sampleList = new List<int>([3,2,4,6]);
+void RemoveFirst(List<int> inList)
+{
+    inList.Sort();
+    inList.RemoveAt(0);
+}
+Console.WriteLine(String.Join(",",sampleList));
+RemoveFirst(sampleList);
+Console.WriteLine(String.Join(",",sampleList));
 
 
 /* Problem #6
  * Write a function that takes an integer value and an array of integers, then returns how many times the given value appears in the array.
  */
+int[] exampleArray = new int[] {};
+int ReturnsCount(int value, int[] exampleArray)
+{
+    int[] countArray = new int[] { };
+    countArray = Array.FindAll(exampleArray, x => x == value);
+    return countArray.Length;
+}
 
-
+Console.WriteLine(ReturnsCount(3, [1, 3, 4, 5, 6, 3, 3]));
 
