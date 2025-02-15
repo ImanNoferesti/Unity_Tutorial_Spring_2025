@@ -128,8 +128,8 @@
  *
  * Solve this problem using array methods and also solve it without using array methods.
  */
-int [] arrayOne = {1, 3, 5, 7};
-int [] arrayTwo = {2, 4, 6, 8, 0, 0, 0, 0 };
+// int [] arrayOne = {1, 3, 5, 7};
+// int [] arrayTwo = {2, 4, 6, 8, 0, 0, 0, 0 };
 // arrayOne.CopyTo(arrayTwo, 4);
 // Array.Sort(arrayTwo);
 // Console.WriteLine(string.Join(",", arrayTwo));
@@ -226,7 +226,7 @@ int [] arrayTwo = {2, 4, 6, 8, 0, 0, 0, 0 };
  * Output: Number 1 appears 1 time(s).
  * Explanation: Number 1 is the smallest number among them and it appears once.
  *
- *{1,3,5,3,1,6,3,2,1}
+ *{1,3,5,3,1,6,3,2,1,2}
  */
 Console.WriteLine("Enter integers seperated by commas:");
 string userIn = Console.ReadLine();
@@ -236,7 +236,7 @@ Array.Sort(inArray);
 int xNum1 = 0;
 int yNum1 = 1;  
 (int, int) tupleOne = (xNum1, yNum1);
-int xNum2 = 0;
+int xNum2 = 10;
 int yNum2 = 0;
 (int, int) tupleTwo = (xNum2, yNum2);
 for (int i = 1; i < inArray.Length; i++)
@@ -247,15 +247,15 @@ for (int i = 1; i < inArray.Length; i++)
     yNum1++;
   }
 
-  if (yNum1 > yNum2)
+  if (yNum1 > yNum2 && xNum1 < xNum2)
   {
     xNum2 = xNum1;
     yNum2 = yNum1;
-    yNum1 = yNum1 - yNum2;
+    yNum1 = 0;
   }
   
 }
-Console.WriteLine("The number " + xNum1 + " occured most with " + yNum1 + " occurrences");
+Console.WriteLine("The number " + xNum2 + " occured most with " + yNum2 + " occurrences");
 
 
 
@@ -323,11 +323,12 @@ Console.WriteLine("The number " + xNum1 + " occured most with " + yNum1 + " occu
  * Print scores sorted in descending order.     ** Hint: Use Reverse() Method.
  * 
  */
-
-
-
-
-
+List<float> scoreList = new List<float>();
+scoreList.AddRange([92f,91.7f,93.2f,46.3f,23f]);
+scoreList.RemoveAll(x=> x < 50);
+scoreList.Sort();
+scoreList.Reverse();
+Console.WriteLine(String.Join(",",scoreList));
 
 
 /* Problem 2
@@ -384,8 +385,6 @@ Console.WriteLine("The number " + xNum1 + " occured most with " + yNum1 + " occu
                           Alice, 234-543-4332
                           Alice, 432-342-2993
    
-   
-   
  * Example 4:
    Contact Menu:
    1. Add a new contact
@@ -402,3 +401,6 @@ Console.WriteLine("The number " + xNum1 + " occured most with " + yNum1 + " occu
    
  */
  
+List<int> contacts = new List<int>();
+contacts.Add(123-456-7890);
+Console.WriteLine(contacts);
