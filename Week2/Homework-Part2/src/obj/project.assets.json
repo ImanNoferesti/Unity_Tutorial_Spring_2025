@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
-      "projectName": "Demo_Solution",
-      "projectPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
+      "projectUniqueName": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Course\\Week 2\\Homework-Part2\\src\\src.csproj",
+      "projectName": "src",
+      "projectPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Course\\Week 2\\Homework-Part2\\src\\src.csproj",
       "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
+      "outputPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Course\\Week 2\\Homework-Part2\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
