@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj": {}
+    "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj": {
+    "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj",
-        "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\obj\\",
+        "projectPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\cmmoor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\Homework\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cmmoor\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\nofer\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\cmmoor\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

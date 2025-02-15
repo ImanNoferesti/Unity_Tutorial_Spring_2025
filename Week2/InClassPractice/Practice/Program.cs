@@ -38,7 +38,21 @@ studentScores.Clear();
  * ShowStatistics: Displays the total number of students.
  * ClearGradebook: Removes all students from the gradebook.
  */
- 
+
+Dictionary<string, float> gradebook = new Dictionary<string, float>()
+{
+ { "Margaret", 3.7f },
+ { "Robin", 3.2f },
+ { "Sam", 3.5f }
+};
+
+Console.WriteLine("Please select an option (1 - 5: ");
+
+
+gradebook.Add("Anya", 5.5f);
+
+gradebook.Remove("Sam");
+
 
 
 
