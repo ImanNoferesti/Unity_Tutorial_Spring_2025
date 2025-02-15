@@ -8,24 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/kadetanke/.nuget/packages/": {}
+    "C:\\Users\\nofer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj",
-      "projectName": "Practice",
-      "projectPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj",
-      "packagesPath": "/Users/kadetanke/.nuget/packages/",
-      "outputPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/obj/",
+      "projectUniqueName": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Course\\Week 2\\Homework-Part2\\src\\src.csproj",
+      "projectName": "src",
+      "projectPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Course\\Week 2\\Homework-Part2\\src\\src.csproj",
+      "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Course\\Week 2\\Homework-Part2\\src\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/kadetanke/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -42,7 +49,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -65,16 +72,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/kadetanke/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

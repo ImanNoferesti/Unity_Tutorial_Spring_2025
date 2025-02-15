@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
