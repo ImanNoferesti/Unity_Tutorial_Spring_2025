@@ -25,23 +25,48 @@ Output: Invalid Operation!
 
  */
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+Console.WriteLine("Please enter the first number:");
+float num1 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Please enter the second number:");
+float num2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Please select an operation (1 - 5)");
+Console.WriteLine("1: addition");
+Console.WriteLine("2: subtraction");
+Console.WriteLine("3: multiplication");
+Console.WriteLine("4: division");
+Console.WriteLine("5: modulus");
+int selection = int.Parse(Console.ReadLine());
+
+float answer = -1f;
+switch (selection)
+{
+ case 1: // addtion
+   answer = num1 + num2;
+  break;
+ case 2: // subtraction
+  answer = num1 - num2;
+  break;
+ case 3: // multiplication
+  answer = num1 * num2;
+  break;
+ case 4: // division
+  answer = num1 / num2;
+  break;
+ case 5:
+  answer = num1 % num2;
+  break;
+ default:
+  Console.WriteLine($"Sorry, {selection} is not an option.");
+  break;
+}
+
+if (answer != -1)
+ Console.WriteLine($"The answer is {answer}.");
+
+Console.WriteLine();
+
  
  
  /*
@@ -78,28 +103,27 @@ Output: 2021 is not a leap year.
 
 */
 
+Console.WriteLine("Please enter a year:");
+int year = int.Parse(Console.ReadLine());
 
+bool leapYear = false;
+if ( (year % 400 == 0) || ( (year % 4 == 0) && (year % 100 != 0) ) )
+{
+ leapYear = true;
+}
 
+string verb = "was";
+if (year > 2025)
+{
+ verb = "will be";
+}
+else if (year == 2025)
+{
+ verb = "is";
+}
+Console.WriteLine($"It is {leapYear} that {year} {verb} a leap year.");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine();
 
 /*
  Problem #3:
@@ -131,21 +155,6 @@ Enter your height in inches: 72
 Output: BMI: 31.19 (Obesity)
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -225,27 +234,81 @@ Eligible for loan: No
 
  */
 
+Console.WriteLine("Please enter your age in years: ");
+float age = float.Parse(Console.ReadLine());
 
+Console.WriteLine("Please enter your annual income in US dollars: ");
+float income = float.Parse(Console.ReadLine());
 
+Console.WriteLine("Please enter your credit score or if you do not know your credit score enter N/A: ");
+string creditResponse = Console.ReadLine();
 
+int creditScore;
+if (creditResponse == "N/A")
+{
+ creditScore = -1;
+}
+else
+{
+ creditScore = int.Parse(creditResponse);
+}
 
+Console.WriteLine("Is there an eligible co-signer for this loan (y/n)?");
+char cosigner = char.Parse(Console.ReadLine());
 
+int eligibility = 999;
+if (creditScore > 0)
+{
+ eligibility = 1; // eligible
+ if (creditScore < 600)
+ {
+  eligibility = 0;
+ }
+ else if (  (creditScore < 700) && (cosigner == 'n') )
+ {
+  eligibility = 0;
+ }
+}
 
+switch (eligibility)
+{
+ case 0:
+  Console.WriteLine("We are sorry, you are not eligible for a loan at this time.");
+  break;
 
+ case 1:
+  Console.WriteLine("Congratulations, you are elgible for a loan.");
+  break;
+
+ case 999:
+  Console.WriteLine("You may be eligible for a loan, depending on what your credit score is.");
+  break;
+}
+
+Console.WriteLine();
 
 /*
  Problem #5:
- 
- Write a program that converts a given number of seconds into hours, minutes, and seconds. 
+
+ Write a program that converts a given number of seconds into hours, minutes, and seconds.
  The program should take an integer input representing the total number of seconds and output the equivalent time in hours, minutes, and seconds.
- 
+
 Example 1:
 Input: Enter the total number of seconds: 3665
 Output: 1 hour(s), 1 minute(s), 5 second(s)
 
 Example 2:
 Input: Enter the total number of seconds: 7322
-Output: 2 hour(s), 2 minute(s), 2 second(s) 
- 
+Output: 2 hour(s), 2 minute(s), 2 second(s)
+
  */
 
+Console.WriteLine("Please enter number of seconds: ");
+int numSecs = int.Parse(Console.ReadLine());
+
+int numHours = numSecs / 3600; 
+int remainingSecs = numSecs % 3600;
+int numMins = remainingSecs / 60;
+numSecs = numSecs % 60;
+
+Console.WriteLine($"{numHours} hour(s), {numMins} minute(s), {numSecs} second(s)");
