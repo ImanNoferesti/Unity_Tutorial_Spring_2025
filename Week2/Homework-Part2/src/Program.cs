@@ -27,8 +27,92 @@
  * 
  */
 
+Dictionary<string, string> contacts = new Dictionary<string, string>()
+{
+ { "Cathleen", "1234" },
+ { "Margaret", "2468" },
+ { "Toby", "1357" }
+};
 
+// foreach (KeyValuePair<string, string> kvp in contacts)
+// {
+//  Console.WriteLine($"{kvp.Key}, {kvp.Value}");
+// }
 
+Console.WriteLine("Please select an option (1 - 3):");
+Console.WriteLine("1: Add a contact");
+Console.WriteLine("2: Look up a phone number");
+Console.WriteLine("3: Change a phone number");
+Console.WriteLine("4: See a list of all contacts");
+Console.WriteLine("5: exit");
+int selection = int.Parse(Console.ReadLine());
+
+switch (selection)
+{
+case 1: // add a contact
+ Console.WriteLine("Please enter the info for the new contact (name, number)");
+ string input = Console.ReadLine();
+ string[] inputArray = input.Split(',');
+ contacts.Add(inputArray[0], inputArray[1]);
+ 
+ // foreach (KeyValuePair<string, string> kvp in contacts)
+ // {
+ //  Console.WriteLine($"{kvp.Key}, {kvp.Value}");
+ // }
+ 
+ break;
+
+case 2:// look up a phone number
+ Console.WriteLine("Please enter the name of the contact: ");
+ string lookUpName = Console.ReadLine();
+ if (contacts.ContainsKey(lookUpName))
+ {
+  Console.WriteLine($"{lookUpName}'s phone number is contacts[lookUpName].");
+ }
+ else
+ {
+  Console.WriteLine($"Sorry, there is no {lookUpName} in your contact list.");
+ }
+ 
+ break;
+
+case 3: // change a phone number
+ Console.WriteLine("Whose phone number would you like to change?");
+ string changeName = Console.ReadLine();
+ if (contacts.ContainsKey(changeName))
+{
+ Console.WriteLine($"Please enter {changeName}'s new phone number");
+ string newNum = Console.ReadLine();
+ contacts[changeName] = newNum;
+}
+ else
+{
+ Console.WriteLine($"Sorry, there is no {changeName} in your contact list.");
+}
+ 
+ // foreach (KeyValuePair<string, string> kvp in contacts)
+ // {
+ //  Console.WriteLine($"{kvp.Key}, {kvp.Value}");
+ // }
+ 
+ break;
+
+case 4:
+ foreach (KeyValuePair<string, string> kvp in contacts)
+ {
+  Console.WriteLine($"{kvp.Key}, {kvp.Value}");
+ }
+ break;
+
+case 5:
+ Console.WriteLine("Ok, good bye.");
+ break;
+
+default:
+ Console.WriteLine($"Sorry, {selection} is not a valid option.");
+ break;
+
+}
 
 
 
@@ -97,13 +181,112 @@
   * 
   *
   */
+
+ Dictionary<string, int> inventory = new Dictionary<string, int>()
+ {
+  { "crackers", 10 },
+  { "chicken", 5 },
+  { "apples", 20 }
+ };
+
+Console.WriteLine("What would you like to do (1-4)?");
+Console.WriteLine("1: Check inventory for a product");
+Console.WriteLine("2: Add to the inventory");
+Console.WriteLine("3: Reduce from the inventory");
+Console.WriteLine("4: Show all inventory");
+Console.WriteLine("5: Exit");
+int task = int.Parse(Console.ReadLine());
+
+switch (task)
+{
+ case 1: // check inventory
+  Console.WriteLine("What product would you like to check?");
+  string checkProduct = Console.ReadLine();
+  if (inventory.ContainsKey(checkProduct))
+  {
+   Console.WriteLine($"The curent inventory of {checkProduct} is {inventory[checkProduct]}.");
+  }
+  else
+  {
+   Console.WriteLine($"There is currenlty no {checkProduct} in stock.");
+  }
+  break;
  
+ case 2: // add to inventory
+  Console.WriteLine($"Please enter the product that you would like to change or add:");
+  string changeProduct = Console.ReadLine();
+  if (inventory.ContainsKey(changeProduct))
+  {
+   Console.WriteLine($"The current inventory of {changeProduct} is {inventory[changeProduct]}.");
+   Console.WriteLine($"How many to you want to add to the record?");
+   int addInv = int.Parse(Console.ReadLine());
+   inventory[changeProduct] = inventory[changeProduct] + addInv;
+   Console.WriteLine($"OK, the new inventory of {changeProduct} is {inventory[changeProduct]}.");
+  }
+  else
+  {
+   Console.WriteLine($"There is currently no record of {changeProduct}. Would you like to add it to the inventory list (y/n)?");
+   char confirmChange = char.Parse(Console.ReadLine());
+   if (confirmChange == 'y')
+   {
+    Console.WriteLine($"How many should I add to the inventory for {changeProduct}");
+    int addQuant = int.Parse(Console.ReadLine());
+    inventory.Add(changeProduct, addQuant);
+    Console.WriteLine($"OK, the new inventory of {changeProduct} is {inventory[changeProduct]}.");
+   }
+   else
+   {
+    Console.WriteLine("Ok, I will not make any changes to the inventory list at this time.");
+   }
+  }
+  break;
+
+ case 3: // reduce or remove from inventory
+  Console.WriteLine("Please enter the product that you would like to change:");
+  //the compliler said that a local varialbe "changeProduct was already declared...but it was in a case 2
+  //which if I'm in case 3, it won't have been called...so I'm not sure why I couldn't use changeProduct.
+  //I added and "R" for reduce to make it work.
+  string changeProductR = Console.ReadLine();
+
+  if (inventory.ContainsKey(changeProductR))
+  {
+   Console.WriteLine($"The inventory for {changeProductR} is currently {inventory[changeProductR]}."); 
+   Console.WriteLine("Do you want to reduce it (y/n)?");
+   char confirmChange = char.Parse(Console.ReadLine());
+   if (confirmChange == 'y')
+   {
+    Console.WriteLine("How many would you like me to reduce it?");
+    int reduceQuant = int.Parse(Console.ReadLine());
+    inventory[changeProductR] = inventory[changeProductR] - reduceQuant;
+    Console.WriteLine($"OK, the new inventory for {changeProductR} is {inventory[changeProductR]}");
+   }
+   else
+   {
+    Console.WriteLine("Okay, I will not make any changes to the inventory list at this time.");
+   }
+  }
+  else
+  {
+   Console.WriteLine($"There is currently no record of {changeProductR}");
+  }
+  break;
+
+ case 4:
+  foreach (KeyValuePair<string,int> kvp in inventory)
+ {
+  Console.WriteLine($"{kvp.Key}, {kvp.Value}");
+ }
+  break;
  
+ case 5:
+  Console.WriteLine("Ok, good bye");
+  break;
  
- 
- 
- 
- 
+ default:
+  Console.WriteLine($"Sorry, {task} is not a valid option.");
+  break;
+}
+
  
 //////////////////// HashSet ////////////////////
  
