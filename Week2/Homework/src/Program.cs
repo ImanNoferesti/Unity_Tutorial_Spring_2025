@@ -232,10 +232,69 @@
  *
  */
  
+// Console.WriteLine("Please enter a list of integers separated by commas.");
+// string input = Console.ReadLine();
+// string[] strArr = input.Split(",");
+// int[] intArr = Array.ConvertAll(strArr, int.Parse);
+//   
+// Console.WriteLine("Enter a shift integer:");
+// int shift = int.Parse(Console.ReadLine());
+// Console.WriteLine();
+//
+// int arrSize = intArr.Length;
+// int[] tempArr = new int[arrSize*2];
+//
+// intArr.CopyTo(tempArr, shift);
+//
+//
+// for (int i = 0; i < shift; i++)
+// {
+//   tempArr[i] = tempArr[arrSize + i];
+// }
+//
+// Array.Copy(tempArr, intArr, arrSize);
+//
+// foreach (int val in intArr) 
+// {
+//   Console.WriteLine(val);
+// }
+//
+// Console.WriteLine();
+
+
+// I tried to use the version of copy where you can specify specific locations in the source and dest arrays
+// Copy (sourceArr, specified sourceIdx, destArr, specifiedIds)
+// but couldn't get it to work.
+
+//
+// Here is aversion using Lists instead:
+//
+
+Console.WriteLine("Please enter a list of integers separated by commas.");
+string input = Console.ReadLine();
+string[] strArr = input.Split(",");
+int[] intArr = Array.ConvertAll(strArr, int.Parse);
+
+List<int> intList = new List<int>(intArr);
+Console.WriteLine(string.Join(",", intList));
+
+Console.WriteLine("Enter a shift integer:");
+int shift = int.Parse(Console.ReadLine());
+
+List<int> shiftRange = intList.GetRange(shift, intList.Count - shift);
+// Console.WriteLine(string.Join(",", shiftRange));
+// Console.WriteLine();
+
+intList.InsertRange(0, shiftRange);
+// Console.WriteLine(string.Join(",", intList));
+// Console.WriteLine();
+
+intList.RemoveRange(intList.Count - shift, shift);
+// Console.WriteLine(string.Join(",", intList));
+// Console.WriteLine();
 
 
 
- 
 ///////////////////// Lists /////////////////////
 
 /* Problem 1
@@ -247,11 +306,35 @@
  * 
  */
 
+List<float> scores = new List<float>();
+scores.Add(65.3f);
+scores.Add(75f);
+scores.Add(48f);
+scores.Add(96);
+foreach (float val in scores)
+{
+  Console.WriteLine(val);
+}
 
+scores.RemoveAll(x => x < 50);
+foreach (float val in scores)
+{
+  Console.WriteLine(val);
+}
 
+Console.WriteLine();
 
+Console.WriteLine(scores.Find(x => x > 90));
 
+Console.WriteLine();
 
+scores.Sort();
+scores.Reverse();
+foreach (float val in scores)
+{
+  Console.WriteLine(val);
+}
+Console.WriteLine();
 
 /* Problem 2
  * Create a program that manages a contact list. Users should be able to:
@@ -324,4 +407,99 @@
                      Bob, 987-654-3210  
    
  */
- 
+
+List<string> names = new List<string>
+{
+  "Cathleen",
+  "Robin",
+  "Margaret",
+  "Barnapuss"
+};
+
+List<string> phoneNums = new List<string>
+{
+  "1234",
+  "4321",
+  "2468",
+  "1357"
+};
+
+Console.WriteLine($"There are {names.Count} contacts in your list:");
+for (int i = 0; i < names.Count; i++)
+{
+  Console.WriteLine($"{names[i]}, {phoneNums[i]}");
+}
+
+
+Console.WriteLine("What would you like to do with your contact list (1 - 5)?");
+Console.WriteLine("1: Add a new contact");
+Console.WriteLine("2: Remove a contact");
+Console.WriteLine("3: Search for a contact");
+Console.WriteLine("4: List all contacts");
+Console.WriteLine("5: Update the phone number of a contact");
+Console.WriteLine("6: Nothing, exit");
+
+int selection = int.Parse(Console.ReadLine());
+
+switch (selection)
+{
+  case 1: // add contact
+    Console.WriteLine("Please enter the name of the new contact:");
+    names.Add(Console.ReadLine());
+    Console.WriteLine($"Please enter {names[names.Count]}'s phone number:");
+    phoneNums.Add(Console.ReadLine());
+    break;
+  
+  case 2: // remove contact
+    Console.WriteLine("Please enter the name of the new contact:");
+    string remContact = Console.ReadLine();
+    int remIdx = names.IndexOf(remContact);
+    names.RemoveAt(remIdx);
+    phoneNums.RemoveAt(remIdx);
+    break;
+  
+  case 3: // search for a contact
+    Console.WriteLine("Please enter the name of the contact that you are looking for?");
+    string findContact = Console.ReadLine();
+    int contactIndex = names.FindIndex(x => x == findContact);
+    if (contactIndex != -1)
+    {
+      Console.WriteLine($"{names[contactIndex]}, {phoneNums[contactIndex]}");
+    }
+    else
+      Console.WriteLine($"Sorry, there is no {findContact} in your contact list.");
+    break;
+  case 4:
+    for (int i = 0; i < names.Count; i++)
+    {
+      Console.WriteLine($"{names[i]}, {phoneNums[i]}");
+    }
+    break;
+  case 5: // change a number
+    Console.WriteLine("What is the name of the contact that you would like to update?");
+    string updateContact = Console.ReadLine();
+    int updateIndex = names.FindIndex(x => x == updateContact);
+    Console.WriteLine($"Currently the phone number for {updateContact} is {phoneNums[updateIndex]}.");
+    Console.WriteLine("Do you want to change it (y/n)");
+    char remove = char.Parse(Console.ReadLine());
+    if (remove == 'y')
+    {
+      Console.WriteLine("Ok, please enter the new number:");
+      string updateNum = Console.ReadLine();
+      phoneNums[updateIndex] = updateNum;
+    }
+    else
+      Console.WriteLine($"Ok, no change has been made to {names[updateIndex]}'s phone number.' ");
+    break;
+  case 6: // exit
+    Console.WriteLine("Ok, good bye.");
+    break;
+  default:
+    Console.WriteLine("Invalid selection");
+    break;
+}
+
+for (int i = 0; i < names.Count; i++)
+{
+  Console.WriteLine($"{names[i]}, {phoneNums[i]}");
+}
