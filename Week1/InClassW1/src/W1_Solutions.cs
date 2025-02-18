@@ -15,7 +15,7 @@ float height = float.Parse(Console.ReadLine());
 
 Console.WriteLine($"Hey {name}! You're {age} years old and {height} meters / inches tall. \n\n");
 
-
+// Hello
 
 // 2. Display Variables and Declare Multiple Variables
 // Declare three integers (x, y, z) on a single line, assign values to them, and display their sum.

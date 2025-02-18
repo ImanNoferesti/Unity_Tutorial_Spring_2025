@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj": {}
+    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj": {
+    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj",
-        "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nofer\\Documents\\Github\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\obj\\",
+        "projectPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\fjcastillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fjcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,9 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\nofer\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
