@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZF6QQdA8Uiw=",
   "success": true,
   "projectFilePath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
+=======
+  "dgSpecHash": "48+GdjGzHr0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
+>>>>>>> main
   "expectedPackageFiles": [],
   "logs": []
 }

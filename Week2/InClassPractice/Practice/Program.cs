@@ -8,10 +8,28 @@
  * Clear all scores.
  */
 
+List<float> scores = new List<float>() { 45.5f, 50f, 90f };
 
+scores.Add(80f);
+scores.AddRange(new List<float>(){35f, 99f});
+scores.AddRange([100f, 35f]);
 
+Console.WriteLine($"Total: {scores.Count}");
 
+Console.WriteLine($"50 ? {scores.Contains(50f)}");
 
+float thrshold = 60f;
+
+float firstScoreAbove = scores.Find(x => x > 60);
+Console.WriteLine($"Score above 60: {firstScoreAbove}");
+
+List<float> scoresBelowThreshold = scores.FindAll(x => x < 60);
+Console.WriteLine(string.Join(',', scoresBelowThreshold));
+
+scores.Sort();
+scores.RemoveAt(0);
+
+scores.Clear();
 
 /* Problem #2
  * Create a program that manages a student gradebook, where each student's name is associated with their GPA.
@@ -23,6 +41,7 @@
  * ClearGradebook: Removes all students from the gradebook.
  */
  
+
 
 
 
