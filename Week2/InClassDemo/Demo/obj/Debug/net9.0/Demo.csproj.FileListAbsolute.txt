@@ -1,0 +1,15 @@
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.exe
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.deps.json
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.runtimeconfig.json
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.dll
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\bin\Debug\net9.0\Demo.pdb
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.AssemblyInfoInputs.cache
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.AssemblyInfo.cs
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.sourcelink.json
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.dll
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\refint\Demo.dll
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.pdb
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\Demo.genruntimeconfig.cache
+C:\Users\fjcastillo\Documents\GitHub\Unity_Tutorial_Spring_2025\Week2\InClassDemo\Demo\obj\Debug\net9.0\ref\Demo.dll

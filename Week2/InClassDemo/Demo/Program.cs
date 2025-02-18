@@ -202,6 +202,22 @@
 //////////////////// Functions /////////////////////////
 
 // Write a function that takes two integers and return their sum.
+
+
+// Definition:
+int Sum(int num1, int num2)
+{
+    //int sum = num1 + num2;
+    //return sum;
+    
+    return num1 + num2;
+}
+
+// Call the function
+int sumNums = Sum(4, 5);
+Console.WriteLine(sumNums);
+
+
 // Then, call the function
 
 
