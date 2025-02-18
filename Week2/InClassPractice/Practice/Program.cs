@@ -29,6 +29,18 @@ Console.WriteLine(scores.Clear()); //0
  * ShowStatistics: Displays the total number of students.
  * ClearGradebook: Removes all students from the gradebook.
  */
+
+Dictionary<string, float> gradebook = new Dictionary<string, double>() {{"Mike", 3.5f}, {"Iman", 4.0f}};
+gradebook.Add("Cathleen", 4.0f);
+if (gradebook.ContainsKey("Mike")) Console.WriteLine("Already added");
+gradebook.Remove("Mike");
+
+foreach (var student in gradebook){
+    Console.WriteLine($"{student.Key}: {student.Value}");
+}
+
+Console.WriteLine(gradebook.Count);
+gradebook.Clear();
  
 
 
@@ -52,6 +64,21 @@ Console.WriteLine(scores.Clear()); //0
  * 3. Print all stored messages after each addition.
  */
 
+Queue<string> messages = new Queue<string>();
+
+while (messages.Count <= 5){
+    messages.Dequeue();
+    Console.WriteLine($"Newly Added Item: {messages.peek()}")
+    Console.WriteLine($"Full List of stored messages: {messages}");
+}
+
+messages.Enqueue("Hello");
+messages.Enqueue("How are you?");
+messages.Enqueue("What's up?");
+messages.Enqueue("Good morning");
+messages.Enqueue("Have a great day!");
+messages.Enqueue("See you later!");
+messages.Enqueue("Take care!");
 
 
 
@@ -71,8 +98,23 @@ Console.WriteLine(scores.Clear()); //0
  * 4. Print the stored words after each undo.
  */
 
+Stack<string> undoWords = new Stack<string>();
 
+string Undo(){
+    return undoWords.Pop();
+}
 
+undoWords.Push("Apple");
+undoWords.Push("Banana");
+undoWords.Push("Cherry");
+undoWords.Push("Date");
+
+Undo();
+Console.WriteLine($"Full List of stored words: {undoWords}");
+Undo();
+Console.WriteLine($"Full List of stored words: {undoWords}");
+Undo();
+Console.WriteLine($"Full List of stored words: {undoWords}");
 
 
 
