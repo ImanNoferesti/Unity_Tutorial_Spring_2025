@@ -26,8 +26,35 @@
  * Output: Bob is not in the phonebook.
  * 
  */
+// int[] array6 = input.Split(",").Select(x => int.Parse(x)).ToArray();
+int exit = 0;
+Dictionary<string, int> contacts = new Dictionary<string, int>();
 
-
+do
+{
+    Console.WriteLine("Welcome to your contact book. Enter a command: " +
+                   "\n1. New contact " +
+                   "\n2. Search " +
+                   "\n3. Exit: ");
+    int command = Int32.Parse(Console.ReadLine());
+    switch (command)
+    {
+        case 1:
+            Console.WriteLine("Enter a name and phone number seperated by a comma: ");
+            string newContact = Console.ReadLine();
+            var newInput = newContact.Split(",");
+            contacts.Add(newInput[0], int.Parse(newInput[1]));
+            break;
+        case 2:
+            Console.WriteLine("Enter a name to search:");
+            
+            break;
+        case 3:
+            exit = 1;
+            Console.WriteLine("Exiting...");
+            break; 
+    }
+} while (exit == 0);
 
 
 
