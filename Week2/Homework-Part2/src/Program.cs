@@ -369,8 +369,27 @@
    1 2 3 4 5 6 7 8
  * 
  */
+LinkedList<int> list1 = new LinkedList<int>();
+list1.AddLast(1);
+list1.AddLast(4);
+list1.AddLast(5);
+list1.AddLast(7); // [1,4,5,7]
+LinkedList<int> list2 = new LinkedList<int>();
+list2.AddLast(2);
+list2.AddLast(3);
+list2.AddLast(6);
+list2.AddLast(8); // [2,3,6,8] combined should be [1,2,3,5,6,7,8]
+foreach (int i in list2)
+{
+  if (list1.Contains(i))
+  LinkedListNode<int> oneAbove = list1.Find(i+1);
+  list1.AddBefore(oneAbove, i);
+}
 
-
+foreach (var q in list1)
+{
+  Console.WriteLine(String.Join(" ", list1));
+}
 
 
 
@@ -409,62 +428,66 @@
 // Console.WriteLine($"String reversed: {outtt}");
 //
 //
-/* Problem 2
- *
- * Write a program that checks whether a given string of parentheses is balanced or not.
- * A string is balanced if every opening ( has a corresponding closing ), and they appear in the correct order.
- *
- * Example 1
- *
- * Input: Enter a string: (())()
- * Output: Balanced
- *
- * Example 2
- *
- * Input: Enter a string: ()(()
- * Output: Not Balanced
- * 
- */
-Console.WriteLine("Enter a string of (): ");
-string parentheses = Console.ReadLine();
-List<string> parenthList = parentheses.Select(x => x.ToString()).ToList();
-Stack<string> parenth = new Stack<string>();
-foreach (string i in parenthList)
-{
-  parenth.Push(i);
-}
-bool open = false;
-bool openBack = false;
-bool wrong = true;
-while (parenth.Count > 0)
-{
-  string j = parenth.Pop();
-  if (j == ")" && open == false)
-  {
-    open = true;
-  }
-  else if (j == "(" && open == true)
-  {
-    open = false;
-  }
-  else if (j == "(" && open == false)
-  {
-    openBack = false;
-    wrong = false;
-  }
-  else if (j == ")" && open == true)
-  {
-    openBack = true;
-  }
-}
-
-if (open == true || openBack == true)
-{
-  Console.WriteLine("Not Balanced");
-}
-else Console.WriteLine("Balanced");
-
-// Still working on this ^^
+// /* Problem 2
+//  *
+//  * Write a program that checks whether a given string of parentheses is balanced or not.
+//  * A string is balanced if every opening ( has a corresponding closing ), and they appear in the correct order.
+//  *
+//  * Example 1
+//  *
+//  * Input: Enter a string: (())()
+//  * Output: Balanced
+//  *
+//  * Example 2
+//  *
+//  * Input: Enter a string: ()(()
+//  * Output: Not Balanced
+//  * 
+//  */
+// Console.WriteLine("Enter a string of (): ");
+// string parentheses = Console.ReadLine();
+// List<string> parenthList = parentheses.Select(x => x.ToString()).ToList();
+// Stack<string> parenth = new Stack<string>();
+// foreach (string i in parenthList)
+// {
+//   parenth.Push(i);
+// }
+// bool open = false;
+// bool openBack = false;
+// int openCount = 0;
+// int closeCount = 0;
+// while (parenth.Count > 0)
+// {
+//   string j = parenth.Pop();
+//   if (j == ")" && open == false)
+//   {
+//     open = true;
+//     openCount++;
+//   }
+//   else if (j == "(" && open == true)
+//   {
+//     open = false;
+//     closeCount++;
+//   }
+//   else if (j == "(" && open == false)
+//   {
+//     openBack = false;
+//     closeCount++;
+//   }
+//   else if (j == ")" && open == true)
+//   {
+//     openBack = true;
+//     openCount++;
+//   }
+// }
+//
+// if (open == true || openBack == true || openCount!=closeCount)
+// {
+//   Console.WriteLine("Not Balanced");
+// }
+// else Console.WriteLine("Balanced");
+//
+// // I think this works, do not really know I feel like I added way too many checks
 
 
 
