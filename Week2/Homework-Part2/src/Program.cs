@@ -444,16 +444,16 @@
  * Console.WriteLine(IsEven(7));  // Output: False
  * 
  */
-bool isEven(int number)
-{
-    if (number % 2 == 0)
-    {
-        return true;
-    }
-    else return false;
-}
-
-Console.WriteLine(isEven(10)); //true
+// bool isEven(int number)
+// {
+//     if (number % 2 == 0)
+//     {
+//         return true;
+//     }
+//     else return false;
+// }
+//
+// Console.WriteLine(isEven(10)); //true
 
 
 
@@ -480,8 +480,14 @@ Console.WriteLine(isEven(10)); //true
  
  * 
  */
-
-
+// void PrintLine(string inp, string seperator = "-")
+// {
+//   Console.WriteLine($"{inp} " +
+//                     $"\n{seperator}{seperator}{seperator}{seperator}{seperator}{seperator}{seperator}{seperator}");
+// }
+//
+//
+// PrintLine("C# is fun!");
 
 
 
@@ -498,14 +504,19 @@ Console.WriteLine(isEven(10)); //true
  *
  * 
  */
-
-
-
+// int FindMax(int[] arr)
+// {
+//   int max = arr.Max();
+//   return max;
+// }
+// int[] arr = {3, 8, 1, 9, 5};
+// Console.WriteLine(FindMax(arr));
 
 
 /* Problem 4
  *
- * Write a function CensorWord that takes a string sentence, a string wordToCensor, and an optional parameter.
+ * Write a function CensorWord that takes a string sentence,
+ * a string wordToCensor, and an optional parameter.
  * The function prints the sentence with the word replaced by the mask.
  *
  * Example 1
@@ -518,5 +529,15 @@ Console.WriteLine(isEven(10)); //true
  * CensorWord("C# is great", "great", '#');
  * Output: C# is #####
  */
- 
- 
+// void CensorWord(string sentence, string wordToCensor, string mask = "****")
+// {
+//   List<string> inSentence = sentence.Split(" ").ToList();
+//   int wordIndex = inSentence.IndexOf(wordToCensor);
+//   mask = mask + mask + mask + mask;
+//   
+//   inSentence.Insert(wordIndex, mask);
+//   inSentence.RemoveAt(wordIndex+1);
+//   sentence = string.Join(" ", inSentence);
+//   Console.WriteLine(sentence);
+// }
+// CensorWord("I love programming", "love", "#");
