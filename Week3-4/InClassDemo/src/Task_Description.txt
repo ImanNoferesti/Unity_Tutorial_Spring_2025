@@ -1,0 +1,34 @@
+/*
+ * You are designing a Library System where books can be created, tracked, and displayed.
+ * As the system evolves, you will refine its structure to make it more robust and maintainable.
+ *
+ * Step 1: Creating a Foundation
+ *      A library system needs a way to represent books.
+ *      Start by thinking about how to model a book’s basic details such as its title and author.
+ *      Once you have a structure in place, try creating a book and displaying its details.
+ *
+ * Step 2: Improving Data Handling
+ *      Instead of allowing direct modification of book details, consider a more controlled approach.
+ *      Some details, like the author’s name, should remain fixed once a book is created, while others might be adjustable.
+ *      Make changes accordingly.
+ *
+ * Step 3: Controlling Access
+ *      Raw data fields can sometimes lead to unintended modifications.
+ *      It would be wise to restrict direct access and instead provide a structured way to interact with book details.
+ *      Adjust the class so that its data is better protected, yet still accessible when needed.
+ *
+ * Step 4: Adding Functionality
+ *      A book should be able to introduce itself.
+ *      Implement a way for a book to neatly display its information without requiring external code to manually format the details.
+ *
+ * Step 5: Enforcing Rules
+ *      Not all data should be accepted blindly.
+ *      A book without a title doesn’t make much sense. Ensure that when books info are edited,
+ *      they always have valid details. If something seems off, handle it.
+ *
+ * Step 6: Keeping Track of Progress
+ *      A library might want to know how many books have been added over time.
+ *      Think about how this information can be stored in a way that doesn’t belong to any single book but instead applies to the entire system.
+ *      Make sure the library can retrieve this count whenever needed.
+ *
+ */
