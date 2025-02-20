@@ -425,9 +425,46 @@
  * Output: Not Balanced
  * 
  */
+Console.WriteLine("Enter a string of (): ");
+string parentheses = Console.ReadLine();
+List<string> parenthList = parentheses.Select(x => x.ToString()).ToList();
+Stack<string> parenth = new Stack<string>();
+foreach (string i in parenthList)
+{
+  parenth.Push(i);
+}
+bool open = false;
+bool openBack = false;
+bool wrong = true;
+while (parenth.Count > 0)
+{
+  string j = parenth.Pop();
+  if (j == ")" && open == false)
+  {
+    open = true;
+  }
+  else if (j == "(" && open == true)
+  {
+    open = false;
+  }
+  else if (j == "(" && open == false)
+  {
+    openBack = false;
+    wrong = false;
+  }
+  else if (j == ")" && open == true)
+  {
+    openBack = true;
+  }
+}
 
+if (open == true || openBack == true)
+{
+  Console.WriteLine("Not Balanced");
+}
+else Console.WriteLine("Balanced");
 
-
+// Still working on this ^^
 
 
 
