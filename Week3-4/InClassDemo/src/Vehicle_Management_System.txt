@@ -1,0 +1,45 @@
+A transportation company needs a Vehicle Management System to track different types of vehicles.
+
+Step 1: 
+    * Start by creating a Vehicle class that will serve as the foundation for all vehicles.
+    * This class should have:
+        * Properties:
+            ** Make - The manufacturer of the vehicle.
+            ** Model - The model name of the vehicle.
+            ** Year - The manufacturing year of the vehicle.
+            
+        * Methods:
+            ** DisplayInfo() – Prints the vehicle's details (make, model, year).
+            ** StartEngine() – Prints a message indicating that the engine has started.
+            ** Drive() - Prints a message indicating that the vehicle is moving on the road.
+
+
+Step 2:
+    * Now, create two classes that inherit from Vehicle:
+    1. Car
+        * Overrides StartEngine() to print "Car engine started."
+        * Adds a method Honk(), which:
+            ** Prints "Beep!" when called without parameters.
+            ** Prints "Beep!" multiple times when called with an integer parameter (Honk(int times)).
+    
+    2. Truck
+        * Adds a property CargoCapacity (int) to store the truck’s cargo capacity in tons.
+        * Overrides StartEngine() to print "Truck engine started."
+        * Overloads the + operator so that adding two Truck objects results in a new Truck with the combined CargoCapacity.
+        
+        
+Step 3:
+    * Now, update the Vehicle class to be abstract.
+    * Convert Drive() into an abstract method so that derived classes print the following messages:
+        ** "The car is driving smoothly on the road."
+        ** "The truck is moving slowly, carrying heavy cargo."
+    * Add another abstract method, such as FuelType().
+    
+    
+Step 4:
+    * Create instances of Car and Truck.
+    * Call their methods (StartEngine(), Drive(), Honk(), + operator for Truck, etc.).
+    
+        
+    
+ 
