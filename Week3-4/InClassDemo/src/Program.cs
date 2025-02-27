@@ -19,4 +19,13 @@
 // *      It would be wise to restrict direct access and instead provide a structured way to interact with book details.
 // *      Adjust the class so that its data is better protected, yet still accessible when needed.
 
-Book myBook = new Book("Atomic Habits", "James Clear")
+Book myBook = new Book("Atomic Habits", "James Clear");
+//
+// Console.WriteLine($"Book: {myBook.Title}");
+
+// * Step 4: Adding Functionality
+//     *      A book should be able to introduce itself.
+// *      Implement a way for a book to neatly display its information without requiring external code to manually format the details.
+
+myBook.DisplayInfo();
+

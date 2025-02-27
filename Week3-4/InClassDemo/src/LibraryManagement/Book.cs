@@ -18,11 +18,25 @@ public class Book
     //     this.Title = title;
     //     this.Author = author;
     // }
-
+    
 
     // Step 3
     private string _title;
     private string _author;
+    
+    public static int Count = 0;
+    // public string Title
+    // {
+    //     get { return _title; }
+    //     set { _title = value; }
+    // }
+    //
+    // public string Author
+    // {
+    //     get { return _author; }
+    // }
+    
+    // Step 5
 
     public string Title
     {
@@ -33,14 +47,31 @@ public class Book
     public string Author
     {
         get { return _author; }
+        set
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                Console.WriteLine($"Opps! Add a name");
+            }
+            else
+            {
+                _author = value;
+            }
+        }
     }
-
-    // Constructor
+    
+    // Constructors
 
     public Book(string title, string author)
     {
         this._title = title;
         this._author = author;
+        Count++;
+    }
+
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Book: {_title} by {_author}");
     }
 }
 
