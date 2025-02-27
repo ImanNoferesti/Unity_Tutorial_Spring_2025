@@ -32,3 +32,5 @@ namespace src.LibraryManagement;
 // public void DisplayInfo($"Book: {_title} by {_author}");
 
 //**Step 5***
+public static int Count = 0;
+

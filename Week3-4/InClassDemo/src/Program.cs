@@ -45,4 +45,7 @@
     set {_title = value;}
     }
     
-    public string 
+
+Console.WriteLine($"Count: {Book.Count}")
+Count++;
+
