@@ -8,47 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-<<<<<<< Updated upstream
-    "C:\\Users\\nofer\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
     "C:\\Users\\cmmoor\\.nuget\\packages\\": {}
->>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
-      "projectName": "Demo_Solution",
-      "projectPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
-      "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
       "projectName": "Demo_Solution",
       "projectPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
       "packagesPath": "C:\\Users\\cmmoor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-<<<<<<< Updated upstream
-        "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
         "C:\\Users\\cmmoor\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +42,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -88,12 +65,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< Updated upstream
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Users\\cmmoor\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

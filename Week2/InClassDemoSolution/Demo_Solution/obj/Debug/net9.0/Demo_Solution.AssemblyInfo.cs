@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Demo_Solution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a71a9d995052bf20414f5221dd33b94c4f0ddbc")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd0869d82addc9b2a01b45d909bdf150c8be2377")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a93ead827b3869cd521a24bcb285fcade4e5b797")]
 [assembly: System.Reflection.AssemblyProductAttribute("Demo_Solution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Demo_Solution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

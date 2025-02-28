@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "1sgJiF6YFCU=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
-=======
   "dgSpecHash": "/xgJrmDlB58=",
   "success": true,
   "projectFilePath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\Demo_Solution.csproj",
->>>>>>> Stashed changes
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemoSolution\\Demo_Solution\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
