@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\local_admin\\.nuget\\packages\\": {}
+    "C:\\Users\\cmmoor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\InClassDemoSolution\\src\\src.csproj",
+      "projectUniqueName": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\InClassDemoSolution\\src\\src.csproj",
       "projectName": "src",
-      "projectPath": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\InClassDemoSolution\\src\\src.csproj",
-      "packagesPath": "C:\\Users\\local_admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\local_admin\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\InClassDemoSolution\\src\\obj\\",
+      "projectPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\InClassDemoSolution\\src\\src.csproj",
+      "packagesPath": "C:\\Users\\cmmoor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\InClassDemoSolution\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\local_admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cmmoor\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\local_admin\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\cmmoor\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
