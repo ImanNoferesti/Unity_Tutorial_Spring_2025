@@ -11,4 +11,16 @@ public class Truck : Vehicle
     {
         CargoCapacity = cargoCapacity;
     }
+    
+    public override void StartEngine()
+    {
+        Console.WriteLine($"The truck's engine has started.");
+    }
+
+    public static int operator +(Truck a, Truck b)
+    {
+        return a.CargoCapacity + b.CargoCapacity;
+    }
+   
+    
 }
