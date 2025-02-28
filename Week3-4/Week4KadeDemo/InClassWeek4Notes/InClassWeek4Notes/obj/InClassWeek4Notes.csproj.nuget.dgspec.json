@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/InClassWeek4Notes.csproj": {}
+  },
+  "projects": {
+    "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/InClassWeek4Notes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/InClassWeek4Notes.csproj",
+        "projectName": "InClassWeek4Notes",
+        "projectPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/InClassWeek4Notes.csproj",
+        "packagesPath": "/Users/kadetanke/.nuget/packages/",
+        "outputPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kadetanke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/kadetanke/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

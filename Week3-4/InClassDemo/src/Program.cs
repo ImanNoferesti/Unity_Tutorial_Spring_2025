@@ -2,12 +2,31 @@
 
 
 // STEP ONE
-Book myBook = new Book();
-Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
+// Book myBook = new Book();
+// Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
 
-myBook.Title = "Atomic Habits";
-myBook.Author = "James Clear";
-Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
+//myBook.Title = "Atomic Habits";
+// myBook.Author = "James Clear"; 
+//Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
+// STEP TWO
+// Book myBook = new Book("Atomic Habits", "James Clear");
+// Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
+
+//STEP THREE
+//Book myBook = new Book("James Clear", "Atomic Habits");
+// Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
+
+//STEP FOUR
+// Book myBook = new Book("James Clear", "Atomic Habits");
+// myBook.IntroduceBook();
+
+//STEP FIVE
+Book myBook = new Book("James Clear", "Atomic Habits");
+myBook.Author = ""; //Null Input, Add Author Name
+myBook.IntroduceBook();
+
+//STEP SIX
+Console.WriteLine($"Number of Books in Library: {Book.Count}");
 
 
 

@@ -1,0 +1,15 @@
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/bin/Debug/net9.0/InClassWeek4Notes
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/bin/Debug/net9.0/InClassWeek4Notes.deps.json
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/bin/Debug/net9.0/InClassWeek4Notes.runtimeconfig.json
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/bin/Debug/net9.0/InClassWeek4Notes.dll
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/bin/Debug/net9.0/InClassWeek4Notes.pdb
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.AssemblyInfoInputs.cache
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.AssemblyInfo.cs
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.csproj.CoreCompileInputs.cache
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.sourcelink.json
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.dll
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/refint/InClassWeek4Notes.dll
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.pdb
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/InClassWeek4Notes.genruntimeconfig.cache
+/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/InClassWeek4Notes/InClassWeek4Notes/obj/Debug/net9.0/ref/InClassWeek4Notes.dll
