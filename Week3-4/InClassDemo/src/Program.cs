@@ -1,6 +1,7 @@
 ﻿using LibraryManagement;
+using src.Library;
 
-
+//*****BOOKS DEMO*****
 // STEP ONE
 // Book myBook = new Book();
 // Console.WriteLine($"Book: {myBook.Title} by {myBook.Author}");
@@ -21,12 +22,26 @@
 // myBook.IntroduceBook();
 
 //STEP FIVE
-Book myBook = new Book("James Clear", "Atomic Habits");
-myBook.Author = ""; //Null Input, Add Author Name
-myBook.IntroduceBook();
-
+// Book myBook = new Book("James Clear", "Atomic Habits");
+// myBook.Author = ""; //Null Input, Add Author Name
+// myBook.IntroduceBook();
+//
 //STEP SIX
-Console.WriteLine($"Number of Books in Library: {Book.Count}");
+// Console.WriteLine($"Number of Books in Library: {Book.Count}");
+
+// *****VEHICLE MANAGEMENT SYSTEM DEMO*****
+Vehicles myCar = new Car("Chevy", "Equinox", 2018);
+myCar.DisplayInfo();
+myCar.StartEngine();
+
+Truck truck1 = new Truck("Ford", "F250", 2012, 3000);
+Truck truck2 = new Truck("Chevy", "Silverado", 2003, 2000);
+Console.WriteLine($"Combined Cargo Capacity of a {truck1.Make} {truck1.Model} and a {truck2.Make} {truck2.Model} is {truck1 + truck2} lbs");
+Car.Honk();//Beep * 1
+myCar.Drive();
+truck1.Drive();
+myCar.FuelType();
+truck1.FuelType();
 
 
 
