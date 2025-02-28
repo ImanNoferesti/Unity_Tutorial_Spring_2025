@@ -31,13 +31,13 @@ Console.WriteLine();
 myCar.Honk(4);
 Console.WriteLine();
 
-Truck truck1 = new Truck("Tesla", "Cybertruck", 2025, 2);
+Truck truck1 = new Truck("Tesla", "Cybertruck", 2025, 2, "no fuel (Ecar)");
 truck1.DisplayInfo();
 Console.WriteLine($"It has a cargo capacity of {truck1.CargoCapacity} tons");
 
 Console.WriteLine("The truck's engine has started.");
 
-Truck truck2 = new Truck("Ford", "F150", 2025, 10);
+Truck truck2 = new Truck("Ford", "F150", 2025, 10, "diesel");
 truck2.DisplayInfo();
 Console.WriteLine($"It has a cargo capacity of {truck2.CargoCapacity}");
 
@@ -46,3 +46,7 @@ combinedCapacity = truck1 + truck2;
 Console.WriteLine($"The combined capacity of the two trucks is {combinedCapacity} tons");
 
 // *************** Step 3 *************** 
+
+myCar.Drive();
+truck1.Drive();
+truck1.FuelType();

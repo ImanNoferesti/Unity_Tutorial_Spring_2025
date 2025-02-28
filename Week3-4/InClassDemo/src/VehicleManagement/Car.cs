@@ -1,6 +1,6 @@
 namespace src.VehicleManagement;
 
-public class Car : Vehicle
+public class Car : AbsVehicle
 {
   // Constructor
   public Car(string make, string model, int year)
@@ -28,5 +28,15 @@ public class Car : Vehicle
           Console.WriteLine("Honk");
       }
   }
+  
+  // Ovrriding Drive...must have SOME implementation eve if {}
+  public override void Drive()
+  {
+      Console.WriteLine($"The car is driving smoothly on the road.");
+  }
 
+  public override void FuelType()
+  {
+      
+  }
 }
