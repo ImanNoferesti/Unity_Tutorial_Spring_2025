@@ -27,9 +27,44 @@
 // myBook.DisplayInfo();
 
 // **************** Step 5 ****************
-Book myBook = new Book(author:"James Clear", title:"Atomic Habits");
-myBook.Author = "";
-myBook.DisplayInfo();
+// Book myBook = new Book(author:"James Clear", title:"Atomic Habits");
+// myBook.Author = "";
+// myBook.DisplayInfo();
 // **************** Step 6 ****************
-Console.WriteLine($"Count: {Book.Count}");
+// Console.WriteLine($"Count: {Book.Count}");
+
+
+
+
+
+
+// **************** Vehicle Management System ****************
+using src.VehicleManagement;
+
+Car myCar = new Car("Toyota", "Camry", 2020);
+Truck myTruck = new Truck("RoadRanger", "Voyager", 2019, 20);
+Truck mySecondTruck = new Truck("Ford", "Ranger", 2021, 40);
+
+myCar.DisplayInfo();
+myCar.StartEngine();
+myCar.Drive();
+myCar.Honk();
+myCar.Honk(3);
+myCar.FuelType();
+
+Console.WriteLine();
+
+myTruck.DisplayInfo();
+myTruck.StartEngine();
+myTruck.Drive();
+myTruck.FuelType();
+
+Console.WriteLine();
+
+Truck myThirdTruck = myTruck + mySecondTruck;
+Console.WriteLine($"myTruck cargo capacity: {myTruck.CargoCapacity}\n" +
+                  $"mySecondTruck cargo capacity: {mySecondTruck.CargoCapacity}\n" +
+                  $"myThirdTruck cargo capacity (sum): {myThirdTruck.CargoCapacity}");
+
+
 
