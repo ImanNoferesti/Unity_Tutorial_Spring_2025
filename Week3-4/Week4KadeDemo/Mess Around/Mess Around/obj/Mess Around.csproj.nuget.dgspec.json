@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Homework-Part2/src/src.csproj": {}
+    "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/Mess Around/Mess Around/Mess Around.csproj": {}
   },
   "projects": {
-    "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Homework-Part2/src/src.csproj": {
+    "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/Mess Around/Mess Around/Mess Around.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Homework-Part2/src/src.csproj",
-        "projectName": "src",
-        "projectPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Homework-Part2/src/src.csproj",
+        "projectUniqueName": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/Mess Around/Mess Around/Mess Around.csproj",
+        "projectName": "Mess Around",
+        "projectPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/Mess Around/Mess Around/Mess Around.csproj",
         "packagesPath": "/Users/kadetanke/.nuget/packages/",
-        "outputPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Homework-Part2/src/obj/",
+        "outputPath": "/Users/kadetanke/Documents/GitHub/Unity_Tutorial_Spring_2025/Week3-4/Week4KadeDemo/Mess Around/Mess Around/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kadetanke/.nuget/NuGet/NuGet.Config"
