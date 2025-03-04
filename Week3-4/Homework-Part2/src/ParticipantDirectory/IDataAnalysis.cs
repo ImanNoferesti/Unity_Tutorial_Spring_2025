@@ -4,5 +4,5 @@ public interface IDataAnalysis
 {
     public List<double> NormalizeReactionTimes(List<double> rawData);
 
-    public int CompareParticipants(StudyData a, StudyData b);
+    public StudyData CompareParticipants(StudyData p1, StudyData p2);
 }
