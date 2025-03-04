@@ -1,0 +1,43 @@
+Step 1: Define a Simple Class (Slides 3-4)
+    * Create a new class called Person. Inside this class, define two public fields for name and age.
+    
+Step 2: Create Instances and Set/Get Fields (Slide 5)
+    * Inside the Program.cs, create two instances of Person.
+    * Manually assign values to name and age. Then, print these values to the console.
+    
+Step 3: Initialize Fields in the Class (Slide 5)
+    * Modify the Person class to initialize the name field with "Unknown" and age with 0.
+    * Now, create new instances of Person without setting name and age manually. Print their values to see what happens.
+    
+Step 4: Define a Public Method (Slides 6-7)
+    * Add a method inside Person called Introduce that prints:
+        "Hi, my name is [name] and I am [age] years old."
+    * Call this method using an instance of Person.
+    
+Step 5: Add a Private Field and Use It in a Method (Slides 5-7)
+    * Inside Person, add a private field for city and initialize it.
+    * Modify Introduce so that it prints:
+        "Hi, my name is [name] and I am [age] years old from [city]."
+
+Step 6: Create Custom Constructors (Slide 8)
+    * Modify Person to include a custom constructor:
+    * A constructor that takes name and age as parameters and sets them.
+    * Now, create new instances using both default and custom constructors and print their values.
+
+Step 7: Add Getters and Setters (Slide 10)
+    * Create getters and setters for city.
+    * Test setting and getting city.
+
+Step 8: Add a Static Field (Slide 11)
+    * Add a static field for population. 
+    * Increment population in every constructor.
+    * Print the population to see how many instances of class Person you've created so far.
+    
+Step 9: Add a Static Method (Slide 12)
+    * Create a static method ShowPopulation() that prints population.
+    * Call this method in Program.cs and see the result.
+    
+Step 10: Add a Static Constructor (Slide 13)
+    * Add a static constructor that prints "Static constructor called!" when the class is first used.
+    * Test what happens when you create an instance of Person multiple times.
+    
