@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj": {}
+    "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj": {
+    "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj",
-        "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\obj\\",
+        "projectPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\cmmoor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cmmoor\\OneDrive - University of Iowa\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week3-4\\Homework-Part2\\src\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cmmoor\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\cmmoor\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

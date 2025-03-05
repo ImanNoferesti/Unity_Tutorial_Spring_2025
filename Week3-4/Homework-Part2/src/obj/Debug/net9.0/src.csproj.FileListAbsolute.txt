@@ -1,0 +1,5 @@
+C:\Users\cmmoor\OneDrive - University of Iowa\Documents\GitHub\Unity_Tutorial_Spring_2025\Week3-4\Homework-Part2\src\obj\Debug\net9.0\src.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmmoor\OneDrive - University of Iowa\Documents\GitHub\Unity_Tutorial_Spring_2025\Week3-4\Homework-Part2\src\obj\Debug\net9.0\src.AssemblyInfoInputs.cache
+C:\Users\cmmoor\OneDrive - University of Iowa\Documents\GitHub\Unity_Tutorial_Spring_2025\Week3-4\Homework-Part2\src\obj\Debug\net9.0\src.AssemblyInfo.cs
+C:\Users\cmmoor\OneDrive - University of Iowa\Documents\GitHub\Unity_Tutorial_Spring_2025\Week3-4\Homework-Part2\src\obj\Debug\net9.0\src.csproj.CoreCompileInputs.cache
+C:\Users\cmmoor\OneDrive - University of Iowa\Documents\GitHub\Unity_Tutorial_Spring_2025\Week3-4\Homework-Part2\src\obj\Debug\net9.0\src.sourcelink.json
