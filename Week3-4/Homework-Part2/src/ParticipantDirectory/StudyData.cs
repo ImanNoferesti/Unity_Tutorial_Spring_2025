@@ -13,6 +13,19 @@ public struct StudyData
 
     public double TotalResponses { get; set; } 
     
+    //Constructors
+    public StudyData()
+    {
+        
+    }
+
+    public StudyData(int participantId, int age)
+    {
+        this.ParticipantID = participantId;
+
+        this.Age = age;
+    }
+    
     //Methods
     public double GetMeanReactionTime()
     {
@@ -34,6 +47,7 @@ public struct StudyData
         else
         {
             double accuracy = CorrectResponses / TotalResponses;
+            accuracy = accuracy * 100;
             return accuracy;
         }
            
@@ -45,20 +59,27 @@ public struct StudyData
         string report = $"\nParticipant {ParticipantID} Summary Report:" +
                         $"\nAge: {Age}" +
                         $"\nMean RT: {GetMeanReactionTime()} s " +
-                        $"\nAccuracy: {GetAccuracyRate()} ";
+                        $"\nAccuracy: {GetAccuracyRate()}%";
         return report;
     } 
-
-    //Constructors
-    public StudyData()
+    //Operator Overloading
+    public static bool operator > (StudyData a, StudyData b)
     {
-        
+        // if (a.GetAccuracyRate() > b.GetAccuracyRate())
+        // {
+        //     return true;
+        // }
+        // else
+        // {
+        //     return false;
+        // }
+        return a.GetAccuracyRate() > b.GetAccuracyRate();
     }
 
-    public StudyData(int participantId, int age)
+    public static bool operator <(StudyData a, StudyData b)
     {
-        this.ParticipantID = participantId;
-
-        this.Age = age;
+        return b.GetAccuracyRate() > a.GetAccuracyRate();
     }
+
+   
 }

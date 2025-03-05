@@ -26,8 +26,10 @@ public class Truck : Vehicles
         Console.WriteLine("Truck engine started!");
     }
 
-    public static int operator +(Truck a, Truck b)
+    public static Truck operator +(Truck a, Truck b)
     {
-        return a.CargoCapacity + b.CargoCapacity;
+       int combinedCargo = a.CargoCapacity + b.CargoCapacity;
+       Truck combinedTruck = new Truck(a.Make, a.Model, a.Year, combinedCargo);
+       return combinedTruck;
     }
 }

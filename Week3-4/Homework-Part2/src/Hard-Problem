@@ -35,7 +35,7 @@ Step 2:
         * Performance should be inversely proportional to reaction time (i.e., lower reaction time means better performance).
         * Researchers should be able to retrieve the participant’s study type when needed.
 
-
+--CURRENT SPOT--
 Step 3:
     * Researchers often need to compare participant performance without manually accessing each data field. To simplify this, the system should allow:
     * Direct comparison (>, <) between two participants to determine who performed better.

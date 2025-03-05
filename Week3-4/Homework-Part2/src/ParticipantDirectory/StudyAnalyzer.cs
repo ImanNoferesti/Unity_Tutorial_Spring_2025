@@ -20,16 +20,14 @@ public struct StudyAnalyzer : IDataAnalysis
     //Honestly above too probably
     public StudyData CompareParticipants(StudyData p1, StudyData p2)
     {
-        StudyData nullParticipant = new StudyData(00, 02);
         if (p1.GetAccuracyRate() > p2.GetAccuracyRate())
         {
             return p1;
         }
-        else if (p2.GetAccuracyRate() > p1.GetAccuracyRate())
+        else
         {
             return p2;
         }
-        else return nullParticipant;
-        
+
     }
 }
