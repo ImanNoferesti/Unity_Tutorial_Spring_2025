@@ -3,23 +3,16 @@ namespace src.VehicleManagement;
 public abstract class AbsVehicle
 {
     // Fields
-    public string Make { get; set; }
-    public string Model { get; set; }
-    public int Year { get; set; }
     
-    // Constructor
-    public AbsVehicle(string make, string model, int year)
-    {
-        Make = make; 
-        Model = model;
-        Year = year;
-    }
+    protected string _make { get; set; }
+    protected string _model { get; set; }
+    protected int _year { get; set; }
     
     // Methods
     
     public void DisplayInfo()
     { 
-        Console.WriteLine($"Make: {Make}, Model: {Model}, Year: {Year}");
+        Console.WriteLine($"Make: {this._make}, Model: {this._model}, Year: {this._year}");
     }
     
     public virtual void StartEngine()

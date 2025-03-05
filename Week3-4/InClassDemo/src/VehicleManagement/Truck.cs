@@ -6,24 +6,38 @@ public class Truck : AbsVehicle
     public int CargoCapacity { get; set; }
     public string Fuel { get; set; }
     
-    // Constructor
-    public Truck(string make, string model, int year, int cargoCapacity, string fuel)
-        : base(make, model, year)
+    // Constructors
+    
+    public Truck()
     {
-        CargoCapacity = cargoCapacity;
-        Fuel = fuel;
+        
+    }
+    
+    public Truck(string make, string model, int year, int cargoCapacity, string fuel)
+    {
+        base._make = make;
+        base._model = model;
+        base._year = year;
+        this.CargoCapacity = cargoCapacity;
+        this.Fuel = fuel;
     }
     
     public override void StartEngine()
     {
         Console.WriteLine($"The truck's engine has started.");
     }
-
-    public static int operator +(Truck a, Truck b)
+    
+    // this needs to be of type Truck so that it creates a new instance of truck (one with capacity a + b)
+    // rather than overwriting the capacity of a or b.
+    
+    public static Truck operator +(Truck a, Truck b)
     {
-        return a.CargoCapacity + b.CargoCapacity;
+        Truck newTruck = new Truck();
+        newTruck.CargoCapacity = a.CargoCapacity + a.CargoCapacity;
+        
+        return newTruck;
     }
-   
+
     // Ovrriding Drive (abstract method) 
     public override void Drive()
     {

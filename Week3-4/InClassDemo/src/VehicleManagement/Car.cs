@@ -4,9 +4,12 @@ public class Car : AbsVehicle
 {
   // Constructor
   public Car(string make, string model, int year)
-      : base(make, model, year)
   {
+      base._make = make;
+      base._model = model;
+      base._year = year;
   }
+  
     
   // Methods
   public override void StartEngine()
