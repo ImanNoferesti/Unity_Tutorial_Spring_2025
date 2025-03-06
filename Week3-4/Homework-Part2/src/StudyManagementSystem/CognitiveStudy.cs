@@ -5,6 +5,8 @@ public class CognitiveStudy : Participant
     //VARIABLES
     private int _memoryScore;
 
+    public double PerformanceScore;
+
     public int MemoryScore
     {
         get { return _memoryScore; }
@@ -31,11 +33,30 @@ public class CognitiveStudy : Participant
     
     public override double Performance()
     {
-        return (_memoryScore / 100.0); // (x - xmin) / (xmax - xmin) simplifies to x / 100 in this case
+        PerformanceScore = (_memoryScore / 100.0); // (x - xmin) / (xmax - xmin) simplifies to x / 100 in this case
+        return PerformanceScore;
     }
     
-    public override string StudyType()
+    public override string GetStudyType()
     {
         return "Cognitive Study";
+    }
+
+    public static bool operator <(CognitiveStudy a, CognitiveStudy b)
+    {
+        return a.Performance() < b.Performance();
+    }
+
+    public static bool operator >(CognitiveStudy a, CognitiveStudy b)
+    {
+        return a.Performance() > b.Performance();
+    }
+
+    public static CognitiveStudy operator +(CognitiveStudy a, CognitiveStudy b)
+    {
+        double avgPerf = (a.Performance() + b.Performance()) / 2;
+        CognitiveStudy averagePerformanceParticipant = new CognitiveStudy(0,"Average", 0);
+        averagePerformanceParticipant.PerformanceScore = avgPerf;
+        return averagePerformanceParticipant;
     }
 }

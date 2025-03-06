@@ -43,7 +43,7 @@ public abstract class Participant
 
     public abstract double Performance();
 
-    public abstract string StudyType();
+    public abstract string GetStudyType();
 
 
 }
