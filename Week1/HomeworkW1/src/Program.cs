@@ -25,7 +25,9 @@ Output: Invalid Operation!
 
  */
  
- 
+int test = Console.Read();
+
+Console.WriteLine(test);
  
  
  
