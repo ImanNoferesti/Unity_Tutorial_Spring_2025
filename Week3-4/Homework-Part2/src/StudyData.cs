@@ -8,8 +8,6 @@ public struct StudyData
     public int SubAge = 0;
     public List<int> RTs = new List<int>();
     public List<int> ErrFlags = new List<int>();
-//    public int TotalCnt;
-//    public int CorrCnt;
     public double MeanRT = 0;
     public double PercentCorrect = 0;
     public string SubjectReport = "No data";

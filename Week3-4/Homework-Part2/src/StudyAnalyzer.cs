@@ -10,7 +10,7 @@ public struct StudyAnalyzer : IDataAnalysis
         int maxRT = rawData.RTs.Max();
         int minRT = rawData.RTs.Min();
         
-        for (int i = 0; i > rawData.RTs.Count)
+        for (int i = 0; i > rawData.RTs.Count; i++)
         {
             normedRTs[i] = (rawData.RTs[i] - minRT) / (maxRT - minRT);
         }
@@ -21,8 +21,8 @@ public struct StudyAnalyzer : IDataAnalysis
     public StudyData CompareParticipants(StudyData sub01, StudyData sub02)
     {
         StudyData higherPerformer = new StudyData();
-        double s1PC = sub01.GetPercentCorrect(sub01.ErrFlags);
-        double s2PC = sub02.GetPercentCorrect(sub02.ErrFlags);
+        double s1PC = sub01.PercentCorrect;
+        double s2PC = sub02.PercentCorrect;
 
         if (s1PC > s2PC)
         { 
@@ -30,7 +30,7 @@ public struct StudyAnalyzer : IDataAnalysis
             higherPerformer.SubAge = sub01.SubAge; 
             higherPerformer.RTs = sub01.RTs; 
             higherPerformer.ErrFlags = sub01.ErrFlags; 
-            higherPerformer.RTs = sub01.MeanRT; 
+            higherPerformer.MeanRT = sub01.MeanRT; 
             higherPerformer.PercentCorrect = sub01.PercentCorrect; 
             higherPerformer.SubjectReport = sub01.SubjectReport; 
         }
@@ -40,19 +40,17 @@ public struct StudyAnalyzer : IDataAnalysis
             higherPerformer.SubAge = sub02.SubAge; 
             higherPerformer.RTs = sub02.RTs; 
             higherPerformer.ErrFlags = sub02.ErrFlags; 
-            higherPerformer.RTs = sub02.MeanRT; 
-            higherPerformer.PercentCorrect = sub02.PercentCorrect; 
-            higherPerformer.SubjectReport = sub02.SubjectReport
+            higherPerformer.MeanRT = sub02.MeanRT; 
+            higherPerformer.PercentCorrect = sub02.PercentCorrect;
+            higherPerformer.SubjectReport = sub02.SubjectReport;
         }
-        else 
-        { 
-            Console.WriteLine("Neither subject performed better than the other.") 
+        else
+        {
+            Console.WriteLine("Neither subject performed better than the other.");
         } 
         
         return higherPerformer;
 
     }
-    
-    
     
 }
