@@ -1,6 +1,6 @@
 namespace src;
 
-public interface IDataAnalysis
+public interface IDataAnalysis 
 {
     List<double> NormalizeReactionTimes(StudyData rawData);
 

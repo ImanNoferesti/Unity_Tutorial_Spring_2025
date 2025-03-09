@@ -50,6 +50,16 @@ public struct StudyData
         return PercentCorrect;
     }
 
+    public static bool operator >(StudyData a, StudyData b)
+    {
+        return a.PercentCorrect > b.PercentCorrect;
+    }
+    
+    public static bool operator <(StudyData a, StudyData b)
+    {
+        return a.PercentCorrect < b.PercentCorrect;
+    }
+    
     public string GenerateReport()
     //
     {
