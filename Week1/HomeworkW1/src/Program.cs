@@ -25,9 +25,46 @@ Output: Invalid Operation!
 
  */
  
-int test = Console.Read();
+// Console.WriteLine("Please enter the first number:");
+// int numberOne = int.Parse(Console.ReadLine());
+// Console.WriteLine("Please enter the second number");
+// int numberTwo = int.Parse(Console.ReadLine());
+// Console.WriteLine("Please choose an arithmetic operation from the following: +, -, *, /, %, this operation will be applied to the numbers provided");
+// string operation = Console.ReadLine();
+//
+// int result = 0;
+//
+// if (operation == "+")
+// {
+//  result = numberOne + numberTwo;
+//  Console.WriteLine($"The result of {numberOne} plus {numberTwo} is {result}");
+// }
+// else if (operation == "-")
+// {
+//  result = numberOne - numberTwo;
+//  Console.WriteLine($"The result of {numberOne} minus {numberTwo} is {result}");
+// }
+// else if (operation == "*")
+// {
+//  result = numberOne * numberTwo;
+//  Console.WriteLine($"The result of {numberOne} multiplied by {numberTwo} is {result}");
+// }
+// else if (operation == "/")
+// {
+//  result = numberOne / numberTwo;
+//  Console.WriteLine($"The result of {numberOne} divided by {numberTwo} is {result}");
+// }
+// else if (operation == "%")
+// {
+//  result = numberOne % numberTwo;
+//  Console.WriteLine($"The result of the residual of {numberOne} divided by {numberTwo} is {result}");
+// }
+// else
+// {
+//  Console.WriteLine("Invalid Operation!");
+// }
 
-Console.WriteLine(test);
+
  
  
  
@@ -79,9 +116,25 @@ Input: Enter a year: 2021
 Output: 2021 is not a leap year.
 
 */
-
-
-
+//
+// Console.WriteLine("Please enter any year you want");
+// int yearCurrent = int.Parse(Console.ReadLine());
+//
+// if (yearCurrent % 4 == 0)
+// {
+//  if (yearCurrent % 100 != 0 || yearCurrent % 400 == 0)
+//  {
+//   Console.WriteLine($"{yearCurrent} is a leap year.");
+//  }
+//  else
+//  {
+//   Console.WriteLine($"{yearCurrent} is not a leap year.");
+//  }
+// }
+// else
+// {
+//  Console.WriteLine($"{yearCurrent} is not a leap year.");
+// }
 
 
 
@@ -134,7 +187,28 @@ Output: BMI: 31.19 (Obesity)
 
 */
 
-
+// Console.WriteLine("Please enter your weight in pounds");
+// int weight = int.Parse(Console.ReadLine());
+// Console.WriteLine("Please enter your height in inches");
+// int height = int.Parse(Console.ReadLine());
+//
+// double bmi = (weight / Math.Pow(height, 2)) * 703;
+//
+// switch (bmi)
+// { 
+//  case < 18.5:
+//   Console.WriteLine($"BMI: {bmi}, Underweight");
+//   break;
+//  case >= 18.5 and < 24.9: // 18.5 <= BMI < 24.9: Normal weight
+//   Console.WriteLine($"BMI: {bmi}, Normal weight");
+//   break;
+//  case >= 25 and < 29.9:  // 25 <= BMI < 29.9: Overweight
+//   Console.WriteLine($"BMI: {bmi}, Overweight");
+//   break;
+//  case > 30: // BMI >= 30: Obesity
+//   Console.WriteLine($"BMI: {bmi}, Obesity");
+//   break;
+// }
 
 
 
@@ -227,13 +301,44 @@ Eligible for loan: No
 
  */
 
+// Console.WriteLine("Welcome to Goliath National Bank, please enter your information for a loan assessment");
+// Console.WriteLine("Please enter your age:");
+// int age = int.Parse(Console.ReadLine());
+// Console.WriteLine("Please enter your annual income");
+// int annualIncome = int.Parse(Console.ReadLine());
+// Console.WriteLine("Do you have a co-signer (yes / no)");
+// string cosigner = Console.ReadLine();
+// Console.WriteLine("Please enter your credit score");
+// int creditscore = int.Parse(Console.ReadLine());
+//
+// bool cosignerver = (cosigner == "yes"); // Declare outside to make it accessible later
+//
+// if (creditscore > 700 && age > 18)
+// {
+//  Console.WriteLine("Eligible for loan: Yes");
+// }
+// else if ((age > 18 && age < 25) && annualIncome > 25000 && cosignerver == true && (creditscore <= 699 && creditscore >=600))
+// {
+//  Console.WriteLine("Eligible for loan: Yes");
+// }
+// else if (age >= 25 && annualIncome > 25000 && (creditscore <= 699 && creditscore >=600))
+// {
+//  Console.WriteLine("Eligible for loan: Yes");
+// }
+// else if (creditscore > 600)
+// {
+//  Console.WriteLine("Eligible for loan: No");
+// }
+// else
+// {
+//  Console.WriteLine("Eligible for a loan: No");
+// }
 
 
-
-
-
-
-
+// If the person is under 25 years old, they must have a co-signer.
+//  If the person has a credit score of 700 or above, they are automatically eligible regardless of other criteria.
+//  If the person has a credit score between 600 and 699, they must meet all other criteria to be eligible.
+//  If the person has a credit score below 600, they are not eligible for a loan.
 
 /*
  Problem #5:
@@ -251,3 +356,12 @@ Output: 2 hour(s), 2 minute(s), 2 second(s)
  
  */
 
+// Console.WriteLine("Please enter the number of seconds you have in mind");
+// int secondsEntered = int.Parse(Console.ReadLine());
+//
+// int minutes = secondsEntered / 60;
+// int residualSeconds = secondsEntered % 60;
+// int hours = minutes / 60;
+// int residualHours = hours % 60;
+//
+// Console.WriteLine($"{hours} hour(s), {residualHours} minute(s), {residualSeconds} second(s)");

@@ -182,13 +182,13 @@
  *  Factorial of 5 is 120.
  */
 
-Console.WriteLine("Please enter the number 5");
-int number = int.Parse(Console.ReadLine());
-int factorial = 1;
-
- for (int i = number; i > 1; i--)
- {
-  factorial *= i;
- }
- 
- Console.WriteLine($"Factorial number of {number} is {factorial}");
+// Console.WriteLine("Please enter the number 5");
+// int number = int.Parse(Console.ReadLine());
+// int factorial = 1;
+//
+//  for (int i = number; i > 1; i--)
+//  {
+//   factorial *= i;
+//  }
+//  
+//  Console.WriteLine($"Factorial number of {number} is {factorial}");
