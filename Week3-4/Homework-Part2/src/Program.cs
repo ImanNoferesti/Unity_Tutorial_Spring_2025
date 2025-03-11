@@ -1,5 +1,7 @@
 ﻿using src;
 
+// Medium problem stuff
+
 List<int> s1RTData = new List<int>() { 550, 600, 490, 520, 650, 540 };
 List<int> s1ErrData = new List<int>() { 1, 1, 1, 0, 1, 0 };
 List<int> s2RTData = new List<int>() { 460, 380, 420, 500, 510, 420 };
@@ -22,9 +24,15 @@ sub02.GetPercentCorrect(sub02.ErrFlags);
 Console.WriteLine($"Sub 01: MeanRT = {sub01.MeanRT}, Percent Correct = {sub01.PercentCorrect}");
 Console.WriteLine($"Sub 01: MeanRT = {sub02.MeanRT}, Percent Correct = {sub02.PercentCorrect}");
 
+// QUESTION: How do I make the program "see" these methods in StudyAnayzer...my implementation of IDataAnalysis
+
 NormalizeReactionTimes(sub01);
 NormalizeReactionTimes(sub01);
 CompareParticipants(sub01, sub02);
 
 // sub01.GenerateReport();
 // Console.WriteLine(sub01.SubjectReport);
+
+// ############### Hard Problem ###############
+
+

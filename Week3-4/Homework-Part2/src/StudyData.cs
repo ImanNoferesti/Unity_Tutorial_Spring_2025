@@ -60,6 +60,8 @@ public struct StudyData
         return a.PercentCorrect < b.PercentCorrect;
     }
     
+    // QUESTION: I don't know how to do something as simple as converting these non string variables to strings
+    // so I can't write them out to SubjectReport
     public string GenerateReport()
     //
     {
