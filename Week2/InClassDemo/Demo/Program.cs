@@ -3,11 +3,18 @@
 
 // Declaration
 
+int[] numbers;
+
 // Initialization
+
+numbers = new int [5];
 
 // Declaration and Initialization Together
 
+numbers = new int[] { 1, 2, 3 };
+
 // Alternative Short Syntax
+
 
 // Accessing and Modifying Elements
 
