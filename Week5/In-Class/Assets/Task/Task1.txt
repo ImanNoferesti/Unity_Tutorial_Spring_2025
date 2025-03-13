@@ -1,0 +1,15 @@
+Create multiple cubes with a parent-child hierarchy. 
+Create a script: Hierarchy and to demonstrate hierarchy traversal and object identification.
+
+Tasks to Perform in the Scripts:
+
+Print the name of the root (top-most) parent in the hierarchy.
+Print the name of the innermost (deepest) parent in the hierarchy.
+Find and print the first cube in the hierarchy.
+Find and print the innermost (deepest) child cube.
+Print the total number of children under the root object.
+Print the name of the third child in the hierarchy.
+Print the sibling index of the root in the hierarchy.
+
+
+
