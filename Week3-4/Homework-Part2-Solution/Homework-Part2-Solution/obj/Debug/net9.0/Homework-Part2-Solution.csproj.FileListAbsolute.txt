@@ -1,0 +1,15 @@
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\bin\Debug\net9.0\Homework-Part2-Solution.exe
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\bin\Debug\net9.0\Homework-Part2-Solution.deps.json
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\bin\Debug\net9.0\Homework-Part2-Solution.runtimeconfig.json
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\bin\Debug\net9.0\Homework-Part2-Solution.dll
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\bin\Debug\net9.0\Homework-Part2-Solution.pdb
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.AssemblyInfoInputs.cache
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.AssemblyInfo.cs
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.csproj.CoreCompileInputs.cache
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.sourcelink.json
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.dll
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\refint\Homework-Part2-Solution.dll
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.pdb
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\Homework-Part2-Solution.genruntimeconfig.cache
+C:\Users\nofer\Documents\Github\Unity_Course\Week 3\Homework-Part2-Solution\Homework-Part2-Solution\obj\Debug\net9.0\ref\Homework-Part2-Solution.dll

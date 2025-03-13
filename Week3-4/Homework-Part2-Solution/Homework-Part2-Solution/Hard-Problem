@@ -1,0 +1,59 @@
+A research team is developing a Study Management System to track participants and analyze study data efficiently. 
+The system must follow proper encapsulation, ensuring that sensitive participant data is 'private' 
+while still being accessible to derived classes via 'protected' members.
+
+Step 1:
+    * The system must start with a foundation class called Participant, which serves as the base for all study participants.
+    
+    * Responsibilities:
+        ** Each participant in the study has a unique identifier, a name, and an age. 
+           The unique identifier should be securely stored so that it cannot be modified externally once assigned.   
+        ** The name and age should be accessible to researchers analyzing participant data, but they should not be publicly modifiable.
+        ** Every participant should have a way to return their details in a formatted string, ensuring that researchers can easily retrieve information when required.
+        ** The study tracks participant performance, but since performance is measured differently across studies, 
+           the method for calculating it should be defined in derived classes.
+        ** Every participant should also specify the type of study they are part of.
+    
+    * Implementation Guidelines:
+        ** Create a constructor that initializes a participant’s identifier, name, and age.
+        ** Implement a method that returns a formatted string containing participant details.
+        ** Declare a method for calculating performance that must be implemented in derived classes.
+        ** Declare a method to return the study type, ensuring it is implemented by all participant types.
+        
+        
+Step 2:
+    * The research team is running two types of studies, each requiring different methods to evaluate performance.
+    1. Cognitive Study Participants:
+        * In a cognitive study, participants are assessed based on their memory performance, which is measured by a score ranging from 0 to 100.
+        * This score should be stored securely, ensuring it can only be modified through a dedicated method.
+        * The performance should be calculated as a normalized value between 0.0 and 1.0 based on the memory score.
+        * Researchers should be able to retrieve the participant’s study type when needed.
+        
+    2. Physical Study Participants:
+        * Physical studies measure reaction time in seconds.
+        * Since reaction time can fluctuate, it should only be updated using a controlled method.
+        * Performance should be inversely proportional to reaction time (i.e., lower reaction time means better performance).
+        * Researchers should be able to retrieve the participant’s study type when needed.
+
+
+Step 3:
+    * Researchers often need to compare participant performance without manually accessing each data field. To simplify this, the system should allow:
+    * Direct comparison (>, <) between two participants to determine who performed better.
+    * Combining (+) two cognitive study participants into a new participant whose performance represents the average of both individuals.
+    
+    Friendly reminder: By implementing operator overloading, you can compare and merge participants intuitively instead of manually retrieving and processing values.
+   
+   
+Step 4:
+    * The method used to calculate performance should only be accessible to the class hierarchy, ensuring that the logic remains encapsulated.
+    * Sensitive data such as unique identifiers and performance scores should not be exposed directly but should still be modifiable through appropriate methods.
+    * The GetStudyType() method should ensure that researchers can always retrieve the correct study category for a participant.
+    
+    
+Step 5:
+    * Create multiple participant objects from both study types.
+    * Use the > and < operators to compare their performance.
+    * Combine two cognitive study participants using the + operator and display the new participant’s details.
+    * Call the GetStudyType() method on different participants to ensure they return the correct study type.        
+     
+    
