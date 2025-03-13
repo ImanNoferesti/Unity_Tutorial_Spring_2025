@@ -1,0 +1,39 @@
+A psychology research lab needs a system to analyze reaction time and accuracy of participants in cognitive experiments.
+
+Step 1:
+    * Create a struct called StudyData that will store data for each participant.
+    * Fields:
+        ** ParticipantID – A unique identifier for the participant.
+        ** Age – The participant’s age.
+        ** ReactionTimes – A list of recorded reaction times in milliseconds.
+        ** CorrectResponses – The number of correct answers.
+        ** TotalResponses – The total number of responses given.
+    * Methods:
+        ** GetMeanReactionTime() – Returns a double representing the average reaction time.
+        ** GetAccuracyRate() – Returns a double representing the accuracy percentage.
+        ** GenerateReport() – Returns a string summarizing the participant’s data.
+        
+        
+Step 2:
+    * Define an interface called IDataAnalysis that provides methods for processing participant data.
+    * Methods:
+        * NormalizeReactionTimes(List<double> rawData) – Returns a List<double> with reaction times normalized between 0 and 1.
+        * CompareParticipants(StudyData p1, StudyData p2) – Returns the StudyData of the participant with better accuracy.
+
+
+Step 3:
+    * Create a struct called StudyAnalyzer that implements IDataAnalysis.
+    * Implementation Details:
+        ** NormalizeReactionTimes() normalizes values using min-max scaling (value - min) / (max - min).
+        ** CompareParticipants() returns the participant with the higher accuracy rate.
+
+
+Step 4:
+    * Overload the > and < operators in StudyData to compare participants based on their accuracy rate.
+
+
+Step 5:
+    * Create instances of StudyData with sample participant data.
+    * Call GetMeanReactionTime(), GetAccuracyRate(), and GenerateReport().
+    * Use StudyAnalyzer to normalize reaction times and compare participants.
+    * Use operator overloading to determine who performed better.
