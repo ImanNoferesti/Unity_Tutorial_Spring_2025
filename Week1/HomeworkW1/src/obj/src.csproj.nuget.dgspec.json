@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week1/HomeworkW1/src/src.csproj": {}
+    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj": {}
   },
   "projects": {
-    "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week1/HomeworkW1/src/src.csproj": {
+    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week1/HomeworkW1/src/src.csproj",
+        "projectUniqueName": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week1/HomeworkW1/src/src.csproj",
-        "packagesPath": "/Users/fernandocastillo/.nuget/packages/",
-        "outputPath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week1/HomeworkW1/src/obj/",
+        "projectPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\fjcastillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week1\\HomeworkW1\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fernandocastillo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fjcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/fernandocastillo/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
