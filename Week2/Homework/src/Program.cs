@@ -248,8 +248,35 @@ using System.Net;
  *
  */
 
-
-
+// Console.WriteLine("Please enter the numbers separated by commas with no spaces");
+// string five = Console.ReadLine();
+// int lenghtFive = five.Split(",").Length;
+// string[] fiveStringSplit = five.Split(",");
+// int[] fiveArrayInt = new int[lenghtFive];
+// int indexCurrent = 0; // To store the index of the current number to find the location and replace
+// int positiveValue = 0; // To store the positive, if transformed
+// int greaterThanLenght = 0; // To store the number of greater than 100
+//
+// for(int i = 0; i < lenghtFive; i++)
+// {
+//   fiveArrayInt[i] = int.Parse(fiveStringSplit[i]);
+// }
+//
+// foreach (var number in fiveArrayInt)
+// {
+//   indexCurrent = Array.FindIndex(fiveArrayInt, x => x == number);
+//   if (number < 0)
+//   {
+//     positiveValue = number * -1;
+//     fiveArrayInt[indexCurrent] = positiveValue;
+//   }
+// }
+//
+// greaterThanLenght = Array.FindAll(fiveArrayInt, i => i < 100).Length;
+// int[] allLessThan = new int[greaterThanLenght];
+// allLessThan = Array.FindAll(fiveArrayInt, i => i < 100);
+// Array.Sort(allLessThan);
+// Console.WriteLine("[" + string.Join(',', allLessThan) + "]");
 
 
 
@@ -277,10 +304,44 @@ using System.Net;
  *
  */
  
+Console.WriteLine("Please enter the numbers separated by commas with no spaces");
+string six = Console.ReadLine(); // Reads the input and saves it
+int lenghtSix = six.Split(",").Length; // Splits the input and determines the length
+string[] fiveStringSplit = six.Split(","); // Splits the input and saves it into an Array of string type
+int[] sixArrayInt = new int[lenghtSix]; // Creates an array of the size of the input
+int[] sixArrayIntNewOrder = new int[lenghtSix]; // Creates an array of the size of the input
+int indexNumberMove = 0; // To store the index of the number to be moved
+int newIndexNumberMove = 0; // New position of the current number
+int indexDifference = 0; // To save the distance between the element index and the end of the array
 
+for(int i = 0; i < lenghtSix; i++) // Converts the string array into a int array
+{
+  sixArrayInt[i] = int.Parse(fiveStringSplit[i]);
+}
 
+Console.WriteLine("Please enter an one digit number");
+int digit = int.Parse(Console.ReadLine());
 
+foreach (var number in sixArrayInt)
+{
+  indexNumberMove = Array.FindIndex(sixArrayInt, i => i == i);
+  indexDifference = (lenghtSix - 1) - indexNumberMove;
+
+  if (indexNumberMove + digit >= lenghtSix)
+  {
+    newIndexNumberMove = 0 + digit + (-indexDifference - indexDifference);
+    sixArrayIntNewOrder[newIndexNumberMove] = number;
+  }
+  else
+  {
+    newIndexNumberMove = indexNumberMove + digit;
+    sixArrayIntNewOrder[newIndexNumberMove] = number;
+  }
+  
+}
  
+Console.WriteLine("[" + string.Join(',', sixArrayIntNewOrder) + "]");
+
 ///////////////////// Lists /////////////////////
 
 /* Problem 1
