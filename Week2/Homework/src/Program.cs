@@ -140,14 +140,34 @@
  * 
  * Hint 2: Try using Joint() method to concatenate the string representation of an array using a specified separator between each element. https://learn.microsoft.com/en-us/dotnet/api/system.string.join?view=net-9.0
  */
- 
 
+using System.Diagnostics;
+using System.Net;
 
-
-
-
-
-
+// int[] numbersInput = new int[4]; // to store the numbers
+// int countEach = -1; // To count each entered number
+// // int numberInt = 0; // To save the current number
+//
+// Console.WriteLine("Please enter the set of numbers you want to filter, and separate using commas. " +
+//                   "\nWe will filter out the even ones.");
+// string input = Console.ReadLine();
+//
+// foreach (var number in input.Split(","))
+// {
+//   int numberInt = int.Parse(number);
+//   if (numberInt % 2 != 0)
+//   {
+//     countEach += 1;
+//     numbersInput[countEach] = numberInt;
+//   }
+// }
+//
+// Array.Sort(numbersInput);
+//
+// foreach (var n in numbersInput)
+// {
+//   Console.WriteLine(n);
+// }
 
 
 /* Problem 4
@@ -175,11 +195,36 @@
  *
  */
 
-
-
-
-
-
+// Console.WriteLine("Please enter the numbers separated by commas with no spaces");
+// string four = Console.ReadLine();
+//
+// string[] count = four.Split(","); 
+// int matchesFourLenghtHigh = 0; // highest frequency found
+// int maxNumber = 0;            // the number with the highest frequency so far
+//
+// foreach (var numberStr in count)
+// {
+//   // Convert the current string to an integer
+//   int currentNumber = int.Parse(numberStr);
+//
+//   // Count how many times this currentNumber appears in 'count'
+//   int freq = Array.FindAll(count, x => x == numberStr).Length;
+//
+//   // Check if we found a strictly bigger frequency
+//   if (freq > matchesFourLenghtHigh)
+//   {
+//     matchesFourLenghtHigh = freq;
+//     maxNumber = currentNumber;
+//   }
+//   // If the frequency is the same, but currentNumber is smaller, update
+//   else if (freq == matchesFourLenghtHigh && currentNumber < maxNumber)
+//   {
+//     maxNumber = currentNumber;
+//   }
+// }
+//
+// // Print after the loop finishes (only once)
+// Console.WriteLine($"Number {maxNumber} appears {matchesFourLenghtHigh} time(s).");
 
 
 /* Problem 5
