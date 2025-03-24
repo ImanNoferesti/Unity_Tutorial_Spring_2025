@@ -314,6 +314,7 @@ int indexNumberMove = 0; // To store the index of the number to be moved
 int newIndexNumberMove = 0; // New position of the current number
 int indexDifference = 0; // To save the distance between the element index and the end of the array
 
+
 for(int i = 0; i < lenghtSix; i++) // Converts the string array into a int array
 {
   sixArrayInt[i] = int.Parse(fiveStringSplit[i]);
@@ -324,12 +325,14 @@ int digit = int.Parse(Console.ReadLine());
 
 foreach (var number in sixArrayInt)
 {
-  indexNumberMove = Array.FindIndex(sixArrayInt, i => i == i);
-  indexDifference = (lenghtSix - 1) - indexNumberMove;
+  indexNumberMove = (Array.IndexOf(sixArrayInt, number));
+  indexDifference = (lenghtSix - digit) - indexNumberMove;
+  
 
   if (indexNumberMove + digit >= lenghtSix)
   {
-    newIndexNumberMove = 0 + digit + (-indexDifference - indexDifference);
+    Console.WriteLine($"This is the number that passed the threshold {number}");
+    newIndexNumberMove = indexDifference * -1;
     sixArrayIntNewOrder[newIndexNumberMove] = number;
   }
   else
