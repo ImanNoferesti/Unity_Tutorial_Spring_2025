@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89b9cecd79fe7fd418c284523e46973a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 140021
+  packageName: Rocket Model
+  packageVersion: 1.0
+  assetPath: Assets/AtomRocket/Mesh/Materials/Body.mat
+  uploadId: 295269
