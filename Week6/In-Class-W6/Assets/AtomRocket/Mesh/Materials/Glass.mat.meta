@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d65d5f6454ecf7942ba15fc30b9025cf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 140021
+  packageName: Rocket Model
+  packageVersion: 1.0
+  assetPath: Assets/AtomRocket/Mesh/Materials/Glass.mat
+  uploadId: 295269
