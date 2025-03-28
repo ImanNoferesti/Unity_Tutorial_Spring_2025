@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6ace0503f5f5e6e44831975f9aeed05d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 140021
+  packageName: Rocket Model
+  packageVersion: 1.0
+  assetPath: Assets/AtomRocket/Prefab/AtomRocket.prefab
+  uploadId: 295269
