@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "In-Class.sln"
+    "dotnet.defaultSolution": "In-Class-W6.sln"
 }
