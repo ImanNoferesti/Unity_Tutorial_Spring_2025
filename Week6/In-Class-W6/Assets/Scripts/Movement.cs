@@ -30,6 +30,23 @@ public class Movement : MonoBehaviour
                 _currentYRotation += horizontalInput * RotationSpeed * Time.deltaTime;
             }
         }
+        
+        if(gameObject.tag == "BackWheels")
+        {
+            // Move forward and backward
+            transform.Rotate(new Vector3(verticalInput, 0f, 0f), Speed * Time.deltaTime);
+            
+        }
+
+        
+        
+        
+        if(gameObject.tag == "Ambulance")
+        {
+            transform.Translate(new Vector3(0f,0f,verticalInput) * Speed * Time.deltaTime);
+            transform.Rotate(new Vector3(0f, horizontalInput, 0f), RotationSpeed * Time.deltaTime);
+        }
+        
     }
 
     ////////////////////////////////////////////////// Initial logic ///////////////////////////////////////////////////////
