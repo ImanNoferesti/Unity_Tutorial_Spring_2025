@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wheel
   - Truck
+  - RotationPoint
+  - BackWheel
   layers:
   - Default
   - TransparentFX
