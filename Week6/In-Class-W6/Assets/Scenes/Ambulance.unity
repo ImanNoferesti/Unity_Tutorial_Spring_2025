@@ -132,7 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 10
-  RotationSpeed: 0
+  RotationAngle: 30
+  MaxAngle: 45
 --- !u!114 &327812398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,8 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80629d53e98b7141ab22d9a6cd6e10a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 10
-  RotationSpeed: 5
+  MovementSpeed: 50
+  RotationAngle: 30
+  MaxAngle: 45
 --- !u!1 &415811569
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +302,38 @@ Transform:
   - {fileID: 3726974501789082290}
   m_Father: {fileID: 1030403784499621343}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1197031244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197031245}
+  m_Layer: 0
+  m_Name: RotationPointFL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1197031245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197031244}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.97, y: 0.41, z: 2.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3659672704616396107}
+  m_Father: {fileID: 1030403784499621343}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2037016107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,8 +346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80629d53e98b7141ab22d9a6cd6e10a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 400
-  RotationSpeed: 45
+  MovementSpeed: 50
+  RotationAngle: 30
+  MaxAngle: 45
 --- !u!1 &2044694025
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +360,7 @@ GameObject:
   - component: {fileID: 2044694028}
   - component: {fileID: 2044694027}
   - component: {fileID: 2044694026}
+  - component: {fileID: 2044694029}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -399,13 +435,57 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044694025}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.013830318, y: -0.5975079, z: 0.010308063, w: 0.8016776}
+  m_LocalPosition: {x: 12.4295435, y: 2.336242, z: -4.6706524}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1030403784499621343}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044694029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044694025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &29817920102640730
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,9 +516,10 @@ GameObject:
   - component: {fileID: 6860360461461573091}
   - component: {fileID: 6210999151675412053}
   - component: {fileID: 560123461833276461}
+  - component: {fileID: 6860360461461573092}
   m_Layer: 0
   m_Name: Ambulance BL Tire
-  m_TagString: Untagged
+  m_TagString: Backwheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,7 +539,7 @@ GameObject:
   - component: {fileID: 78335054}
   m_Layer: 0
   m_Name: Ambulance
-  m_TagString: Untagged
+  m_TagString: Main
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,8 +612,9 @@ Transform:
   m_Children:
   - {fileID: 6860360461461573091}
   - {fileID: 4359716836434214159}
-  - {fileID: 3659672704616396107}
   - {fileID: 1137408708}
+  - {fileID: 1197031245}
+  - {fileID: 2044694028}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304350462631939812
@@ -616,12 +698,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29817920102640730}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.96172047, y: 0.4113617, z: 2.0590515}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.008279562, y: 0.0013616979, z: -0.08094859}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1030403784499621343}
+  m_Father: {fileID: 1197031245}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3726974501789082290
 Transform:
@@ -827,6 +909,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1030403784499621343}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6860360461461573092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327244858834330782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80629d53e98b7141ab22d9a6cd6e10a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 50
+  RotationAngle: 30
+  MaxAngle: 45
 --- !u!1 &7211649400557178672
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,13 +935,29 @@ GameObject:
   - component: {fileID: 4359716836434214159}
   - component: {fileID: 4433622343560526219}
   - component: {fileID: 6549613599777884339}
+  - component: {fileID: 7211649400557178673}
   m_Layer: 0
   m_Name: Ambulance BR Tire
-  m_TagString: Untagged
+  m_TagString: Backwheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7211649400557178673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211649400557178672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80629d53e98b7141ab22d9a6cd6e10a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementSpeed: 50
+  RotationAngle: 30
+  MaxAngle: 45
 --- !u!65 &7567244107356435935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -870,6 +983,5 @@ BoxCollider:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 2044694028}
   - {fileID: 415811572}
   - {fileID: 1030403784499621343}
