@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - FrontWheels
+  - RearWheels
+  - Ambulance
   layers:
   - Default
   - TransparentFX
