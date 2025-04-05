@@ -8,6 +8,8 @@ TagManager:
   - Truck
   - RotationPoint
   - BackWheel
+  - RedLight
+  - BlueLight
   layers:
   - Default
   - TransparentFX

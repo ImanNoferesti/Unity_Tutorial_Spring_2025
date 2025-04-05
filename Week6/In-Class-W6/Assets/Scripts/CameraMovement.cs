@@ -29,8 +29,12 @@ public class CameraMovement : MonoBehaviour
         
         if (gameObject.tag == "Truck")
         {
-            transform.Translate(new Vector3(xInput, 0f, zInput)* playerSpeed * Time.deltaTime);
-            transform.Rotate(new Vector3(0, xInput, 0) * turnRate * Time.deltaTime);
+            transform.Translate(new Vector3(0f, 0f, zInput)* playerSpeed * Time.deltaTime);
+            if (zInput * playerSpeed > 1f || zInput * playerSpeed < -1f)
+            {
+                transform.Rotate(new Vector3(0, xInput, 0) * turnRate * Time.deltaTime);
+                transform.Translate(new Vector3(xInput, 0f, 0f)* playerSpeed * Time.deltaTime);
+            }
         }
         
         if (gameObject.tag == "Wheel")
@@ -43,6 +47,7 @@ public class CameraMovement : MonoBehaviour
             {
                 transform.parent.transform.Rotate(new Vector3(0f, xInput, 0f), tireTurn * Time.deltaTime);
                 CurrentYAngle += xInput * tireTurn * Time.deltaTime;
+                //CurrentYAngle = transform.localEulerAngles.y;
                 
             }
         }
