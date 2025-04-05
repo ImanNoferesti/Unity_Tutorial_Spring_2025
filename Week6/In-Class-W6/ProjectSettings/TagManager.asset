@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - frontTire
+  - frontTireL
+  - generalMotion
+  - backTire
   layers:
   - Default
   - TransparentFX
