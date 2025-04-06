@@ -438,83 +438,83 @@ using System.Linq.Expressions;
 //                      Bob, 987-654-3210  
 //    
 //  */
-List<string> nameList = new List<string>(["Bella", "Bella"]);
-List<string> numberList = new List<string>(["515-979-8888", "676-666-6666"]);
-int nameCount = 0;
-int numberCount = 0;
-
-int exit = 1;
-
-  do
-  {
-    Console.WriteLine("\nContact Menu:" +
-                      "\n1. Add a new contact" +
-                      "\n2. Remove a contact" +
-                      "\n3. Search for a contact" +
-                      "\n4. List all contacts" +
-                      "\n5. Exit");
-    int inputCommand = Int32.Parse(Console.ReadLine());
-    switch (inputCommand)
-    {
-      case 1:
-        Console.WriteLine("Enter a name:");
-        nameList.Add(Console.ReadLine());
-        Console.WriteLine("Enter a phone number");
-        numberList.Add(Console.ReadLine());
-        break;
-      case 2:
-        Console.WriteLine("Enter a name to remove:");
-        string nameRemove = Console.ReadLine();
-        if (false == nameList.Contains(nameRemove))
-        {
-          Console.WriteLine("No contact exists");
-          break;
-        }
-        while (nameList.Contains(nameRemove))
-        {
-          int numberIndex = nameList.IndexOf(nameRemove);
-          nameList.RemoveAt(numberIndex);
-          numberList.RemoveAt(numberIndex);
-        }
-        Console.WriteLine("Contact Removed!");
-        break;
-      case 3:
-        Console.WriteLine("Enter a name to search:");
-        string nameSearch = Console.ReadLine();
-        List<string> searchList = new List<string>();
-        List<string> numberSearch = new List<string>();
-        while (nameList.Contains(nameSearch))
-        {
-          int index = nameList.IndexOf(nameSearch);
-          numberSearch.Add(numberList[index]);
-          numberList.RemoveAt(index);
-          searchList.Add(nameList[index]);
-          nameList.RemoveAt(index);
-        }
-        Console.WriteLine(String.Join(",",nameList));
-        for (int j = 0; j < searchList.Count; j++)
-        {
-          Console.WriteLine(searchList[j] + "," + numberSearch[j]);
-        }
-        foreach (string h in numberSearch)
-        {
-          numberList.Add(h);
-        }
-
-        foreach (string k in searchList)
-        {
-          nameList.Add(k);
-        }
-        break;
-      case 4:
-        for (int j = 0; j < nameList.Count; j++)
-        {
-          Console.WriteLine(nameList[j] + "," + numberList[j]);
-        }
-        break;
-      case 5:
-        exit = 0;
-        break;
-    }
-  } while (exit != 0); 
+// List<string> nameList = new List<string>(["Bella", "Bella"]);
+// List<string> numberList = new List<string>(["515-979-8888", "676-666-6666"]);
+// int nameCount = 0;
+// int numberCount = 0;
+//
+// int exit = 1;
+//
+//   do
+//   {
+//     Console.WriteLine("\nContact Menu:" +
+//                       "\n1. Add a new contact" +
+//                       "\n2. Remove a contact" +
+//                       "\n3. Search for a contact" +
+//                       "\n4. List all contacts" +
+//                       "\n5. Exit");
+//     int inputCommand = Int32.Parse(Console.ReadLine());
+//     switch (inputCommand)
+//     {
+//       case 1:
+//         Console.WriteLine("Enter a name:");
+//         nameList.Add(Console.ReadLine());
+//         Console.WriteLine("Enter a phone number");
+//         numberList.Add(Console.ReadLine());
+//         break;
+//       case 2:
+//         Console.WriteLine("Enter a name to remove:");
+//         string nameRemove = Console.ReadLine();
+//         if (false == nameList.Contains(nameRemove))
+//         {
+//           Console.WriteLine("No contact exists");
+//           break;
+//         }
+//         while (nameList.Contains(nameRemove))
+//         {
+//           int numberIndex = nameList.IndexOf(nameRemove);
+//           nameList.RemoveAt(numberIndex);
+//           numberList.RemoveAt(numberIndex);
+//         }
+//         Console.WriteLine("Contact Removed!");
+//         break;
+//       case 3:
+//         Console.WriteLine("Enter a name to search:");
+//         string nameSearch = Console.ReadLine();
+//         List<string> searchList = new List<string>();
+//         List<string> numberSearch = new List<string>();
+//         while (nameList.Contains(nameSearch))
+//         {
+//           int index = nameList.IndexOf(nameSearch);
+//           numberSearch.Add(numberList[index]);
+//           numberList.RemoveAt(index);
+//           searchList.Add(nameList[index]);
+//           nameList.RemoveAt(index);
+//         }
+//         Console.WriteLine(String.Join(",",nameList));
+//         for (int j = 0; j < searchList.Count; j++)
+//         {
+//           Console.WriteLine(searchList[j] + "," + numberSearch[j]);
+//         }
+//         foreach (string h in numberSearch)
+//         {
+//           numberList.Add(h);
+//         }
+//
+//         foreach (string k in searchList)
+//         {
+//           nameList.Add(k);
+//         }
+//         break;
+//       case 4:
+//         for (int j = 0; j < nameList.Count; j++)
+//         {
+//           Console.WriteLine(nameList[j] + "," + numberList[j]);
+//         }
+//         break;
+//       case 5:
+//         exit = 0;
+//         break;
+//     }
+//   } while (exit != 0);
 
