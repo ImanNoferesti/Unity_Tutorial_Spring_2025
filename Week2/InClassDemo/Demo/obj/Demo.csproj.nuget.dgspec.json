@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj": {}
+    "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj": {
+    "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj",
+        "projectUniqueName": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\Demo.csproj",
-        "packagesPath": "C:\\Users\\fjcastillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassDemo\\Demo\\obj\\",
+        "projectPath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/Demo.csproj",
+        "packagesPath": "/Users/fernandocastillo/.nuget/packages/",
+        "outputPath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassDemo/Demo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fjcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/fernandocastillo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

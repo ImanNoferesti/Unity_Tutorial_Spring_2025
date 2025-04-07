@@ -406,47 +406,47 @@ using System.Net;
  * Explanation: The elements are shifted 5 positions to the right. The last 5 elements (10, 15, 20, 25, 30) wrap around to the start.
  *
  */
- 
-Console.WriteLine("Please enter the numbers separated by commas with no spaces");
-string six = Console.ReadLine(); // Reads the input and saves it
-int lenghtSix = six.Split(",").Length; // Splits the input and determines the length
-string[] fiveStringSplit = six.Split(","); // Splits the input and saves it into an Array of string type
-int[] sixArrayInt = new int[lenghtSix]; // Creates an array of the size of the input
-int[] sixArrayIntNewOrder = new int[lenghtSix]; // Creates an array of the size of the input
-int indexNumberMove = 0; // To store the index of the number to be moved
-int newIndexNumberMove = 0; // New position of the current number
-int indexDifference = 0; // To save the distance between the element index and the end of the array
-
-
-for(int i = 0; i < lenghtSix; i++) // Converts the string array into a int array
-{
-  sixArrayInt[i] = int.Parse(fiveStringSplit[i]);
-}
-
-Console.WriteLine("Please enter an one digit number");
-int digit = int.Parse(Console.ReadLine());
-
-foreach (var number in sixArrayInt)
-{
-  indexNumberMove = (Array.IndexOf(sixArrayInt, number));
-  indexDifference = (lenghtSix - digit) - indexNumberMove;
-  
-
-  if (indexNumberMove + digit >= lenghtSix)
-  {
-    Console.WriteLine($"This is the number that passed the threshold {number}");
-    newIndexNumberMove = indexDifference * -1;
-    sixArrayIntNewOrder[newIndexNumberMove] = number;
-  }
-  else
-  {
-    newIndexNumberMove = indexNumberMove + digit;
-    sixArrayIntNewOrder[newIndexNumberMove] = number;
-  }
-  
-}
- 
-Console.WriteLine("[" + string.Join(',', sixArrayIntNewOrder) + "]");
+//  
+// Console.WriteLine("Please enter the numbers separated by commas with no spaces");
+// string six = Console.ReadLine(); // Reads the input and saves it
+// int lenghtSix = six.Split(",").Length; // Splits the input and determines the length
+// string[] fiveStringSplit = six.Split(","); // Splits the input and saves it into an Array of string type
+// int[] sixArrayInt = new int[lenghtSix]; // Creates an array of the size of the input
+// int[] sixArrayIntNewOrder = new int[lenghtSix]; // Creates an array of the size of the input
+// int indexNumberMove = 0; // To store the index of the number to be moved
+// int newIndexNumberMove = 0; // New position of the current number
+// int indexDifference = 0; // To save the distance between the element index and the end of the array
+//
+//
+// for(int i = 0; i < lenghtSix; i++) // Converts the string array into a int array
+// {
+//   sixArrayInt[i] = int.Parse(fiveStringSplit[i]);
+// }
+//
+// Console.WriteLine("Please enter an one digit number");
+// int digit = int.Parse(Console.ReadLine());
+//
+// foreach (var number in sixArrayInt)
+// {
+//   indexNumberMove = (Array.IndexOf(sixArrayInt, number));
+//   indexDifference = (lenghtSix - digit) - indexNumberMove;
+//   
+//
+//   if (indexNumberMove + digit >= lenghtSix)
+//   {
+//     Console.WriteLine($"This is the number that passed the threshold {number}");
+//     newIndexNumberMove = indexDifference * -1;
+//     sixArrayIntNewOrder[newIndexNumberMove] = number;
+//   }
+//   else
+//   {
+//     newIndexNumberMove = indexNumberMove + digit;
+//     sixArrayIntNewOrder[newIndexNumberMove] = number;
+//   }
+//   
+// }
+//  
+// Console.WriteLine("[" + string.Join(',', sixArrayIntNewOrder) + "]");
 
 ///////////////////// Lists /////////////////////
 

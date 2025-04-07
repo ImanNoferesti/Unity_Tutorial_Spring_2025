@@ -9,32 +9,20 @@
   <component name="ChangeListManager">
     <list default="true" id="b9438a65-4b2c-4393-ae99-deaa3ac2ae8a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Homework/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/ref/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/ref/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/refint/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/refint/src.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/src.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/src.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/src.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/src.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/Demo.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Demo.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/Demo.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Demo.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +98,7 @@
       <workItem from="1742323513994" duration="869000" />
       <workItem from="1742324398273" duration="8008000" />
       <workItem from="1742415206891" duration="3393000" />
+      <workItem from="1743888219782" duration="1835000" />
     </task>
     <servers />
   </component>
