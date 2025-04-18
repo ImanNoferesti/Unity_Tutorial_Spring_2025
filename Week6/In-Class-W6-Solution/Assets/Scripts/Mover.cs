@@ -19,10 +19,14 @@ public class Mover : MonoBehaviour
 
     void Update()
     {
-
-
         float verticalInput = Input.GetAxis("Vertical");
         float horizontalInput = Input.GetAxis("Horizontal");
+
+        if(gameObject.tag == "Ambulance")
+        {
+            transform.Translate(new Vector3(0f, 0f, verticalInput) * MovementSpeed * Time.deltaTime);
+            transform.Rotate(new Vector3(0f, horizontalInput, 0f), RotationAngle * Time.deltaTime);
+        }
 
         if(gameObject.tag == "FrontWheels")
         {
@@ -36,7 +40,16 @@ public class Mover : MonoBehaviour
                 transform.parent.transform.Rotate(new Vector3(0f, horizontalInput, 0f), RotationAngle * Time.deltaTime);
                 _currentYRotation += horizontalInput * RotationAngle * Time.deltaTime;
             }
+
         }
+
+        if(gameObject.tag == "RearWheels")
+        {
+            // Rotation around x-axis
+            transform.Rotate(new Vector3(verticalInput, 0f, 0f), MovementSpeed * Time.deltaTime);
+        }
+
+        
     }
 
 
