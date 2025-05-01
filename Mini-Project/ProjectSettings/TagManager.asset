@@ -12,6 +12,7 @@ TagManager:
   - Checkpoint
   - Level1
   - Level2
+  - Sphere
   layers:
   - Default
   - TransparentFX
