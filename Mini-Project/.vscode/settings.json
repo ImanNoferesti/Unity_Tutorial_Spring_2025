@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Mini-Project.sln"
+    "dotnet.defaultSolution": "Mini-Project.sln",
+    "FSharp.suggestGitignore": false
 }

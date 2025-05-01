@@ -8,10 +8,13 @@ public class Movement : MonoBehaviour
     private int counter;
 
     Rigidbody rb;
+    GameController gameController;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+
+        gameController = GameObject.Find("GameManager").GetComponent<GameController>();
     }
 
 
@@ -21,7 +24,15 @@ public class Movement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         float horizontalInput = Input.GetAxis("Horizontal");
 
-        rb.AddForce(new Vector3(-verticalInput* MovementForce, 0f, horizontalInput * MovementForce), ForceMode.Force);
+
+        if (gameController.tag == "Level1")
+        {
+            rb.AddForce(new Vector3(-verticalInput * MovementForce, 0f, horizontalInput * MovementForce), ForceMode.Force);
+        }
+        else
+        {
+            rb.AddForce(new Vector3(verticalInput * MovementForce, 0f, -horizontalInput * MovementForce), ForceMode.Force);
+        }
 
         if(isJumping == true && counter < 2)
         {
