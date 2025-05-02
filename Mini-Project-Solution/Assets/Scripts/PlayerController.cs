@@ -11,9 +11,12 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rb;
 
+    GameController gameController;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        gameController = GameObject.Find("GameManager").GetComponent<GameController>();
     }
 
 
@@ -22,8 +25,16 @@ public class PlayerController : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
+        if(gameController.tag == "Level1")
+        {
+            rb.AddForce(new Vector3(-verticalInput * MovementForce, 0f, horizontalInput * MovementForce), ForceMode.Force);
+        }
 
-        rb.AddForce(new Vector3(-verticalInput * MovementForce, 0f, horizontalInput * MovementForce), ForceMode.Force);
+        else if(gameController.tag == "Level2")
+        {
+            rb.AddForce(new Vector3(verticalInput * MovementForce, 0f, -horizontalInput * MovementForce), ForceMode.Force);
+        }
+        
 
         if(isJumping && counter < 2)
         {
@@ -47,6 +58,7 @@ public class PlayerController : MonoBehaviour
         {
             counter = 0;
         }
+
     }
 
 
