@@ -9,12 +9,19 @@ public class Movement : MonoBehaviour
 
     Rigidbody rb;
     GameController gameController;
+    AudioSource audioSource;
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
 
         gameController = GameObject.Find("GameManager").GetComponent<GameController>();
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = gameController.audioClips[1];
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
     }
 
 
@@ -48,11 +55,24 @@ public class Movement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             isJumping = true;
+            audioSource.Play();
         }
 
         if(transform.position.y < .65f)
         {
             counter = 0;
+        }
+
+        if(gameController.StarHit)
+        {
+            audioSource.PlayOneShot(gameController.audioClips[0]);
+            gameController.StarHit = false;
+        }
+
+        if(gameController.CheckpointHit)
+        {
+            audioSource.PlayOneShot(gameController.audioClips[4]);
+            gameController.CheckpointHit = false;
         }
     }
 }

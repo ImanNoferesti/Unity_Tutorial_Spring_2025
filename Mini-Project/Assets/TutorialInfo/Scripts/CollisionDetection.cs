@@ -4,10 +4,16 @@ public class CollisionDetection : MonoBehaviour
 {
     
     GameController gameController;
+    AudioSource audioSource;
 
     void Start()
     {
         gameController = GameObject.Find("GameManager").GetComponent<GameController>();
+
+        audioSource =gameObject.AddComponent<AudioSource>();
+        audioSource.clip = gameController.audioClips[2];
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
     }
 
     void OnCollisionEnter(Collision collision)
@@ -24,6 +30,8 @@ public class CollisionDetection : MonoBehaviour
             }
 
             gameController.DeactivatedObjs.Clear();
+
+            audioSource.Play();
         }
 
         else if(collision.gameObject.tag == "Player" && gameController.tag == "Level2")
@@ -38,6 +46,7 @@ public class CollisionDetection : MonoBehaviour
             }
 
             gameController.DeactivatedObjs2.Clear();
+            audioSource.Play();
         }
         
     }
