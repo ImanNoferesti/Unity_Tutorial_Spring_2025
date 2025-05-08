@@ -10,6 +10,8 @@ public class Crusher : MonoBehaviour
 
     Rigidbody rb;
 
+    public ParticleSystem particleSystem;
+
     AudioSource audioSource;
     GameController gameController;
 
@@ -24,6 +26,7 @@ public class Crusher : MonoBehaviour
         audioSource.clip = gameController.audioClips[3];
         audioSource.playOnAwake = false;
         audioSource.loop = false;
+
     }
 
     void FixedUpdate()
@@ -49,6 +52,7 @@ public class Crusher : MonoBehaviour
             if (transform.position.y < 2.5f)
             {
                 audioSource.Play();
+                particleSystem.Play();
                 upward = true;
             }
             
