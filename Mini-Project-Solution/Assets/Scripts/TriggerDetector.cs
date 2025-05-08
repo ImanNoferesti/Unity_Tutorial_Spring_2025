@@ -5,9 +5,11 @@ public class TriggerDetector : MonoBehaviour
 
     GameController gameController;
 
+
     void Start()
     {
         gameController = GameObject.Find("GameManager").GetComponent<GameController>();
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -16,12 +18,16 @@ public class TriggerDetector : MonoBehaviour
         {
             gameController.DeActivatedObjs.Add(gameObject);
             gameObject.SetActive(false);
+            gameController.StarHit = true;
+            
         } 
 
         else if(other.tag == "Player" && gameObject.tag != "Checkpoint" && gameController.tag == "Level2")
         {
             gameController.DeActivatedObjs2.Add(gameObject);
             gameObject.SetActive(false);
+            gameController.StarHit = true;
+            
         }
 
         else if(other.tag == "Player") 
@@ -31,6 +37,8 @@ public class TriggerDetector : MonoBehaviour
             gameController.tag = "Level2";
             other.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
             other.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            gameController.CheckPointHit = true;            
+
         }       
     }
 }
