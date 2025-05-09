@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -6,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float PlayerForce;
     public float JumpForce;
     Rigidbody Sphere;
+    public bool levelTwo;
 
     public Transform playerSphere;
     private bool isJumping;
@@ -50,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (gameObject.tag == "Sphere")
         {
             if (transform.position.y < .6f)
@@ -64,10 +67,15 @@ public class PlayerMovement : MonoBehaviour
     }
     void LateUpdate() 
     {
+        Debug.Log(levelTwo);
         if (gameObject.tag == "MainCamera")
         {
             transform.position = new Vector3(playerSphere.position.x + 3.4f, playerSphere.position.y + 2.01f, playerSphere.position.z);
-            
+            if (levelTwo == true)
+            {
+                
+                transform.position = new Vector3(playerSphere.position.x - 3.4f, playerSphere.position.y + 2.01f, playerSphere.position.z);
+            }
         }
     }
 }
