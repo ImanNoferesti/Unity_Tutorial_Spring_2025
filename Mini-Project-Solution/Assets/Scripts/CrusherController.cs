@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class CrusherController : MonoBehaviour
@@ -7,6 +8,8 @@ public class CrusherController : MonoBehaviour
     public int YLimit;
     bool upward = true;
     Rigidbody rb;
+
+    public ParticleSystem particleSystem;
 
     GameController gameController;
     AudioSource audioSource;
@@ -22,6 +25,7 @@ public class CrusherController : MonoBehaviour
         audioSource.clip = gameController.audioClips[3];
         audioSource.playOnAwake = false;
         audioSource.loop = false;
+
     }
 
     void FixedUpdate()
@@ -48,6 +52,7 @@ public class CrusherController : MonoBehaviour
             if(transform.position.y < 2.6f)
             {
                 audioSource.Play();
+                particleSystem.Play();
                 upward = true;
             }
         }
