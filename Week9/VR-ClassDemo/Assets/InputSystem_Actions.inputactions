@@ -81,7 +81,43 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "641cd816-40e6-41b4-8c3d-04687c349290",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skip",
+                    "type": "Button",
+                    "id": "59a01765-13bd-4ec8-a4d7-df0338a6b90f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spawn",
+                    "type": "Button",
+                    "id": "7934cba4-9f30-4564-a4fb-937df2da33e3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Destroy",
+                    "type": "Button",
+                    "id": "ac8a09b7-6e9b-4e77-9945-b272ac2da7fa",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Colorize",
+                    "type": "Button",
+                    "id": "7870a417-30be-4086-8956-dc6db6a4c86e",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -470,6 +506,72 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7799ad38-f339-4cf7-808a-427ff07b14c8",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9a6b043-9890-497b-943c-54817161a848",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "c30fca7d-0018-404c-a100-78643c581c69",
+                    "path": "OneModifier(overrideModifiersNeedToBePressedFirst=true)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Destroy",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "4501904b-bb3f-438b-9b02-0b65e7049064",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Destroy",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "8ca8f9e2-393e-49ef-9d1c-92033dc02ae2",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Destroy",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "0a6270e6-1991-42ef-90f6-16a770251c44",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Colorize",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
