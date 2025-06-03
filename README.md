@@ -9,5 +9,3 @@ By the end of this course, you will:
 * ✅ Develop simple games and interactive applications.
 * ✅ Explore the fundamentals of Virtual Reality (VR) development.
 
-## 📚 Course Plan
-![Course_Plan](./Unity_VR_Course_Schedule.png)
