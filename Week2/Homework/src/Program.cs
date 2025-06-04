@@ -459,10 +459,14 @@ using System.Net;
  * 
  */
 
-
-
-
-
+// List<float> studScores = new List<float>(){91, 87, 88, 77, 49, 59, 70, 30, 25};
+//
+// studScores.RemoveAll(x => x < 50);
+// Console.WriteLine(string.Join(", ", studScores));
+// Console.WriteLine($"First student who scored above 90: {studScores.Find(x=> x > 90)}");
+//
+// studScores.Sort();studScores.Reverse();
+// Console.WriteLine(string.Join(", ", studScores));
 
 
 /* Problem 2
@@ -486,7 +490,6 @@ using System.Net;
    Enter a phone number: 123-456-7890
    
    Output: Contact Added: Alice, 123-456-7890
-   
    
  * Example 2:
    Contact Menu:
@@ -536,4 +539,42 @@ using System.Net;
                      Bob, 987-654-3210  
    
  */
+
+int optionContact = 999;
+string name = "default";
+string phoneNumber = "000-000-0000";
+List<string> namesList = new List<string>(); // Names only
+List<string> phoneNumbersList = new List<string>(); // Phone numbers only
  
+
+while (optionContact != 5)
+{
+  Console.WriteLine("Contacts menu:" +
+                    "\n1. Add a new contact \n2. Remove a contact" +
+                    "\n3. Search for a contact \n4. List all contacts" +
+                    "\n5. Exist");
+  Console.WriteLine("Enter the number of the option you want:");
+  optionContact = int.Parse(Console.ReadLine());
+  
+  switch (optionContact) // Evaluates the content of the option chosen by the customer
+  {
+    case 1: // Add a new contact
+      Console.WriteLine("Please enter the name");
+      name = Console.ReadLine();
+      Console.WriteLine("Please the phone number with no dashes");
+      phoneNumber = Console.ReadLine();
+      namesList.Add(name);
+      phoneNumbersList.Add(phoneNumber);
+      Console.WriteLine($"Contact Added: {namesList[namesList.Count-1]}, " +
+                        $"{phoneNumbersList[phoneNumbersList.Count-1]}");
+      break;
+    case 2: // Remove a contact
+      break;
+    case 3: // Withdraw money
+      break;
+    case 4: // Exit
+      Console.WriteLine("Thank you for visiting Goliath International Bank ATM. Have a good day!");
+      break;
+  }
+}
+
