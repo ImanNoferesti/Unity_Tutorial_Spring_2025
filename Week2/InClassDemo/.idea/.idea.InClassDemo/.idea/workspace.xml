@@ -7,25 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9438a65-4b2c-4393-ae99-deaa3ac2ae8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Homework/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/bin/Debug/net9.0/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/ref/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/ref/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/refint/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/refint/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework/src/obj/Debug/net9.0/src.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/rider.project.model.nuget.info" afterDir="false" />
-    </list>
+    <list default="true" id="b9438a65-4b2c-4393-ae99-deaa3ac2ae8a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -108,6 +91,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

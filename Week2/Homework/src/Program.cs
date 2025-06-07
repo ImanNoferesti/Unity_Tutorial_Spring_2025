@@ -545,14 +545,21 @@ string name = "default";
 string phoneNumber = "000-000-0000";
 List<string> namesList = new List<string>(); // Names only
 List<string> phoneNumbersList = new List<string>(); // Phone numbers only
- 
+List<int> indexNumberContacts = new List<int>();
+int indexCount = 0;
+int numberRemove = 0;
+int contactIndex = 0;
+string removedName = "X"; // To save the removed name and confirm
+string removedNumber = "XX"; // To save the removed number and confirm
+string contactSearch = "XXX"; // To save the input and do search
+
 
 while (optionContact != 5)
 {
   Console.WriteLine("Contacts menu:" +
                     "\n1. Add a new contact \n2. Remove a contact" +
                     "\n3. Search for a contact \n4. List all contacts" +
-                    "\n5. Exist");
+                    "\n5. Exit");
   Console.WriteLine("Enter the number of the option you want:");
   optionContact = int.Parse(Console.ReadLine());
   
@@ -569,12 +576,78 @@ while (optionContact != 5)
                         $"{phoneNumbersList[phoneNumbersList.Count-1]}");
       break;
     case 2: // Remove a contact
+      indexNumberContacts.Clear(); // makes the index list empty
+      foreach (var contact in namesList)
+      {
+        indexCount = indexCount + 1;
+        indexNumberContacts.Add(indexCount);
+      }
+      
+      Console.WriteLine("These are your current contacts" +
+                        "\n please enter the number of the" +
+                        "\n you wish to remove:");
+  
+      foreach (var contact in namesList)
+      {
+        contactIndex = namesList.IndexOf(contact) + 1;
+        Console.WriteLine(contactIndex + " -> " + contact);
+      }
+
+      numberRemove = int.Parse(Console.ReadLine());
+
+      indexCount = numberRemove - 1;
+
+      removedName = namesList[indexCount];
+      
+      namesList.RemoveAt(indexCount);
+      phoneNumbersList.RemoveAt(indexCount);
+      
+      Console.WriteLine($"Contact deleted: {removedName}");
+      
       break;
-    case 3: // Withdraw money
+    case 3: // Search for a contact
+      Console.WriteLine("Please enter the name of the" +
+                        "\nyou want to search:");
+      contactSearch = Console.ReadLine();
+
+      if (namesList.Contains(contactSearch))
+      {
+        contactIndex = namesList.IndexOf(contactSearch);
+      
+        Console.WriteLine($"Contact Information: {namesList[contactIndex]}, " +
+                          $"{phoneNumbersList[contactIndex]}");
+      }
+      else
+      {
+        Console.WriteLine("This name is not in your contacts.");
+      }
       break;
-    case 4: // Exit
-      Console.WriteLine("Thank you for visiting Goliath International Bank ATM. Have a good day!");
+    case 4: // List all contacts
+      
+      indexNumberContacts.Clear(); // makes the index list empty
+      foreach (var contact in namesList)
+      {
+        indexCount = indexCount + 1;
+        indexNumberContacts.Add(indexCount);
+      }
+      
+      Console.WriteLine("These are your current contacts:");
+  
+      foreach (var contact in namesList)
+      {
+        contactIndex = namesList.IndexOf(contact) + 1;
+        Console.WriteLine(contactIndex + " -> " + contact);
+      }
+      break;
+    case 5: // Exit
+      
+      Console.WriteLine("You have exited your contact list, good-bye!");
+      break;
+    
+    default:
+      Console.WriteLine("Invalid Option, Try again!");
       break;
   }
 }
+
 
