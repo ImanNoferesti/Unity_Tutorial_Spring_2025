@@ -27,11 +27,88 @@
  * 
  */
 
-
-
-
-
-
+// int optionContact = 999;
+// (string, string) contactInfo = ("name", "phoneNumber");
+// Dictionary<string, string> contactList = new Dictionary<string, string>();
+// string name = "empty";
+// string phoneNumber = "";
+// string removeName = "";
+// string contactResult = "";
+// string contactSearch = "XXX"; // To save the input and do search
+//
+//
+// while (optionContact != 5)
+// {
+//   Console.WriteLine("Contacts menu:" +
+//                     "\n1. Add a new contact \n2. Remove a contact" +
+//                     "\n3. Search for a contact \n4. List all contacts" +
+//                     "\n5. Exit");
+//   Console.WriteLine("Enter the number of the option you want:");
+//   optionContact = int.Parse(Console.ReadLine());
+//   
+//   switch (optionContact) // Evaluates the content of the option chosen by the customer
+//   {
+//     case 1: // Add a new contact
+//       Console.WriteLine("Please enter the name");
+//       name = Console.ReadLine();
+//       Console.WriteLine("Please the phone number with no dashes");
+//       phoneNumber = Console.ReadLine();
+//       contactList.Add(name, phoneNumber);
+//       
+//       Console.WriteLine($"{name}, {phoneNumber} has been added to the phonebook");
+//       break;
+//     case 2: // Remove a contact
+//       
+//       foreach (KeyValuePair<string, string> contact in contactList)
+//       {
+//         Console.WriteLine($"Name: {contact.Key} - Number: {contact.Value}");
+//       }
+//       
+//       Console.WriteLine("These are your current contacts" +
+//                         "\n please enter the name of the" +
+//                         "\n you wish to remove:");
+//       removeName = Console.ReadLine();
+//       contactList.Remove(removeName);
+//       
+//       Console.WriteLine($"Contact deleted: {removeName}");
+//       
+//       break;
+//     case 3: // Search for a contact
+//       Console.WriteLine("Please enter the name of the" +
+//                         "\nyou want to search:");
+//       contactSearch = Console.ReadLine();
+//
+//       if (contactList.ContainsKey(contactSearch))
+//       {
+//         contactResult = contactList[contactSearch];
+//       
+//         Console.WriteLine($"Contact Information: {contactSearch}, " +
+//                           $"{contactResult}");
+//       }
+//       else
+//       {
+//         Console.WriteLine($"{contactSearch} is not in your contacts.");
+//       }
+//       break;
+//     case 4: // List all contacts
+//       
+//       Console.WriteLine("These are your current contacts:");
+//   
+//       foreach (KeyValuePair<string, string> contact in contactList)
+//       {
+//         Console.WriteLine($"Name: {contact.Key} - Number: {contact.Value}");
+//       }
+//       break;
+//     case 5: // Exit
+//       
+//       Console.WriteLine("You have exited your contact list, good-bye!");
+//       break;
+//     
+//     default:
+//       Console.WriteLine("Invalid Option, Try again!");
+//       break;
+//   }
+// }
 
 
 
@@ -52,14 +129,32 @@
  *      C# : 1
  */
 
-
-
-
-
-
-
-
- 
+// string stringWord;
+// int count;
+// Dictionary<string, int> wordCounterList = new Dictionary<string, int>();
+//
+// stringWord = Console.ReadLine();
+//
+// string[] inputArray2 = stringWord.Split(' ');
+//
+// foreach (string word in inputArray2)
+// {
+//   if (wordCounterList.ContainsKey(word))
+//   {
+//       count = wordCounterList[word];
+//       wordCounterList[word] = count + 1;
+//   }
+//   else
+//   {
+//     wordCounterList.Add(word, 1);
+//   }
+// }
+//
+// foreach (KeyValuePair<string, int> wordCount in wordCounterList)
+// {
+//   Console.WriteLine($"{wordCount.Key} : {wordCount.Value}");
+// }
+//  
  /* Problem 3
   *
   * Write a program that manages an inventory system.
@@ -97,14 +192,73 @@
   * 
   *
   */
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+//  using System.Xml;
+//
+//  Dictionary<string, int> inventoryList = new Dictionary<string, int>();
+// int option = 00;
+// string productName;
+// int currentProductCount;
+//
+//  while (option != 4)
+//  {
+//      Console.Write("Welcome to the inventory management system - Castillo LLC" +
+//                    "\nMenu option:" +
+//                    "\n1. Add a product (new or existing)" +
+//                    "\n2. Remove a product" +
+//                    "\n3. Show all products and their quantities" +
+//                    "\n4. Exit");
+//      Console.WriteLine("\nPlease enter an option below:");
+//      option = int.Parse(Console.ReadLine());
+//      switch (option)
+//      {
+//          case 1: // Add a product (new or existing)
+//           Console.WriteLine("Please enter the name of the product to add:");
+//           productName = Console.ReadLine();
+//           if (inventoryList.ContainsKey(productName))
+//           {
+//            inventoryList[productName]++;
+//            currentProductCount = inventoryList[productName];
+//            Console.WriteLine($"{productName} exists in the inventory. Count: {currentProductCount}");
+//           }
+//           else
+//           {
+//            inventoryList.Add(productName, 1);
+//           }
+//           break;
+//          case 2: // Remove product
+//           Console.WriteLine("Please enter the name of the product to remove:");
+//           productName = Console.ReadLine();
+//           if (inventoryList.ContainsKey(productName))
+//           {
+//            inventoryList.Remove(productName);
+//           }
+//           else
+//           {
+//            Console.WriteLine("This product is not in the inventory");
+//           }
+//           break;
+//          case 3: // Display all product and their quantities
+//           foreach (KeyValuePair<string, int> kvp in inventoryList)
+//           {
+//            Console.WriteLine($"Product name: {kvp.Key} - Count: {kvp.Value}");
+//           }
+//           break;
+//          case 4: // Exit
+//           Console.WriteLine("You have exited the inventory management system. Good-bye!");
+//           break;
+//          default:
+//           Console.WriteLine("\n" +
+//                             "\n" +
+//                             "\nIncorrect option, please try again" +
+//                             "\n" +
+//                             "\n");
+//           break;
+//      }
+//  }
+
+
 //////////////////// HashSet ////////////////////
  
 /* Problem 1

@@ -1,49 +1,25 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj": {}
+    "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj": {
+    "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
+        "projectUniqueName": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
-        "packagesPath": "C:\\Users\\fjcastillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\obj\\",
-=======
-    "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
-        "projectName": "Practice",
-        "projectPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
-        "packagesPath": "C:\\Users\\nofer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\obj\\",
->>>>>>> main
+        "projectPath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj",
+        "packagesPath": "/Users/fernandocastillo/.nuget/packages/",
+        "outputPath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\fjcastillo\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-          "C:\\Users\\nofer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> main
+          "/Users/fernandocastillo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -83,11 +59,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Users\\fjcastillo\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
->>>>>>> main
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "ZF6QQdA8Uiw=",
+  "dgSpecHash": "dHtp7JXgoVg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fjcastillo\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
-=======
-  "dgSpecHash": "48+GdjGzHr0=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\nofer\\OneDrive\\Documents\\GitHub\\Unity_Tutorial_Spring_2025\\Week2\\InClassPractice\\Practice\\Practice.csproj",
->>>>>>> main
+  "projectFilePath": "/Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/Practice.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/fernandocastillo/Documents/GitHub/Unity_Tutorial_Spring_2025/Week2/InClassPractice/Practice/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

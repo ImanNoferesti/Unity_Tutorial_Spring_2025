@@ -302,128 +302,166 @@
 
 //////////////////// LinkedList /////////////////////////
 
-// Declare and Initialize a LinkedList
-
-LinkedList<int> myLinkedList = new LinkedList<int>([1, 3, 4, 5]);
-
-// Count the number of items in the list
-
-Console.WriteLine(myLinkedList.Count);
-
-// Add 0 at the beginning of the list
-
-myLinkedList.AddFirst(0);
-
-// Add 8 and 10 at the end of the list
-
-myLinkedList.AddLast(8);
-
-myLinkedList.AddLast(10);
-
-// Find the first node equal to 3
-
-LinkedListNode<int> myNode = myLinkedList.Find(3);
-Console.WriteLine(myNode.Value);
-
-// Put a 2 in the list right before the 3
-
-LinkedListNode<int> myNodeTwo = new LinkedListNode<int>(2);
-
-myLinkedList.AddBefore(myLinkedList.Find(3), 2); // Always for the first coincidence
-
-// Add another 2 to the list right after the 1
-
-myLinkedList.AddAfter(myLinkedList.Find(1), 2);
-Console.WriteLine(string.Join(", ", myLinkedList));
-
-// Check whether 5 is in the list
-
-Console.WriteLine(myLinkedList.Contains(5));
-
-// Remove the first and last values in the list
-
-myLinkedList.RemoveFirst();
-Console.WriteLine(string.Join(", ", myLinkedList));
-
-myLinkedList.RemoveLast();
-Console.WriteLine(string.Join(", ", myLinkedList));
-
-// Return the first(Head) and last(Tail) node of the list
-
-LinkedListNode<int> head = myLinkedList.First;
-LinkedListNode<int> tail = myLinkedList.Last;
-
-// Return the value of the node right after the head node
-
-int value = head.Next.Value;
-
-Console.WriteLine(value);
-
-// Remove the first occurrence of 2
-
-myLinkedList.Remove(myLinkedList.Find(2));
-
-// Copy the entire list to an array
-
-int[] newArray2 = new int[myLinkedList.Count];
-
-myLinkedList.CopyTo(newArray2,0);
-
-Console.WriteLine(string.Join(", ",newArray2));
-
-// Remove all values in the list
-
-myLinkedList
+// // Declare and Initialize a LinkedList
+//
+// LinkedList<int> myLinkedList = new LinkedList<int>([1, 3, 4, 5]);
+//
+// // Count the number of items in the list
+//
+// Console.WriteLine(myLinkedList.Count);
+//
+// // Add 0 at the beginning of the list
+//
+// myLinkedList.AddFirst(0);
+//
+// // Add 8 and 10 at the end of the list
+//
+// myLinkedList.AddLast(8);
+//
+// myLinkedList.AddLast(10);
+//
+// // Find the first node equal to 3
+//
+// LinkedListNode<int> myNode = myLinkedList.Find(3);
+// Console.WriteLine(myNode.Value);
+//
+// // Put a 2 in the list right before the 3
+//
+// LinkedListNode<int> myNodeTwo = new LinkedListNode<int>(2);
+//
+// myLinkedList.AddBefore(myLinkedList.Find(3), 2); // Always for the first coincidence
+//
+// // Add another 2 to the list right after the 1
+//
+// myLinkedList.AddAfter(myLinkedList.Find(1), 2);
+// Console.WriteLine(string.Join(", ", myLinkedList));
+//
+// // Check whether 5 is in the list
+//
+// Console.WriteLine(myLinkedList.Contains(5));
+//
+// // Remove the first and last values in the list
+//
+// myLinkedList.RemoveFirst();
+// Console.WriteLine(string.Join(", ", myLinkedList));
+//
+// myLinkedList.RemoveLast();
+// Console.WriteLine(string.Join(", ", myLinkedList));
+//
+// // Return the first(Head) and last(Tail) node of the list
+//
+// LinkedListNode<int> head = myLinkedList.First;
+// LinkedListNode<int> tail = myLinkedList.Last;
+//
+// // Return the value of the node right after the head node
+//
+// int value = head.Next.Value;
+//
+// Console.WriteLine(value);
+//
+// // Remove the first occurrence of 2
+//
+// myLinkedList.Remove(myLinkedList.Find(2));
+//
+// // Copy the entire list to an array
+//
+// int[] newArray2 = new int[myLinkedList.Count];
+//
+// myLinkedList.CopyTo(newArray2,0);
+//
+// Console.WriteLine(string.Join(", ",newArray2));
+//
+// // Remove all values in the list
+//
+// myLinkedList
 
 //////////////////// Stack /////////////////////////
 
-// Declare and Initialize a stack
-
-// Get the number of elements in the stack
-
-// check if 5 exists in the stack
-
-// Return the top element in the stack
-
-// Remove and return the top element in the stack
-
-// Add 5 to the stack
-
-// Convert the current stack into an array 
-
-// Copy elements of current stack into a new array
-
-// Remove all elements from the stack
+// // Declare and Initialize a stack
+//
+// Stack<int> myStack = new Stack<int>([1, 2, 3]); // Not curly brackets for this one
+//
+// // Get the number of elements in the stack
+//
+// Console.WriteLine(myStack.Count);
+//
+// // check if 5 exists in the stack
+//
+// Console.WriteLine(myStack.Contains(5));
+//
+// // Return the top element in the stack
+//
+// Console.WriteLine(myStack.Peek());
+//
+// // Remove and return the top element in the stack
+//
+// Console.WriteLine(myStack.Pop());
+//
+// // Add 5 to the stack
+//
+// myStack.Push(5);
+//
+// // Convert the current stack into an array
+//
+// int[] stackArray = myStack.ToArray();
+// Console.WriteLine(string.Join(", ", stackArray));
+//
+// // Copy elements of current stack into a new array
+//
+// int[] stackCopyArray = new int [5];
+//
+// myStack.CopyTo(stackCopyArray,0);
+//
+// // Remove all elements from the stack
+//
+// myStack.Clear();
 
 //////////////////// Queue /////////////////////////
 
-// Declare and initialize a queue
-
-// Get the number of elements in the queue
-
-// check if 5 exists in the queue
-
-// Return the element at the front of the queue
-
-// Remove and return the element at the front of the queue
-
-// Add 5 to the queue
-
-// Convert the current queue into an array 
-
-// Copy elements of current queue into a new array
-
-// Remove all elements from the queue
-
-
+// // Declare and initialize a queue
+//
+// Queue<int> myQueue = new Queue<int>([1, 2, 3]); // No curly brackets needed
+//
+// // Get the number of elements in the queue
+//
+// Console.WriteLine(myQueue.Count());
+//
+// // check if 5 exists in the queue
+//
+// Console.WriteLine(myQueue.Contains(5));
+//
+// // Return the element at the front of the queue
+//
+// int front = myQueue.Peek(); // It should return 1
+// Console.WriteLine(front);
+//
+// // Remove and return the element at the front of the queue
+//
+// front = myQueue.Dequeue();
+// Console.WriteLine(front);
+//
+// // Add 5 to the queue
+//
+// myQueue.Enqueue(5); // [2, 3, 5]
+//
+// // Convert the current queue into an array 
+//
+// int[] queueArray = myQueue.ToArray(); // An array with [2, 3, 5]
+//
+// // Copy elements of current queue into a new array
+//
+// myQueue.CopyTo(queueArray, 0);
+//
+// // Remove all elements from the queue
+//
+// myQueue.Clear();
 
 //////////////////// Functions /////////////////////////
 
 // Write a function that takes two integers and return their sum.
 
-
 // Definition:
-// int Sum(int num1, int num2)
+// int Sum(int num1, int num2) // Write the name of the functions with capital letter
 // {
 //     //int sum = num1 + num2;
 //     //return sum;
@@ -441,5 +479,25 @@ myLinkedList
 
 // Write a void function that prints messages on console
 
+// Define
+void Print(string input)
+{
+    Console.WriteLine(input);
+}
+
+// Calling the function
+
+Print("Hello");
+Print("How are you?");
+
 
 // Write a function that greet users with an optional parameter
+
+void Greeting(string name = "User")
+{ 
+    Console.WriteLine($"Hello {name}");
+}
+
+// Call
+
+Greeting("Fernando");
