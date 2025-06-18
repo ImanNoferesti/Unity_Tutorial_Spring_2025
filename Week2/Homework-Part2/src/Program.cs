@@ -280,10 +280,58 @@
  * 
  */
 
-
-
-
-
+//  HashSet<int> storage = new HashSet<int>(){1, 2, 3, 4, 5, 5, 6, 23, 44, 444, 44, 55, 5, 20201, 6, 8, 10};
+//
+//  void sorter(HashSet<int> list)
+//  {
+//   // Requirement 1
+//   
+//   int[] arraySorter; // Creates a new array to be used as storage
+//   arraySorter = new int[list.Count]; // Creates an instance of the new array with the size of the hashset
+//   list.CopyTo(arraySorter); // Copies the HashSet into the newly created array
+//   Array.Sort(arraySorter); // Sorts the array
+//   
+//   List<int> uniqueNumber = new List<int>();
+//
+//   if (uniqueNumber.Count == 0)
+//   {
+//    uniqueNumber.Add(arraySorter[0]);
+//   }
+//   
+//   foreach (var number in arraySorter)
+//   {
+//    if (uniqueNumber.Contains(number))
+//    {
+//     // do nothing
+//    }
+//    else
+//    {
+//     uniqueNumber.Add(number);
+//    }
+//   }
+//   
+//   Console.WriteLine($"The number of unique numbers entered: {uniqueNumber.Count}"); // Output for Req 1
+//   
+//   // Requirement 2
+//   
+//   int total = list.Count; // Returns the number of elements in the HashSet
+//   bool containsOrNot = list.Contains(10); // checks if the number ten is the HashSet
+//
+//   if (containsOrNot == true)
+//   {
+//    Console.WriteLine("Number 10 is in the set");
+//   }
+//   else
+//   {
+//    Console.WriteLine("Number 10 is not on the set");
+//   }
+//   
+//   // Requirement 3
+//   
+//   Console.WriteLine($"The set of unique items {string.Join(", ", uniqueNumber)}");
+//  }
+//
+// sorter(storage);
 
 /* Problem 2
  *
@@ -308,7 +356,40 @@
  * 
  */
  
+ void commonFinder(HashSet<int> N, HashSet<int> M)
+ {
+  
+  // Pre-work area
+  int[] countingAndMore = new int [N.Count + M.Count];
+  N.CopyTo(countingAndMore);
+  int[] commonBoth = new int [N.Count + M.Count];
+  int[] uniqueElements = new int [N.Count + M.Count];
+
+  HashSet<int> hashNForReqOne = N;
+  HashSet<int> hashNForReqTwo = N;
+  
+  HashSet<int> hashMForReqOne = M;
+  HashSet<int> hashMForReqTwo = M;
+  
+  // Requirement 1 - Display the elements that are common between the two sets.
  
+  N.IntersectWith(M);
+  N.CopyTo(commonBoth);
+  Console.WriteLine(string.Join(", ", commonBoth));
+ 
+  // Requirement 2
+
+  foreach (var number in N)
+  {
+   
+  }
+  
+  
+
+ }
+
+
+
  
 
 

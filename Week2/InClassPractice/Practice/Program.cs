@@ -292,19 +292,38 @@
  * Test your function
  */
 
-List<int> myListOfValues = new List<int>([5, 25, 29, 1, 3, 44, 2]);
-
-void Sorting(int list)
-{
- 
-}
-
-Console.WriteLine();
+// List<int> myListOfValues = new List<int>([5, 25, 29, 1, 3, 44, 2]);
+//
+// List<int> Sorting(List<int> list)
+// {
+//
+//  list.Sort();
+//  list.Remove(list[0]);
+//  
+//  return list;
+// }
+//
+// Sorting(myListOfValues);
+//
+// Console.WriteLine(string.Join(", ", myListOfValues));
 
 
 /* Problem #6
  * Write a function that takes an integer value and an array of integers, then returns how many times the given value appears in the array.
  */
 
+// int[] countersList = new[] { 1, 2, 3, 4, 5, 5, 5, 3, 2, 2, 2, 2, 4 };
+//
+//
+// void counterInteger(int[] lists, int target)
+// {
+//  int[] storing = Array.FindAll(lists, x => x == target);
+//
+//  int timesShow = 0;
+//  timesShow = storing.Length;
+//  Console.WriteLine(timesShow);
+// }
+//
+// counterInteger(countersList, 2);
 
 

@@ -479,25 +479,28 @@
 
 // Write a void function that prints messages on console
 
-// Define
-void Print(string input)
-{
-    Console.WriteLine(input);
-}
-
-// Calling the function
-
-Print("Hello");
-Print("How are you?");
-
-
-// Write a function that greet users with an optional parameter
-
-void Greeting(string name = "User")
-{ 
-    Console.WriteLine($"Hello {name}");
-}
-
-// Call
-
-Greeting("Fernando");
+// // Define
+// void Print(string input)
+// {
+//     Console.WriteLine(input);
+// }
+//
+// // Calling the function
+//
+// Print("Hello");
+// Print("How are you?");
+//
+//
+// // Write a function that greet users with an optional parameter
+//
+//
+// // If you a type of variable other than "void", then you need to include a return
+// // within the function
+// void Greeting(string name = "User")
+// { 
+//     Console.WriteLine($"Hello {name}");
+// }
+//
+// // Call
+//  
+// Greeting("Fernando");
