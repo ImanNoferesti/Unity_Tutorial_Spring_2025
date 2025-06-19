@@ -356,39 +356,55 @@
  * 
  */
  
- void commonFinder(HashSet<int> N, HashSet<int> M)
- {
-  
-  // Pre-work area
-  int[] countingAndMore = new int [N.Count + M.Count];
-  N.CopyTo(countingAndMore);
-  int[] commonBoth = new int [N.Count + M.Count];
-  int[] uniqueElements = new int [N.Count + M.Count];
-
-  HashSet<int> hashNForReqOne = N;
-  HashSet<int> hashNForReqTwo = N;
-  
-  HashSet<int> hashMForReqOne = M;
-  HashSet<int> hashMForReqTwo = M;
-  
-  // Requirement 1 - Display the elements that are common between the two sets.
- 
-  N.IntersectWith(M);
-  N.CopyTo(commonBoth);
-  Console.WriteLine(string.Join(", ", commonBoth));
- 
-  // Requirement 2
-
-  foreach (var number in N)
-  {
-   
-  }
-  
-  
-
- }
-
-
+ // void ProfessionalFinder(HashSet<int> N, HashSet<int> M)
+ // {
+ //  
+ //  // Pre-work area
+ //
+ //  int[] copyOfN = new int[N.Count];
+ //  
+ //  N.CopyTo(copyOfN);
+ //
+ //  HashSet<int> hashNForReqOne = new HashSet<int>();
+ //  HashSet<int> hashNForReqTwo = new HashSet<int>();
+ //  HashSet<int> hashNForReqThree = new HashSet<int>();
+ //  
+ //  // Requirement 1 - Display the elements that are common between the two sets.
+ //
+ //  foreach (var number in copyOfN)
+ //  {
+ //   hashNForReqOne.Add(number);
+ //  }
+ //  
+ //  hashNForReqOne.IntersectWith(M);
+ //  Console.WriteLine($"Common Elements: {string.Join(", ", hashNForReqOne)}");
+ //
+ //  // Requirement 2
+ //  
+ //  foreach (var number in copyOfN)
+ //  {
+ //   hashNForReqTwo.Add(number);
+ //  }
+ //  
+ //  hashNForReqTwo.UnionWith(M);
+ //  
+ //  Console.WriteLine($"Unique elements across both sets: {string.Join(", ", hashNForReqTwo)}");
+ //  
+ //  // Requirement 3
+ //  
+ //  foreach (var number in copyOfN)
+ //  {
+ //   hashNForReqThree.Add(number);
+ //  }
+ //  
+ //  hashNForReqThree.ExceptWith(M);
+ //  Console.WriteLine($"Count of Elements Only in First Set: {hashNForReqThree.Count}");
+ // }
+ //
+ // HashSet<int> example1N = new HashSet<int>() {5, 1, 3, 5, 7, 9};
+ // HashSet<int> example1M = new HashSet<int>() { 4, 3, 5, 8, 10 };
+ //
+ // ProfessionalFinder(example1N, example1M);
 
  
 
@@ -414,7 +430,7 @@
  * 
  */
 
-
+ LinkedList<string> toDoList = new LinkedList<string>() { };
 
 
 
