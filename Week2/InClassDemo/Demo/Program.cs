@@ -330,7 +330,6 @@
 // LinkedListNode<int> myNodeTwo = new LinkedListNode<int>(2);
 //
 // myLinkedList.AddBefore(myLinkedList.Find(3), 2); // Always for the first coincidence
-//
 // // Add another 2 to the list right after the 1
 //
 // myLinkedList.AddAfter(myLinkedList.Find(1), 2);

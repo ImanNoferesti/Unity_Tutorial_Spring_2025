@@ -430,204 +430,206 @@
  *
  */
 
-LinkedList<int> toDoList = new LinkedList<int>() { };
-
-int input = 0;
-
-
-
-while (input != 6)
-{
-    Console.WriteLine("\n" +
-                      "Welcome to the to-do list prioritization system" +
-                      "\nPlease input one of the following options" +
-                      "\n1. Add a priority item" +
-                      "\n2. Remove the highest priority task" +
-                      "\n3. Remove the lowest priority task" +
-                      "\n4. Check if a priority item exists" +
-                      "\n5. Print the total number of tasks in the list" +
-                      "\n6. Exit");
-    input = int.Parse(Console.ReadLine());
-
-    switch (input)
-    {
-        case 1: // Add a number
-            Console.WriteLine("\n" +
-                              "Please input the number between 1 and 7" +
-                              "\n");
-            int itemNumber = int.Parse(Console.ReadLine());
-            if (toDoList.Contains(itemNumber)) 
-            { 
-                LinkedListNode<int> nodeLocation = toDoList.Find(itemNumber); 
-                toDoList.AddAfter(nodeLocation, itemNumber); 
-            }
-            else 
-            { 
-                switch (itemNumber) 
-                { 
-                    case 1: // Priority 1
-                        toDoList.AddFirst(itemNumber); 
-                        break;
-                    case 2: // Priority 2
-                        if (toDoList.Contains(1))
-                        {
-                            toDoList.AddAfter(toDoList.Find(1), itemNumber);
-                        }
-                        else if (toDoList.Contains(3))
-                        {
-                            toDoList.AddBefore(toDoList.Find(3), itemNumber);
-                        }
-                        else if (toDoList.Contains(4))
-                        {
-                            toDoList.AddBefore(toDoList.Find(4), itemNumber);
-                        }
-                        else if (toDoList.Contains(5))
-                        {
-                            toDoList.AddBefore(toDoList.Find(5), itemNumber);
-                        }
-                        else if (toDoList.Contains(6))
-                        {
-                            toDoList.AddBefore(toDoList.Find(6), itemNumber);
-                        }
-                        else if (toDoList.Contains(7))
-                        {
-                            toDoList.AddBefore(toDoList.Find(7), itemNumber);
-                        }
-     
-                        break;
-    
-                    case 3: // Priority 3
-                        if (toDoList.Contains(2))
-                        {
-                            toDoList.AddAfter(toDoList.Find(2), itemNumber);
-                        }
-                        else if (toDoList.Contains(4))
-                        {
-                            toDoList.AddBefore(toDoList.Find(4), itemNumber);
-                        }
-                        else if (toDoList.Contains(5))
-                        {
-                            toDoList.AddBefore(toDoList.Find(5), itemNumber);
-                        }
-                        else if (toDoList.Contains(6))
-                        {
-                            toDoList.AddBefore(toDoList.Find(6), itemNumber);
-                        }
-                        else if (toDoList.Contains(7))
-                        {
-                            toDoList.AddBefore(toDoList.Find(7), itemNumber);
-                        }
-     
-                        break;
-    
-                    case 4: // Priority 4
-                        if (toDoList.Contains(3))
-                        {
-                            toDoList.AddAfter(toDoList.Find(3), itemNumber);
-                        }
-                        else if (toDoList.Contains(5))
-                        {
-                            toDoList.AddBefore(toDoList.Find(5), itemNumber);
-                        }
-                        else if (toDoList.Contains(6))
-                        {
-                            toDoList.AddBefore(toDoList.Find(6), itemNumber);
-                        }
-                        else if (toDoList.Contains(7))
-                        {
-                            toDoList.AddBefore(toDoList.Find(7), itemNumber);
-                        }
-     
-                        break;
-    
-                    case 5: // Priority 5
-                        if (toDoList.Contains(4))
-                        {
-                            toDoList.AddAfter(toDoList.Find(4), itemNumber);
-                        }
-                        else if (toDoList.Contains(6))
-                        {
-                            toDoList.AddBefore(toDoList.Find(6), itemNumber);
-                        }
-                        else if (toDoList.Contains(7))
-                        {
-                            toDoList.AddBefore(toDoList.Find(7), itemNumber);
-                        }
-
-                        break;
-    
-                    case 6: // Priority 6
-                        if (toDoList.Contains(5))
-                        {
-                            toDoList.AddAfter(toDoList.Find(5), itemNumber);
-                        }
-                        else if (toDoList.Contains(7))
-                        {
-                            toDoList.AddBefore(toDoList.Find(7), itemNumber);
-                        }
-
-                        break;
-                    case 7: // Priority 7
-                        toDoList.AddLast(itemNumber);
-                        break;
-
-                }
-            }
-            Console.Write(string.Join(", ", toDoList));
-            break;
-   
-        case 2: // Remove the highest priority task
-            int highestPriority = toDoList.First();
-            toDoList.RemoveFirst();
-            Console.WriteLine($"You have removed priority item{highestPriority}" +
-                              $"\n");
-            Console.WriteLine("Updated priority to-do list:");
-            Console.Write(string.Join(", ", toDoList));
-            break;
-   
-        case 3: // Remove the lowest priority task
-            int lowestPriority = toDoList.Last();
-            toDoList.RemoveLast();
-            Console.WriteLine($"You have removed priority item{lowestPriority}" +
-                              $"\n");
-            Console.WriteLine("Updated priority to-do list:");
-            Console.Write(string.Join(", ", toDoList));
-            break;
-   
-        case 4: // Check if a priority item exists
-            Console.Write("\n" +
-                          "Please the priority number you want to locate");
-            int locate = int.Parse(Console.ReadLine());
-            if (toDoList.Contains(locate))
-            {
-                Console.WriteLine($"Task {locate} found");
-            }
-            else
-            {
-                Console.WriteLine($"Task {locate} was not found");
-            }
-            break;
-   
-        case 5: // Print the total number of tasks in the list.
-            int totalNumber = toDoList.Count;
-            Console.WriteLine("\n" +
-                              $"The total number of tasks in the list is {totalNumber}" +
-                              $"\n");
-            break;
-    
-        case 6: // Exit
-            Console.Write("\n" +
-                          "You have exited the prioritization tool, goodbye!" +
-                          "\n");
-            break;
-        default:
-            Console.WriteLine("\n" +
-                              "Incorrect option, please try again." +
-                              "\n");
-            break;
-    }
-  
-}
+// LinkedList<int> toDoList = new LinkedList<int>() { };
+//
+// int input = 0;
+//
+// while (input != 6)
+// {
+//     Console.WriteLine("\n" +
+//                       "Welcome to the to-do list prioritization system" +
+//                       "\nPlease input one of the following options" +
+//                       "\n1. Add a priority item" +
+//                       "\n2. Remove the highest priority task" +
+//                       "\n3. Remove the lowest priority task" +
+//                       "\n4. Check if a priority item exists" +
+//                       "\n5. Print the total number of tasks in the list" +
+//                       "\n6. Exit");
+//     input = int.Parse(Console.ReadLine());
+//
+//     switch (input)
+//     {
+//         case 1: // Add a number
+//             Console.WriteLine("\n" +
+//                               "Please input the number between 1 and 7" +
+//                               "\n");
+//             int itemNumber = int.Parse(Console.ReadLine());
+//             if (toDoList.Count == 0)
+//             {
+//                 toDoList.AddFirst(itemNumber);
+//             }
+//             else if (toDoList.Contains(itemNumber))
+//             {
+//                 LinkedListNode<int> nodeLocation = toDoList.Find(itemNumber); 
+//                 toDoList.AddAfter(nodeLocation, itemNumber); 
+//             }
+//             else if(toDoList.Count != 0)
+//             { 
+//                 switch (itemNumber) 
+//                 { 
+//                     case 1: // Priority 1
+//                         toDoList.AddFirst(itemNumber); 
+//                         break;
+//                     case 2: // Priority 2
+//                         if (toDoList.Contains(1))
+//                         {
+//                             toDoList.AddAfter(toDoList.Find(1), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(3))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(3), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(4))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(4), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(5))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(5), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(6))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(6), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(7))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(7), itemNumber);
+//                         }
+//      
+//                         break;
+//     
+//                     case 3: // Priority 3
+//                         if (toDoList.Contains(2))
+//                         {
+//                             toDoList.AddAfter(toDoList.Find(2), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(4))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(4), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(5))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(5), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(6))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(6), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(7))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(7), itemNumber);
+//                         }
+//      
+//                         break;
+//     
+//                     case 4: // Priority 4
+//                         if (toDoList.Contains(3))
+//                         {
+//                             toDoList.AddAfter(toDoList.Find(3), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(5))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(5), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(6))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(6), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(7))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(7), itemNumber);
+//                         }
+//      
+//                         break;
+//     
+//                     case 5: // Priority 5
+//                         if (toDoList.Contains(4))
+//                         {
+//                             toDoList.AddAfter(toDoList.Find(4), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(6))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(6), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(7))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(7), itemNumber);
+//                         }
+//
+//                         break;
+//     
+//                     case 6: // Priority 6
+//                         if (toDoList.Contains(5))
+//                         {
+//                             toDoList.AddAfter(toDoList.Find(5), itemNumber);
+//                         }
+//                         else if (toDoList.Contains(7))
+//                         {
+//                             toDoList.AddBefore(toDoList.Find(7), itemNumber);
+//                         }
+//
+//                         break;
+//                     case 7: // Priority 7
+//                         toDoList.AddLast(itemNumber);
+//                         break;
+//
+//                 }
+//             }
+//             Console.Write(string.Join(", ", toDoList));
+//             break;
+//    
+//         case 2: // Remove the highest priority task
+//             int highestPriority = toDoList.First();
+//             toDoList.RemoveFirst();
+//             Console.WriteLine($"You have removed priority item{highestPriority}" +
+//                               $"\n");
+//             Console.WriteLine("Updated priority to-do list:");
+//             Console.Write(string.Join(", ", toDoList));
+//             break;
+//    
+//         case 3: // Remove the lowest priority task
+//             int lowestPriority = toDoList.Last();
+//             toDoList.RemoveLast();
+//             Console.WriteLine($"You have removed priority item{lowestPriority}" +
+//                               $"\n");
+//             Console.WriteLine("Updated priority to-do list:");
+//             Console.Write(string.Join(", ", toDoList));
+//             break;
+//    
+//         case 4: // Check if a priority item exists
+//             Console.Write("\n" +
+//                           "Please the priority number you want to locate");
+//             int locate = int.Parse(Console.ReadLine());
+//             if (toDoList.Contains(locate))
+//             {
+//                 Console.WriteLine($"Task {locate} found");
+//             }
+//             else
+//             {
+//                 Console.WriteLine($"Task {locate} was not found");
+//             }
+//             break;
+//    
+//         case 5: // Print the total number of tasks in the list.
+//             int totalNumber = toDoList.Count;
+//             Console.WriteLine("\n" +
+//                               $"The total number of tasks in the list is {totalNumber}" +
+//                               $"\n");
+//             break;
+//     
+//         case 6: // Exit
+//             Console.Write("\n" +
+//                           "You have exited the prioritization tool, goodbye!" +
+//                           "\n");
+//             break;
+//         default:
+//             Console.WriteLine("\n" +
+//                               "Incorrect option, please try again." +
+//                               "\n");
+//             break;
+//     }
+//   
+// }
 
 
 /* Problem 2
@@ -655,12 +657,87 @@ while (input != 6)
  *
  */
 
+LinkedList<int> list1 = new LinkedList<int>();
+list1.AddLast(1);
+list1.AddLast(4);
+list1.AddLast(5);
+list1.AddLast(7);
 
+LinkedList<int> list2 = new LinkedList<int>();
+list2.AddLast(2);
+list2.AddLast(3);
+list2.AddLast(6);
+list2.AddLast(8);
 
+LinkedList<int> mergedLists = new LinkedList<int>();
 
+void mergerP(LinkedList<int> list1, LinkedList<int> list2)
+{
+ // Process for list1
+ foreach (var number in list1)
+ {
+  if (mergedLists.Count == 0)
+  {
+   mergedLists.AddFirst(number);
+  }
+  else
+  {
+   if (mergedLists.Count == 1)
+   {
+    if (mergedLists.First.Value < number)
+    {
+     mergedLists.AddAfter(mergedLists.First, number);
+    }
+   }
+   else if (mergedLists.Count > 1)
+   {
+    LinkedListNode<int> currentNode = list1.First;
+    int currentNodValue = currentNode.Value;
+    while (currentNodValue <= number && mergedLists != null)
+    {
+     currentNode = list1.Find(currentNode.Next.Value);
+    }
+    // Once we find the number equal or smallest, we place the number after
+    mergedLists.AddAfter(currentNode, number);
+   }
+  }
+ }
+ 
+ // Process for list2
+ 
+ foreach (var number in list2)
+ {
+  if (mergedLists.Count == 0)
+  {
+   mergedLists.AddFirst(number);
+  }
+  else
+  {
+   if (mergedLists.Count == 1)
+   {
+    if (mergedLists.First.Value < number)
+    {
+     mergedLists.AddAfter(mergedLists.First, number);
+    }
+   }
+   else if (mergedLists.Count > 1)
+   {
+    LinkedListNode<int> currentNode = list1.First;
+    int currentNodValue = currentNode.Value;
+    while (currentNodValue <= number)
+    {
+     currentNode = list1.Find(currentNode.Next.Value);
+    }
+    // Once we find the number equal or smallest, we place the number after
+    mergedLists.AddAfter(currentNode, number);
+   }
+  }
+ }
+ 
+ Console.WriteLine(string.Join(", ", mergedLists));
+}
 
-
-
+mergerP(list1, list2);
 
 //////////////////// Stack ////////////////////
 
