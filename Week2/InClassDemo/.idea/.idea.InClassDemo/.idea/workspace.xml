@@ -19,9 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../Homework-Part2/src/obj/Debug/net9.0/src.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework-Part2/src/obj/Debug/net9.0/src.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework-Part2/src/obj/Debug/net9.0/src.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework-Part2/src/obj/Debug/net9.0/src.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InClassDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/obj/Debug/net9.0/Demo.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +104,7 @@
       <workItem from="1750189844305" duration="3120000" />
       <workItem from="1750276211798" duration="1957000" />
       <workItem from="1750364038304" duration="4638000" />
-      <workItem from="1750467232775" duration="2607000" />
+      <workItem from="1750467232775" duration="4756000" />
     </task>
     <servers />
   </component>

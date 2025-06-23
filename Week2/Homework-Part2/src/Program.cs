@@ -657,87 +657,67 @@
  *
  */
 
-LinkedList<int> list1 = new LinkedList<int>();
-list1.AddLast(1);
-list1.AddLast(4);
-list1.AddLast(5);
-list1.AddLast(7);
+// LinkedList<int> list1 = new LinkedList<int>();
+// list1.AddLast(1);
+// list1.AddLast(4);
+// list1.AddLast(5);
+// list1.AddLast(7);
+//
+// LinkedList<int> list2 = new LinkedList<int>();
+// list2.AddLast(2);
+// list2.AddLast(3);
+// list2.AddLast(6);
+// list2.AddLast(8);
+//
+// LinkedList<int> mergedLists = new LinkedList<int>();
+//
+//
+// void mergerP(LinkedList<int> list1, LinkedList<int> list2)
+// {
+//  // This is will save the first node for each list
+//  LinkedListNode<int> currentNode1 = list1.First;
+//  LinkedListNode<int> currentNode2 = list2.First;
+//
+//  while (currentNode1 != null && currentNode2 != null) // While the current node is not null so it
+//   // can check all elements
+//  {
+//   int currentNode1Value = currentNode1.Value;
+//   int currentNode2Value = currentNode2.Value;
+//
+//   if (currentNode1.Value <= currentNode2.Value)
+//   {
+//    mergedLists.AddLast(currentNode1Value);
+//    currentNode1 = currentNode1.Next;
+//   }
+//   else
+//   {
+//    mergedLists.AddLast(currentNode2Value);
+//    currentNode2 = currentNode2.Next;
+//   }
+//  }
+//  
+//  
+//  while (currentNode1 != null)
+//  { 
+//   int currentNode1ValueRes = currentNode1.Value;
+//   mergedLists.AddLast(currentNode1ValueRes);
+//   currentNode1 = currentNode1.Next;
+//  }
+//   
+//  while (currentNode2 != null)
+//  {
+//   int currentNode2ValueRes = currentNode2.Value;
+//   mergedLists.AddLast(currentNode2ValueRes);
+//   currentNode2 = currentNode2.Next;
+//  }
+//   
+//  Console.WriteLine(string.Join(", ", mergedLists)); 
+// }
+//
+// mergerP(list1, list2);
 
-LinkedList<int> list2 = new LinkedList<int>();
-list2.AddLast(2);
-list2.AddLast(3);
-list2.AddLast(6);
-list2.AddLast(8);
 
-LinkedList<int> mergedLists = new LinkedList<int>();
 
-void mergerP(LinkedList<int> list1, LinkedList<int> list2)
-{
- // Process for list1
- foreach (var number in list1)
- {
-  if (mergedLists.Count == 0)
-  {
-   mergedLists.AddFirst(number);
-  }
-  else
-  {
-   if (mergedLists.Count == 1)
-   {
-    if (mergedLists.First.Value < number)
-    {
-     mergedLists.AddAfter(mergedLists.First, number);
-    }
-   }
-   else if (mergedLists.Count > 1)
-   {
-    LinkedListNode<int> currentNode = list1.First;
-    int currentNodValue = currentNode.Value;
-    while (currentNodValue <= number && mergedLists != null)
-    {
-     currentNode = list1.Find(currentNode.Next.Value);
-    }
-    // Once we find the number equal or smallest, we place the number after
-    mergedLists.AddAfter(currentNode, number);
-   }
-  }
- }
- 
- // Process for list2
- 
- foreach (var number in list2)
- {
-  if (mergedLists.Count == 0)
-  {
-   mergedLists.AddFirst(number);
-  }
-  else
-  {
-   if (mergedLists.Count == 1)
-   {
-    if (mergedLists.First.Value < number)
-    {
-     mergedLists.AddAfter(mergedLists.First, number);
-    }
-   }
-   else if (mergedLists.Count > 1)
-   {
-    LinkedListNode<int> currentNode = list1.First;
-    int currentNodValue = currentNode.Value;
-    while (currentNodValue <= number)
-    {
-     currentNode = list1.Find(currentNode.Next.Value);
-    }
-    // Once we find the number equal or smallest, we place the number after
-    mergedLists.AddAfter(currentNode, number);
-   }
-  }
- }
- 
- Console.WriteLine(string.Join(", ", mergedLists));
-}
-
-mergerP(list1, list2);
 
 //////////////////// Stack ////////////////////
 
@@ -752,7 +732,19 @@ mergerP(list1, list2);
  *
  */
 
+using System.Globalization;
 
+// Stack<char> sentence = new Stack<char>();
+// string input = String.Empty;
+//
+// Console.WriteLine("Please enter your word");
+// input = Console.ReadLine();
+// foreach (var letter in input)
+// {
+//  sentence.Push(letter);
+// }
+//
+// Console.WriteLine(string.Join("",sentence));
 
 /* Problem 2
  *
